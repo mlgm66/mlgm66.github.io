@@ -1,0 +1,123 @@
+Package: com.shadow.h5gg.plugin.hideview
+Version: 1
+Architecture: iphoneos-arm
+Maintainer: Shadow-
+Depends: mobilesubstrate
+Filename: ./debs/plugin/hideview.deb
+Size: 6508
+MD5sum: 72b98d7e0a6b9d7795d712f259c963a5
+SHA1: 1a7c9e37dc7558ef40c5279b2dbf872d6bcbe6b4
+SHA256: 95b3fa190dd49ef6ad0346c99c04cbf2e63f49742d1710ef0bb4c870b84e6c91
+Section: Plugin(插件)
+Description: H5GG过直播
+Author: Shadow-
+Name: H5GG过直播插件
+
+Package: com.shadow.h5ggapp
+Version: 7.9
+Architecture: iphoneos-arm
+Maintainer: Shadow-
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: ./debs/H5GG79.deb
+Size: 1764788
+MD5sum: ff5165e98cd0861181743114039fb6f3
+SHA1: 9471344f1a5f900ef385cb955aad3a584931469f
+SHA256: b45cb09b38c691bd8dbfa4927a754b9e1831c15c023f72f1abda2bd76ac0ea2b
+Section: System
+Priority: optional
+Homepage: https://apt.h5gg.app
+Description: H5GG跨进程悬浮版(该版本不支持iPad的原生分屏浮动, 如有需要可使用H5GG跨进程普通版) Discord https://discord.gg/h5gg
+Author: tuancc
+Icon: https://apt.h5gg.app/CydiaIcon.png
+Name: H5GG跨进程悬浮版
+
+Package: com.shadow.h5ggapp.rootless
+Version: 7.9
+Architecture: iphoneos-arm64
+Maintainer: tuancc, Summit, Shadow-
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: ./debs/H5GG-Rootless.deb
+Size: 2069400
+MD5sum: aee91582c41535ae93bebcb3d3528cbf
+SHA1: 3f169708d8d09fc273801b325552ab9bde1ed2f9
+SHA256: 89615d7e7c464c98aaac3cd33b19ad358324a7b9ab6760e930fce9866bf83730
+Section: System
+Priority: optional
+Homepage: https://apt.h5gg.app
+Description: H5GG跨进程iOS15专用悬浮版(该版本不支持iPad的原生分屏浮动, 如有需要可使用H5GG跨进程普通版), Credits: BawAppie and Akusio, Discord https://discord.gg/h5gg
+Author: tuancc, Summit, Shadow-
+Icon: https://apt.h5gg.app/CydiaIcon.png
+Name: H5GG跨进程悬浮版(iOS15)-Rootless
+
+Package: com.summit.h5ggapp
+Version: 0
+Architecture: iphoneos-arm
+Maintainer: Summit
+Installed-Size: 784
+Depends: mobilesubstrate
+Filename: ./debs/H5GG79Random.deb
+Size: 2494888
+MD5sum: 9306744948008a3d240b37c0d87ab633
+SHA1: 79eb4241d71a49602a1d71dadf5e5d9711b4d611
+SHA256: 10996b44fb9d0bcbf18d7ca941b090a7efa50d64283b21c2613febbaff87faf7
+Section: System
+Description: H5GG跨进程悬浮版(随机化) By DBTEC Discord https://discord.gg/h5gg
+Author: Summit
+Icon: https://apt.h5gg.app/CydiaIcon.png
+Name: H5GG跨进程悬浮版(随机化)
+
+Package: com.summit.h5ggapp.roothide
+Version: 7.9
+Architecture: iphoneos-arm64e
+Maintainer: tuancc, Summit, Shadow-
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: ./debs/H5GG79RootHide.deb
+Size: 2070168
+MD5sum: 33fba342306e9d92723e956eeec2cdc5
+SHA1: bbb0c90d1154eca738cf556ea71c3ee452abfe89
+SHA256: 75722358a6a942581390f7d904fa86ef27775b5a4d9427bafc0305f223ed4757
+Section: System
+Priority: optional
+Homepage: https://apt.h5gg.app
+Description: H5GG跨进程iOS15专用悬浮版(该版本不支持iPad的原生分屏浮动, 如有需要可使用H5GG跨进程普通版), Credits: BawAppie and Akusio, Discord https://discord.gg/h5gg
+Author: tuancc, Summit, Shadow-
+Icon: https://apt.h5gg.app/CydiaIcon.png
+Name: H5GG跨进程悬浮版(RootHide)
+
+Package: com.summit.h5ggapp.rootless
+Version: 7.9
+Architecture: iphoneos-arm64
+Maintainer: tuancc, Summit, Shadow-
+Installed-Size: 800
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: ./debs/H5GGRandom-Rootless.deb
+Size: 2078376
+MD5sum: 52546e39b074200c5674b3d7a2f41870
+SHA1: 59e7e6f35c290843e65abc0c65bfd3986b07ef3e
+SHA256: a86702f1c146b9c443e67782370b1d71e3728dc56bb1c839cc4f4cf93bb2a14c
+Section: System
+Priority: optional
+Homepage: https://apt.h5gg.app
+Description: H5GG跨进程iOS15专用悬浮版(该版本不支持iPad的原生分屏浮动, 如有需要可使用H5GG跨进程普通版), Credits: BawAppie and Akusio, Discord https://discord.gg/h5gg
+Author: tuancc, Summit, Shadow-
+Icon: https://apt.h5gg.app/CydiaIcon.png
+Name: H5GG随机化跨进程悬浮版(iOS15)-Rootless
+
+Package: com.summit.h5ggapp15
+Version: 7.9
+Architecture: iphoneos-arm
+Maintainer: Summit
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: ./debs/H5GGv7.9(iOS15).deb
+Size: 1784300
+MD5sum: 5289a0eb6bd89c511a634144671f33ca
+SHA1: 6da5b2a0cb3070e764ef17e8a25f9e0f92de75cd
+SHA256: 42a06c328267893f2ed19217a6fbe2069a99f907a5013593a98c81fd499ccb5f
+Section: System
+Priority: optional
+Homepage: https://apt.h5gg.app
+Description: H5GG跨进程iOS15专用悬浮版(该版本不支持iPad的原生分屏浮动, 如有需要可使用H5GG跨进程普通版)如打开app闪退请使用Xina越狱工具修复dylib功能 Discord https://discord.gg/h5gg
+Author: Summit
+Icon: https://apt.h5gg.app/CydiaIcon.png
+Name: H5GG跨进程悬浮版(iOS15)
+
