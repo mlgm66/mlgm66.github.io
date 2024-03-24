@@ -6,7 +6,7 @@ function isMobile() {
     if (screenWidth < 768 || userAgent.includes('mobile')) {
         return true; // 移动设备
     } else {
-        return true; // 非移动设备
+        return false; // 非移动设备
     }
 }
 //检测是否从卡密文件转跳的（部分）
