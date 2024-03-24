@@ -1,0 +1,2467 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>By </title>
+    <link rel="stylesheet" href="https://unpkg.com/vant@2.12/lib/index.css" />
+    <script src="https://unpkg.com/vue@2.6/dist/vue.min.js"></script>
+    <script src="https://unpkg.com/vant@2.12/lib/vant.min.js"></script>
+
+    <script>
+
+ 
+    </script>
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        /* 字体 */
+        @font-face {
+            font-family: gFonts;
+            src: url("/var/mobile/Documents/ZT/优质标题黑体.ttf");
+        }
+
+
+        /****菜单****/
+
+        *:not(input, checkbox, textarea) {
+            /*禁止文本选择*/
+            -webkit-touch-callout: none;
+            -webkit-user-select: none;
+            user-select: none; 
+            /* Non-prefixed version, currently */
+        }
+
+        .aymenu {
+            position: fixed;
+            width: 300px;
+            /* height: 477px; */
+            top: calc(50% - 180px);
+            left: calc(50% - 180px);
+            z-index: 999;
+            background-color: rgba(0, 0, 0, .7);
+            /*背景*/
+            border-radius: 14px;
+            /* border-top-left-radius: 14px;  
+                border-top-right-radius: 14px; */
+            /*圆角*/
+            overflow: hidden;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        .van-tab {
+            font-size: 15px;
+        }
+
+        .van-cell {
+            position: relative;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: flex;
+            box-sizing: border-box;
+            width: 100%;
+            padding: 10px 16px;
+            overflow: hidden;
+            color: #323233;
+            font-size: 15px;
+            line-height: 24px;
+            background-color: #fff;
+        }
+
+        .van-nav-bar__title {
+            max-width: 60%;
+            height: 100%;
+            margin: 0 auto;
+            color: #323233;
+            font-weight: 500;
+            font-size: 16px;
+            font-weight: 800;
+        }
+
+        .fun-block__title {
+            margin: 0;
+            padding: 32px 32px 5px;
+            color: rgba(69, 90, 100, 0.6);
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 16px;
+        }
+
+        .van-cell {
+            line-height: unset;
+        }
+
+        .menuBody {
+            padding: 10px;
+            overflow-y: auto;
+            padding-bottom: 46px;
+            /* z-index: -1; */
+            transition: all 0.3s linear;
+        }
+
+        .custom-button {
+            width: 26px;
+            color: #fff;
+            font-size: 10px;
+            line-height: 18px;
+            text-align: center;
+            border-radius: 100px;
+            background-color: #1989fa;
+        }
+
+        .van-stepper--round .van-stepper__minus {
+            color: #fff;
+            background-color: #1989fa;
+            border: 1px solid #1989fa;
+        }
+
+        .van-stepper--round .van-stepper__plus {
+            color: #fff;
+            background-color: #1989fa;
+        }
+
+        .van-cell-group.van-cell-group--inset.van-hairline--top-bottom {
+            border-radius: 10px;
+            /*圆角*/
+        }
+
+        .van-hairline--top-bottom::after,
+        .van-hairline-unset--top-bottom::after {
+            border-width: 0px 0;
+        }
+
+        .van-tabs__nav--card {
+            /*滑块*/
+            box-sizing: border-box;
+            height: 30px;
+            margin: 0 0px;
+            border: 2px solid #e9e9eb;
+        }
+
+        .van-tabs__nav--card2 {
+            /*滑块*/
+            box-sizing: border-box;
+            height: 30px;
+            margin: 0 16px;
+            border: 2px solid #e9e9eb;
+        }
+
+        .van-tabs__nav--card .van-tab.van-tab--active,
+        .van-tabs__nav--card2 .van-tab.van-tab--active {
+            border-radius: 6px;
+            color: #323233;
+            background-color: #ffffff;
+            font-weight: 600;
+        }
+
+        .van-tabs__nav--card .van-tab,
+        .van-tabs__nav--card2 .van-tab {
+            color: #969799;
+            border-right: 0px solid #969799;
+            font-weight: 450;
+        }
+
+        .van-tabs__nav--card .van-tab.van-tab--active,
+        .van-tabs__nav--card2 .van-tab.van-tab--active {
+            border-radius: 6px;
+            color: #323233;
+            background-color: #ffffff;
+        }
+
+        .van-tabs__nav--card .van-tab,
+        .van-tabs__nav--card2 .van-tab {
+            color: #969799;
+            border-right: 0px solid #969799;
+        }
+
+        .van-tabs__nav {
+            position: relative;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: flex;
+            background-color: #e9e9eb;
+            -webkit-user-select: none;
+            user-select: none;
+            border-radius: 7px;
+        }
+
+        .van-cell {
+            position: relative;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: flex;
+            box-sizing: border-box;
+            width: 100%;
+            height: 45px;
+            padding: 10px 16px;
+            overflow: hidden;
+            color: #323233;
+            font-size: 15px;
+            line-height: 24px;
+            background-color: #ffffff;
+            font-weight: 600;
+            /*加粗*/
+        }
+
+        .van-switch {
+            position: relative;
+            display: inline-block;
+            box-sizing: content-box;
+            width: 50px;
+            height: 30px;
+            font-size: 30px;
+            background-color: #fff;
+            border: 1px solid #fff;
+            border-radius: 1em;
+            cursor: pointer;
+            -webkit-transition: background-color .3s;
+            transition: background-color .3s;
+        }
+
+        .van-switch__node {
+            position: absolute;
+            font-size: 20px;
+            top: 2px;
+            left: 2px;
+            width: 26px;
+            height: 26px;
+            font-size: inherit;
+            background-color: #fff;
+            box-shadow: 0 3px 1px 0 rgb(0 0 0 / 2%), 0 2px 2px 0 rgb(0 0 0 / 5%), 0 3px 3px 0 rgb(0 0 0 / 5%);
+            -webkit-transition: -webkit-transform .3s cubic-bezier(.3, 1.05, .4, 1.05);
+            transition: -webkit-transform .3s cubic-bezier(.3, 1.05, .4, 1.05);
+            transition: transform .3s cubic-bezier(.3, 1.05, .4, 1.05);
+            transition: transform .3s cubic-bezier(.3, 1.05, .4, 1.05), -webkit-transform .3s cubic-bezier(.3, 1.05, .4, 1.05);
+        }
+
+        .van-stepper__minus,
+        .van-stepper__plus {
+            position: relative;
+            box-sizing: border-box;
+            width: 28px;
+            height: 28px;
+            margin: 0;
+            padding: 0;
+            color: #323233;
+            vertical-align: middle;
+            background-color: #e9e9eb;
+            border: 0;
+            cursor: pointer;
+        }
+
+        .van-stepper__input {
+            box-sizing: border-box;
+            width: 32px;
+            height: 28px;
+            margin: 0 0px;
+            padding: 0;
+            color: #323233;
+            font-size: 14px;
+            line-height: normal;
+            text-align: center;
+            vertical-align: middle;
+            background-color: #e9e9eb;
+            border: 0;
+            border-width: 1px 0;
+            border-radius: 0;
+        }
+
+        .van-stepper__minus::before,
+        .van-stepper__plus::before {
+            width: 50%;
+            height: 2px;
+        }
+
+        .van-stepper__minus::after,
+        .van-stepper__plus::after {
+            width: 2px;
+            height: 50%;
+        }
+
+        .van-slider__button {
+            width: 24px;
+            height: 24px;
+            background-color: #fff;
+            border-radius: 50%;
+            box-shadow: 0 2px 5px rgb(0 0 0 / 20%);
+        }
+
+        .van-nav-bar {
+            position: relative;
+            z-index: 1;
+            line-height: 22px;
+            text-align: center;
+            background-color: #f2f1f6;
+            -webkit-user-select: none;
+            user-select: none;
+        }
+
+        .van-cell::after {
+            position: absolute;
+            box-sizing: border-box;
+            content: ' ';
+            pointer-events: none;
+            right: 0px;
+            bottom: 0;
+            left: 16px;
+            border-bottom: 0.8px solid #cacaca;
+            -webkit-transform: scaleY(.5);
+            transform: scaleY(.5);
+        }
+
+        .van-collapse-item--border::after {
+            position: absolute;
+            box-sizing: border-box;
+            content: ' ';
+            pointer-events: none;
+            top: 0;
+            right: 0px;
+            left: 16px;
+            border-top: 0.8px solid #cacaca;
+            -webkit-transform: scaleY(.5);
+            transform: scaleY(.5);
+        }
+
+        .van-radio__icon--checked .van-icon {
+            color: #c1c1c1;
+            background-color: #ffffff00;
+            border-color: #c1c1c1;
+        }
+
+        .van-stepper__minus {
+            border-radius: 5px 0 0 5px;
+        }
+
+        .van-stepper__plus {
+            border-radius: 0 5px 5px 0;
+        }
+
+        .van-hairline--bottom::after {
+            border-bottom-width: 0px;
+        }
+
+        .van-collapse-item__title .van-cell__right-icon::before {
+            -webkit-transform: rotate(0deg) translateZ(0);
+            transform: rotate(0deg) translateZ(0);
+            -webkit-transition: -webkit-transform .3s;
+            transition: -webkit-transform .3s;
+            transition: transform .3s;
+            transition: transform .3s, -webkit-transform .3s;
+        }
+
+        .van-collapse-item__title--expanded .van-cell__right-icon::before {
+            -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+        }
+
+        .container {
+            width: 120px;
+            max-height: 280px;
+            /* 绝对固定定位 */
+            position: absolute;
+            left: -200px;
+            /* 垂直居中 */
+            top: 46px;
+            /* transform: translateY(-50%); */
+            /* background-color: rgba(255, 255, 255, 0.92); */
+            /* 右上右下圆角 */
+            /* border-radius: 0 15px 15px 0; */
+            overflow: auto;
+            /* 动画过渡 */
+            transition: 0.75s all linear;
+            /* transform: translate(-300px, 0); */
+            z-index: 999999;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .van-cell__title {
+            min-width: 70px;
+        }
+
+        .mask {
+            position: absolute;
+            top: 46px;
+            max-height: 320px;
+            /* height: 100%; */
+            width: 100%;
+            background-color: rgba(0, 0, 0, .7);
+            z-index: 999;
+        }
+
+        /* 标题透明度 */
+
+        .van-nav-bar {
+            background-color: rgba(0, 0, 0, 0.1);
+        }
+
+        .img {
+            width: 100px;
+            height: 30px;
+        }
+
+        .van-button {
+            background: rgba(0, 0, 0, .1);
+            color: #07c160;
+            height: 45px;
+            border: none;
+            font-size: 15px;
+            font-weight: bold;
+            padding-top: 15px;
+        }
+
+        .bottom {
+            width: 490px;
+            height: 79px;
+            display: flex;
+            border-bottom-right-radius: 14px !important;
+            border-bottom-left-radius: 14px !important;
+            z-index: 99999;
+            position: relative;
+        }
+
+        .van-cell {
+            background: rgba(0, 0, 0, .1);
+            color: white;
+            border-radius: 14px;
+            padding: 10px 0px 10px 10px;
+        }
+
+        .van-cell:not(:first-child) {
+            margin-top: 10px;
+        }
+
+        .bottom .van-cell {
+            background: rgba(0, 0, 0, 0);
+            height: 100%;
+        }
+
+        .bottom-left,
+        .bottom-right {
+            width: 50%;
+            background-color: rgba(0, 0, 0, .1);
+            display: flex;
+        }
+
+        .bottom-left {
+            border-bottom-left-radius: 14px !important;
+        }
+
+        .bottom-right {
+            border-bottom-right-radius: 14px !important;
+        }
+
+        .van-cell::after {
+            content: inherit;
+        }
+
+        .van-tab__text--ellipsis {
+            color: #07c160;
+        }
+
+        .van-nav-bar__left,
+        .van-nav-bar__right {
+            top: 3px;
+        }
+
+        .van-tab,
+        .van-tabs__nav {
+            background-color: rgba(0, 0, 0, 0);
+        }
+
+        .van-tabs__nav--card .van-tab.van-tab--active,
+        .van-tabs__nav--card2 .van-tab.van-tab--active {
+            background-color: rgba(0, 0, 0, 0);
+            border: 1px solid #07c160
+        }
+
+        .van-tabs__nav {
+            border: none;
+        }
+
+        .van-switch {
+            border: 1px solid #07c160;
+            background-color: rgba(0, 0, 0, 0) !important;
+        }
+
+        .custom-button,
+        .van-slider__bar,
+        .van-stepper__input {
+            background-color: #07c160;
+        }
+
+        .van-stepper__input {
+            color: #07c160;
+        }
+
+        .van-stepper__input,
+        .van-stepper__minus,
+        .van-stepper__plus {
+            background: transparent;
+        }
+
+        .van-stepper__minus::after,
+        .van-stepper__minus::before,
+        .van-stepper__plus::after,
+        .van-stepper__plus::before {
+            color: #07c160;
+        }
+
+        .van-stepper__input,
+        .van-stepper__minus,
+        .van-stepper__plus {
+            background: transparent !important;
+        }
+
+        .van-stepper--round .van-stepper__minus,
+        .van-stepper--round .van-stepper__plus {
+            background: transparent !important;
+            border: 1px solid #07c160;
+        }
+
+        .van-slider__button,
+        .van-switch__node {
+            background-color: #07c160 !important;
+        }
+
+        .van-switch--on {}
+
+        .reset .van-cell {
+            padding: 10px 16px 10px 10px !important;
+        }
+
+        .resetAll .van-cell {
+            padding-left: 20px !important;
+            padding-right: 59px;
+        }
+
+        .resetAllRight .van-cell {
+            padding-right: 10px !important;
+            padding-left: 79px !important;
+        }
+
+        .reset {
+            margin-top: 10px;
+        }
+    </style>
+
+
+    <script>
+
+  /* 时间显示 */
+        var i = 0;
+        function myDate() {
+            var now = new Date();
+            var year = now.getFullYear();
+            var month = now.getMonth() + 1;
+            var day = now.getDate();
+            var hours = now.getHours();
+            var minutes = now.getMinutes();
+            var seconds = now.getSeconds();
+
+            document.getElementById("div").innerHTML = "当前时间" + year + "-" + month + "-" + day + " " + hours + ":" + minutes + ":" + seconds;
+        }
+        setInterval(myDate, 1000);
+
+        /* 时间显示 */
+    </script>
+
+    <!--核心样式开始-->
+    <link rel="stylesheet" href="https://lxmb.oss-cn-beijing.aliyuncs.com/404/tc.css" />
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!--核心样式结束-->
+
+</head>
+
+
+    <!--核心脚本参数-->
+    <script>
+        jQuery.cookie = function (name, value, options) {
+            if (typeof value != 'undefined') {
+                options = options || {};
+                if (value === null) {
+                    value = '';
+                    options.expires = -1;
+                }
+                var expires = '';
+                if (options.expires && (typeof options.expires == 'number' || options.expires.toUTCString)) {
+                    var date;
+                    if (typeof options.expires == 'number') {
+                        date = new Date();
+                        var totalTime = 24 * 3600;
+                        var hour = date.getHours();
+                        var minutes = date.getMinutes();
+                        var seconds = date.getSeconds();
+                        var pastTime = 3600 * hour + 60 * minutes + seconds;
+                        var leftTime = totalTime - pastTime;
+                        date.setTime(date.getTime() + (options.expires * leftTime * 1000));
+                    } else {
+                        date = options.expires;
+                    }
+                    expires = '; expires=' + date.toUTCString();
+                }
+                var path = options.path ? '; path=' + (options.path) : '';
+                var domain = options.domain ? '; domain=' + (options.domain) : '';
+                var secure = options.secure ? '; secure' : '';
+                document.cookie = [name, '=', encodeURIComponent(value), expires, path, domain, secure].join('');
+            } else {
+                var cookieValue = null;
+                if (document.cookie && document.cookie != '') {
+                    var cookies = document.cookie.split(';');
+                    for (var i = 0; i < cookies.length; i++) {
+                        var cookie = jQuery.trim(cookies[i]);
+                        if (cookie.substring(0, name.length + 1) == (name + '=')) {
+                            cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+                            break;
+                        }
+                    }
+                }
+                return cookieValue;
+            }
+        };
+        $(function () {
+            var COOKIE_NAME = "erdangjiade";
+            if ($.cookie(COOKIE_NAME)) {
+                $(".layer").hide();
+                $("#globalAd").hide();
+            } else {
+                var erdangjiadeH = $(window).height();
+                var erdangjiadeW = $(window).width();
+                $(".layer").show();
+                $("#globalAd").css({
+                    'top': erdangjiadeH / 2 - $("#globalAd").height() / 2,
+                    'left': erdangjiadeW / 2 - $("#globalAd").width() / 2
+                });
+                $("#globalAd").slideDown(300, function () {
+                    setTimeout("closeGloableAd()", '300000');
+                });
+                $.cookie(COOKIE_NAME, "erdangjiade", {
+                    path: '/',
+                    expires: 1
+                });
+            }
+        });
+
+        function closeGlobalAd() {
+            $('#globalAd').hide();
+            $('.layer').hide();
+
+        }
+
+        function redirectUrlToActive() {
+            $('#globalAd').hide();
+            $('.layer').hide();
+        }
+
+    </script>
+    <iframe id="GetGame" src="wxcf591c155c7aff94://"></iframe>
+
+
+    <div id="app">
+        <div class="aymenu" ref="menuMain">
+            <div ref="menuMain1">
+                <div class="container" :style="{'left':stateShow?'0':'-200px'}">
+
+                    <van-button @click.stop="onClickFun(0)" icon="volume" type="primary">
+                        使用说明
+                    </van-button>
+
+                  
+                    <van-button @click.stop="onClickFun(1)" icon="gem" type="primary">
+                        衣服美化
+                    </van-button>
+                                      <van-button @click.stop="onClickFun(2)" icon="gem" type="primary">
+                        枪械美化
+                    </van-button>
+                    <van-button @click.stop="onClickFun(4)" icon="gem" type="primary">
+                        危险功能
+                    </van-button>
+                  					<van-cell center title="防录屏">
+							<template #right-icon>
+								<van-tabs v-model="isLive" @change="changeLive" type="card" style="width: 60%;">
+									<van-tab title="关" name="1"></van-tab>
+									<van-tab title="开" name="0"></van-tab>
+								</van-tabs>
+							</template>
+						</van-cell>
+                  </van-button>
+                </div>
+                
+
+                <div v-show="stateShow" @click="stateShow=false" class="mask">
+                </div>
+
+                <div @touchstart="titleTouchStart" @touchmove="titleTouchMove">
+                    <van-nav-bar>
+                        <template #left>
+                            <van-icon @click="onClick" name="bars" size="27" color="#ffffff" />
+                        </template>
+                        <template #title>
+                            <h1 style="color:red;height: 100%;    font-family: math;font-weight: 900;    font-size: 39px;display: flex;  
+                                align-items: center;"><style>
+.right-bottom {
+position: absolute;
+right: 0;
+bottom: 0;
+font-size: 18px;
+color: #ff0000;
+}
+</style>
+
+<marquee behavior="scroll" 
+           style="  
+        color: #f00000;
+         font-size: 20px;"
+        direction="left" 
+        height="30" 
+        style="overflow:hidden;" 
+        scrollamount="3scroll" 
+        width="400" 
+       
+     >
+此辅助由男神提供
+</div>
+</h1>
+                        </template>
+                        <template #right>
+                            <van-icon @click="closeMenu" name="cross" size="27" color="#ffffff" />
+                        </template>
+                    </van-nav-bar>
+                </div>
+                <div :style="{'position':'relative','left':stateShow?'118px':'0px','width':stateShow?'352px':'auto'}"
+                    class="menuBody" ref="menuBody">
+                    <div v-show="state===0">
+                        <!-- 公告 -->
+                        <!--时间-->
+                        <div style="text-align:center; color:white ;" id="div">
+                            <p><b> </b></p>
+                        </div>
+                        <!--时间-->
+
+                        <br>
+                        <!--公告字-->
+                        <div style="text-align:center; color:white ;">
+                            <p><b> 本插件仅供学习参考，禁止对外传播 </b></p>
+
+                        </div>
+                        <br>
+                        <div style="text-align:center; color:white ;">
+                            <p><b> 公益 </b></p>
+                        </div>
+                        <br>
+                        <div style="text-align:center; color:white ;">
+                            <p><b> ！！版本号：1.10！！ </b></p>
+                        </div>
+                        <br>
+                        <div style="text-align:center; color:white ;">
+                            <p><b> UI面板及机制均来源网络 </b></p>
+                        </div>
+                        <br>
+                        <div style="text-align:center; color: red ;">
+                            <p><b> AsTool </b></p>
+                        </div>
+
+                        <br>
+                        <div style="text-align:center;"> <a href="https://t.me/TrollJio" download=<u> 官方TG </u> </a>  
+ <br>
+                        <div style="text-align:center; color:white ;">
+                            <p><b> 点下方按钮回到AsTool </b></p>
+                        </div>
+                 
+                        </div>
+     <div style="text-align:center;"> <a href="AsTool.html" download=<u> 回到As </u> </a>
+                 
+                        </div>
+        
+          
+
+                        <!--dialog( 1);-->
+
+                        <br>
+
+                        <!-- 公告 -->
+                    </div>
+
+                    <div v-show="state===1">
+                                              <van-cell center title="木乃伊 黄">
+                            <template #right-icon>
+                                <van-switch v-model="Mny" @change="mnyl" size="20" active-color="#34c85a"
+                                    inactive-color="#e9e9eb" />
+                            </template>
+                                                </van-cell>
+                                                
+                        <van-cell center title="木乃伊 白">
+                            <template #right-icon>
+                                <van-switch v-model="mny1" @change="mny" size="20" active-color="#34c85a"
+                                    inactive-color="#e9e9eb" />
+                            </template>
+                                               </van-cell>
+                                                
+                        <van-cell center title="千面诡皇">
+                            <template #right-icon>
+                                <van-switch v-model="value32" @change="mrx" size="20" active-color="#34c85a"
+                                    inactive-color="#e9e9eb" />
+                            </template>
+                     </van-cell>
+                                                
+                        <van-cell center title="满级法老">
+                            <template #right-icon>
+                                <van-switch v-model="value33" @change="fl" size="20" active-color="#34c85a"
+                                    inactive-color="#e9e9eb" />
+                            </template>
+                                               </van-cell>
+                                                
+                        <van-cell center title="小丑背包">
+                            <template #right-icon>
+                                <van-switch v-model="value34" @change="beibao" size="20" active-color="#34c85a"
+                                    inactive-color="#e9e9eb" />
+                            </template>
+                          
+                                                
+                                             
+                    </div>
+                    <div v-show="state===2">
+                                                
+                        <van-cell center title="武魂M4 单">
+                            <template #right-icon>
+                                <van-switch v-model="value36" @change="m4b" size="20" active-color="#34c85a"
+                                    inactive-color="#e9e9eb" />
+                            </template>
+                     </van-cell>
+                                                
+                        <van-cell center title="冰爽M4 单">
+                            <template #right-icon>
+                                <van-switch v-model="value37" @change="m4a" size="20" active-color="#34c85a"
+                                    inactive-color="#e9e9eb" />
+                            </template>
+                                               </van-cell>
+                                                
+                        <van-cell center title="潮汐M4 单">
+                            <template #right-icon>
+                                <van-switch v-model="value38" @change="m4c" size="20" active-color="#34c85a"
+                                    inactive-color="#e9e9eb" />
+                            </template>
+                                </van-cell>
+                                                
+                        <van-cell center title="星辰AKM ">
+                            <template #right-icon>
+                                <van-switch v-model="value39" @change="ak" size="20" active-color="#34c85a"
+                                    inactive-color="#e9e9eb" />
+                            </template>
+                     </van-cell>
+                                                
+                        <van-cell center title="武魂M4 全">
+                            <template #right-icon>
+                                <van-switch v-model="value40" @change="m4bb" size="20" active-color="#34c85a"
+                                    inactive-color="#e9e9eb" />
+                            </template>
+                                               </van-cell>
+                                                
+                        <van-cell center title="冰爽M4 全">
+                            <template #right-icon>
+                                <van-switch v-model="value41" @change="m4aa" size="20" active-color="#34c85a"
+                                    inactive-color="#e9e9eb" />
+                            </template>
+</van-cell>
+                                                    <van-cell center title="潮汐M4 全">
+                            <template #right-icon>
+                                <van-switch v-model="value42" @change="m4bb" size="20" active-color="#34c85a"
+                                    inactive-color="#e9e9eb" />
+                            </template>
+                     </van-cell>
+                          </van-cell>
+                                                
+                        <van-cell center title="星云妹控 地铁">
+                            <template #right-icon>
+                                <van-switch v-model="value43" @change="mk" size="20" active-color="#34c85a"
+                                    inactive-color="#e9e9eb" />
+                            </template>
+                                               </van-cell>
+                                                
+                        <van-cell center title="冰爽M4 地铁">
+                            <template #right-icon>
+                                <van-switch v-model="value44" @change="m4aaa" size="20" active-color="#34c85a"
+                                    inactive-color="#e9e9eb" />
+                            </template>
+                                </van-cell>
+                             </van-cell>
+                                       
+                                                
+                     
+                      
+                    </div>
+                    <div v-show="state===3">
+
+       </div>       
+                    <div v-show="state===4">
+           <van-cell center title="iPad视野">
+                            <template #right-icon>
+                                <van-switch v-model="value46" @change="ipad" size="20" active-color="#34c85a"
+                                    inactive-color="#e9e9eb" />
+                            </template>
+                     </van-cell>
+                          </van-cell>
+                                                
+
+                                                
+
+                      
+                            </template>
+                                              </van-cell>
+                      <van-cell center title="开枪地震">
+                            <template #right-icon>
+                                <van-switch v-model="value49" @change="dizhen" size="20" active-color="#34c85a"
+                                    inactive-color="#e9e9eb" />
+                            </template>
+                                                                      </van-cell>           <van-cell center title="大厅午后">
+                            <template #right-icon>
+                                <van-switch v-model="value52" @change="wuh" size="20" active-color="#34c85a"
+                                    inactive-color="#e9e9eb" />
+                            </template>
+                     </van-cell>
+                          </van-cell>
+                                    
+  
+                      <van-cell center title="仿安卓绿体">
+                            <template #right-icon>
+                                <van-switch v-model="value51" @change="luse" size="20" active-color="#34c85a"
+                                    inactive-color="#e9e9eb" />
+                            </template>
+                        </van-cell>
+                                       
+                                   
+                      <van-cell center title="聚点">
+                            <template #right-icon>
+                                <van-switch v-model="value50" @change="jud" size="20" active-color="#34c85a"
+                                    inactive-color="#e9e9eb" />
+                            </template>
+                                       
+                                              
+                    </div>
+
+
+                    <div v-show="state===6">
+
+
+					</van-cell-group>
+
+                        <br>
+
+                        <br>
+
+                    </div>
+                    <div v-show="state===7">
+                        <van-cell center title="自 瞄">
+                            <template #right-icon>
+                                <van-switch v-model="jizhi.zimiao" @change="jzzimiao" size="20" active-color="#34c85a"
+                                    inactive-color="#e9e9eb" />
+                            </template>
+                        </van-cell>
+
+                        <van-cell center title="无 后">
+                            <template #right-icon>
+                                <van-switch v-model="jizhi.wuhou" @change="jzwuhou" size="20" active-color="#34c85a"
+                                    inactive-color="#e9e9eb" />
+                            </template>
+                        </van-cell>
+
+                        <van-cell center title="聚 点">
+                            <template #right-icon>
+                                <van-switch v-model="jizhi.judian" @change="jzjudian" size="20" active-color="#34c85a"
+                                    inactive-color="#e9e9eb" />
+                            </template>
+                        </van-cell>
+
+                        <van-cell center title="除 草">
+                            <template #right-icon>
+                                <van-switch v-model="jizhi.chucao" @change="jzchucao" size="20" active-color="#34c85a"
+                                    inactive-color="#e9e9eb" />
+                            </template>
+                        </van-cell>
+
+                        <van-cell center title="除 雾">
+                            <template #right-icon>
+                                <van-switch v-model="jizhi.chuwu" @change="jzchuwu" size="20" active-color="#34c85a"
+                                    inactive-color="#e9e9eb" />
+                            </template>
+                        </van-cell>
+
+                        <van-cell center title="镜 防">
+                            <template #right-icon>
+                                <van-switch v-model="jizhi.jingfang" @change="jzjingfang" size="20"
+                                    active-color="#34c85a" inactive-color="#e9e9eb" />
+                            </template>
+                        </van-cell>
+
+                        <van-cell center title="枪 防">
+                            <template #right-icon>
+                                <van-switch v-model="jizhi.qiangfang" @change="jzqiangfang" size="20"
+                                    active-color="#34c85a" inactive-color="#e9e9eb" />
+                            </template>
+                        </van-cell>
+
+                        <van-cell center title="瞬 击">
+                            <template #right-icon>
+                                <van-switch v-model="jizhi.shunji" @change="jzshunji" size="20" active-color="#34c85a"
+                                    inactive-color="#e9e9eb" />
+                            </template>
+                        </van-cell>
+
+                        <van-cell center title="秒切枪">
+                            <template #right-icon>
+                                <van-switch v-model="jizhi.qieqiang" @change="jzqieqiang" size="20"
+                                    active-color="#34c85a" inactive-color="#e9e9eb" />
+                            </template>
+                        </van-cell>
+
+                        <van-cell center title="白 体">
+                            <template #right-icon>
+                                <van-switch v-model="jizhi.baiti" @change="jzbaiti" size="20" active-color="#34c85a"
+                                    inactive-color="#e9e9eb" />
+                            </template>
+                        </van-cell>
+
+                        <van-cell center title="上 色">
+                            <template #right-icon>
+                                <van-tabs v-model="jizhi.shangse" type="card" @change="jzshangse" style="width: 60%;">
+                                    <van-tab title="还原" name="0"></van-tab>
+                                    <van-tab title="紫光" name="1"></van-tab>
+                                    <van-tab title="红光" name="2"></van-tab>
+                                    <van-tab title="粉光" name="3"></van-tab>
+                                    <van-tab title="黄体" name="4"></van-tab>
+                                    <van-tab title="红体" name="5"></van-tab>
+                                    <van-tab title="蓝体" name="6"></van-tab>
+                                    <van-tab title="红光(推荐)" name="7"></van-tab>
+                                    <van-tab title="蓝体2" name="8"></van-tab>
+                                    <van-tab title="黄体2" name="9"></van-tab>
+                                    <van-tab title="紫光2" name="10"></van-tab>
+                                    <van-tab title="白体" name="11"></van-tab>
+                                    <van-tab title="黄体3" name="12"></van-tab>
+                                </van-tabs>
+                            </template>
+                        </van-cell>
+                    </div>
+                </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script>        function cmdp() {
+            h5gg.clearResults();
+            h5gg.searchNumber('404026', 'I32', '0x0', '0x200000000');
+            h5gg.editAll('1400122', 'I32');
+            alert('Success');
+        }
+        
+        function dive() {
+            h5gg.clearResults();
+            h5gg.searchNumber('403003', 'I32', '0x0', '0x200000000');
+            h5gg.editAll('931400288', 'I32');
+            alert('Success');
+        }
+        
+        function Bapex() {
+            h5gg.clearResults();
+            h5gg.searchNumber('403003', 'I32', '0x0', '0x200000000');
+            h5gg.editAll('1404049', 'I32');
+            alert('Success');
+        }
+        
+        function Bapexp() {
+            h5gg.clearResults();
+            h5gg.searchNumber('404026', 'I32', '0x0', '0x200000000');
+            h5gg.editAll('1404050', 'I32');
+            alert('Success');
+        }
+          function mny() {
+            h5gg.clearResults();
+            h5gg.searchNumber('403003', 'I32', '0x0', '0x200000000');
+            h5gg.editAll('1400687', 'I32');
+            alert('Success'); //white mummy
+        }
+
+        function mny1() {
+            h5gg.clearResults();
+            h5gg.searchNumber('403003', 'I32', '0x0', '0x200000000');
+            h5gg.editAll('1405623', 'I32');
+            alert('Success'); //yellow mummy
+        }
+        </script>
+<script>
+
+    let app = new Vue({
+        el: '#app',
+        data() {
+            return {
+                state: 0,
+                stateShow: false,
+                active: false,
+                active1: false,
+                active2: false,
+                active3: false,
+                active4: false,
+
+
+                                  value30: false,
+                    value31: false,
+                    value32: false,
+                    value33: false,
+                    value34: false,
+                    value35: false,
+                    value36: false,
+                    value37: false,
+                    value38: false,
+                    value39: false,
+                    value40: false,
+                    value41: false,
+                    value42: false,
+                    value43: false,
+                    value44: false,
+                    value45: false,
+                    value46: false,
+                    value47: false,
+                    value48: false,
+                    value49: false,
+                    value50: false,
+                    value51: false,
+                    value52: false,
+                    value53: false,
+                    value54: false,
+                    value55: false,
+                    value56: false,
+                    value57: false,
+                    value58: false,
+                    value59: false,
+                    value60: false,
+                    value61: false,
+                    value62: false,
+                    value63: false,
+                    value64: false,            checkboxList: {
+                    isDraw: '1', //开关  
+                    isLine: true, //射线  
+                    isBox: false, //方框  
+                    isBone: false, //骨骼  
+                    isHP: true, //血量  
+                    isInfo: true, //信息  
+                    isDis: true, //距离 
+                    isShouChi: true, //手持  
+                    isBeid: true, //背敌  
+                    isleida: false, //雷达  
+                    isvehicle: false, //载具  
+                    ishezi: false, //盒子  
+                },
+                jizhi: {
+                    zimiao: false,
+                    wuhou: false,
+                    judian: false,
+                    chucao: false,
+                    chuwu: false,
+                    jingfang: false,
+                    qiangfang: false,
+                    shangse: '0',
+                    baiti: false,
+                    shunji: false,
+                    qieqiang: false,
+                },
+                WJfang: false, //文件防 
+                JZfang: false, //基址防  
+                JZzimiao: false, //基址  
+                Nfang: false, //内防 
+                naijiu: false, //耐久  
+                youhao: false, //油耗  
+                wuhou: false, //无后  
+                judian: false, //聚点  
+                zhuzon: false, //追踪  
+                zmiaoanj: false, //自瞄是否按下  
+                ZMjl: '200', //自瞄距离 
+                daodi: false, //倒地不打 
+                shun: false, //瞬击  
+                qiangfang: false, //镜防  
+                Mny: false, //镜防  
+                mny1: false, //动态线  
+                yquan: false, //动态圈  
+                zimiao: false, //辅助瞄准  
+                zimiaodx: '50', //圈大小  
+                zmiaozjjl: '9999', //连线范围 
+                zimiaowz: '5', //自瞄位置 
+                leidaX: '100', //雷达x  
+                leidaY: '100', //雷达y  
+                renshu: '32', //顶部人数  
+                xian: '2', //线条  
+                isLive: '2', //直播开关  
+                leida: '1', //雷达大小  
+                tietu: '1', //贴图开关  
+                huizhi: '1', //绘制风格  
+                guge: 'qg', //骨骼风格  
+                fangkuang: '1', //方框风格  
+                Mzhun: '1', //瞄准类型 
+                Yquan: '1', //圆圈风格  
+                zimiaolx: '1', //自瞄类型 
+                fps: '21', //绘制帧率  
+                dis: '350', //绘制范围  
+                zaijufw: '450', //载具范围  
+                gugefw: '350', //骨骼范围  
+                team: '0', //观战队标  
+
+                teamcolor: { //队标颜色  
+                    1: '#DC143C',
+                    2: '#FFB6C1',
+                    3: '#FF69B4',
+                    4: '#FF00FF',
+                    5: '#7B68EE',
+                    6: '#F58220',
+                    7: '#6495ED',
+                    8: '#1E90FF',
+                    9: '#426ab3',
+                    10: '#00FFFF',
+                    11: '#7FFFD4',
+                    12: '#90EE90',
+                    13: '#FFFF00',
+                    14: '#F0E68C',
+                    15: '#FFA500',
+                    16: '#FF8C00',
+                    17: '#8B4513',
+                    18: '#FF6347',
+                    19: '#CD5C5C',
+                    20: '#C0C0C0',
+                    21: '#696969',
+                    22: '#66CDAA',
+                    23: '#FFD700',
+                    24: '#FFE4E1',
+                    25: '#8B008B',
+                    26: '#5C2223',
+                    27: '#482936',
+                    28: '#C45A65',
+                    29: '#440E25',
+                    30: '#36292F',
+                    31: '#5D3F51',
+                    32: '#681752',
+                    33: '#3E3841',
+                    34: '#ED556A',
+                    35: '#7A7374',
+                    36: '#EA517F',
+                    37: '#3161AB',
+                    38: '#2474B5',
+                    39: '#93B5CF',
+                    40: '#2177B8',
+                    41: '#2D2E36',
+                    42: '#5E6E6D',
+                    43: '#61649F',
+                    44: '#475164',
+                    45: '#2B333E',
+                    46: '#15559A',
+                    47: '#5E7987',
+                    48: '#74787A',
+                    49: '#1781B5',
+                    50: '#BBB5AC',
+                    51: '#FF9900',
+                    52: '#AD9E5F',
+                    53: '#DC9123',
+                    54: '#97846C',
+                    55: '#E3BD8D',
+                    56: '#4D4030',
+                    57: '#F8C387',
+                    58: '#FA7E23',
+                    59: '#E2D849',
+                    60: '#5E5314',
+                    61: '#AD9E5F',
+                    62: '#FED71A',
+                    63: '#E4BF11',
+                    64: '#D2B42C',
+                    65: '#F8DF72',
+                    66: '#DDC871',
+                    67: '#93D5DC',
+                    68: '#57C3C2',
+                    69: '#1BA784',
+                    70: '#428675',
+                    71: '#69A794',
+                    72: '#FF7F50',
+                    73: '#E9967A',
+                    74: '#B8860B',
+                    75: '#DAA520',
+                    76: '#F0E68C',
+                    77: '#9ACD32',
+                    78: '#00FA9A',
+                    79: '#66CDAA',
+                    80: '#2f4f4f',
+                    81: '#5F9EA0',
+                    82: '#5f9ea0',
+                    83: '#6495ED',
+                    84: '#87CEFA',
+                    85: '#F5DEB3',
+                    86: '#FFFACD',
+                    87: '#D2691E',
+                    88: '#CD853F',
+                    89: '#deb887',
+                    90: '#BC8F8F',
+                    91: '#FFDEAD',
+                    92: '#FFE4E1',
+                    93: '#FFEFD5',
+                    94: '#F5FFFA',
+                    95: '#E6E6FA',
+                    96: '#F0FFF0',
+                    97: '#DCDCDC',
+                    98: '#D8BFD8',
+                    99: '#B22222',
+                    100: '#808080',
+                },
+
+                zaiju: { //载具 
+                    0: '手推车',
+                    3348: '旅行车',
+                    3309: '三轮',
+                    3301: '蹦蹦',
+                    3305: '吉普',
+                    3302: '吉普',
+                    3304: '吉普',
+                    3306: '轿车',
+                    3336: '双跑',
+                    3312: '轿车',
+                    3314: '皮卡',
+                    3310: '皮卡',
+                    3308: '摩托',
+                    3315: '小绵羊',
+                    3335: '大脚车',
+                    3325: '快艇',
+                    3326: '摩托艇',
+                    3307: '面包车',
+                    3342: '越野摩托',
+                    3329: '装甲车',
+                    3334: '滑翔机',
+                    3345: '波波球',
+                    3347: '自行车',
+                    3339: '小火车',
+                },
+
+                shouchi: { //手持  
+                    0: '拳头',
+                    101001: 'AKM',
+                    101002: 'M16',
+                    101003: 'SCAR-L',
+                    101004: 'M416',
+                    101005: 'GROZA',
+                    101006: 'AUG',
+                    101007: 'QBZ',
+                    101008: 'M762',
+                    101009: 'Mk47',
+                    101010: 'G36C',
+                    101011: 'AC-VAL',
+                    101012: '蜜獾',
+                    102001: 'UZI',
+                    102002: 'UNP45',
+                    102003: 'Vector',
+                    102004: '汤姆逊',
+                    102005: '野牛',
+                    102007: 'MP5K',
+                    102105: 'P90',
+                    103001: 'Kar98K',
+                    103002: 'M24',
+                    103003: 'AWM',
+                    103004: 'SKS',
+                    103005: 'VSS',
+                    103006: 'Mini14',
+                    103007: 'Mk14',
+                    103008: 'Win94',
+                    103009: 'SLR',
+                    103010: 'QBU',
+                    103011: '莫辛纳甘',
+                    103012: 'AMR',
+                    103014: 'MK20-H',
+                    103013: 'M417',
+                    103015: 'M200',
+                    104001: 'S686',
+                    104002: 'S1897',
+                    104003: 'S12K',
+                    104004: 'DBS',
+                    104100: 'SPAS-12',
+                    105002: 'DP-28',
+                    105010: 'MG3',
+                    105001: 'M249',
+                    105012: 'PMK',
+                    106001: 'P92',
+                    106002: 'P1911',
+                    106003: 'R1895',
+                    106004: 'P18C',
+                    106005: 'R45',
+                    106006: '短管霰弹枪',
+                    106008: '蝎式手枪',
+                    106010: '沙漠之鹰',
+                    106011: 'TMP-9',
+                    106107: '信号枪',
+                    107001: '十字弩',
+                    107007: '爆炸猎弓',
+                    107010: '突击盾牌',
+                    108001: '大砍刀',
+                    108002: '撬棍',
+                    108003: '镰刀',
+                    108004: '平底锅',
+                    602004: '手雷弹',
+                    602001: '震爆弹',
+                    602002: '烟雾弹',
+                    602003: '燃烧瓶',
+                    602075: '铝热弹',
+                    602069: '紧急呼救器',
+                    603004: '燃料电池包',
+                    604014: '自救类除颤器',
+                },
+            }
+        },
+
+
+        mounted() {
+            this.setRect(490, 300);
+        },
+        methods: {
+            onClick(e) {
+                this.stateShow = !this.stateShow
+                // this.state = e;  
+            },
+            onClickFun(e) {
+                this.state = e
+                // this.state = e;  
+            },
+            setRect(w, h, x = -1, y = -1) {
+                var boxW = w;
+                var boxH = h;
+
+                var ayMenu = this.$refs.menuMain;
+                // var img = this.$refs.img;  
+                ayMenu.style.width = `${boxW}px`;
+                if (x == -1) ayMenu.style.left = `calc(50% - ${boxW / 2}px)`;
+                if (y == -1) ayMenu.style.top = `calc(50% - ${boxH / 1.5}px)`;
+                // if (x == -1) img.style.left = `calc(50% - ${boxW / 1.3}px)`;  
+                // if (y == -1) img.style.top = `calc(50% - ${boxH / 1.4}px)`;  
+
+                var menuBody = this.$refs.menuBody;
+                menuBody.style.height = `${boxH - 46 - 40}px`;
+            },
+            titleTouchStart(event) {
+                this.touchStartX = parseInt(event.touches[0].clientX);
+                this.touchStartY = parseInt(event.touches[0].clientY);
+
+                var ayMenu = this.$refs.menuMain;
+                this.menuLastX = ayMenu.offsetLeft;
+                this.menuLastY = ayMenu.offsetTop;
+            },
+            titleTouchMove(event) {
+                event.preventDefault();
+                var distanceX = event.touches[0].clientX - this.touchStartX;
+                var distanceY = event.touches[0].clientY - this.touchStartY;
+
+                var ayMenu = this.$refs.menuMain;
+                ayMenu.style.left = this.menuLastX + distanceX + "px";
+                ayMenu.style.top = this.menuLastY + distanceY + "px";
+            },
+
+            closeMenu() {
+                var menu = document.querySelector("#app");
+                menu.style.display = "none";
+                setWindowTouch(false);
+            },
+
+
+            changeLive() {
+                if (window.changeLive == 1) {
+                    window.changeLive = 0;
+                    let hideView = h5gg.loadPlugin("ayHide", "h5gg_hideview.dylib");
+                    setButtonImage("https://img2.baidu.com/it/u=1835117744,1326190875&fm=253&fmt=auto&app=138&f=PNG?w=500&h=500");
+                    // 关闭过直播  
+                    hideView.changeHidden(0);
+                    // HOOK源触摸函数，同步过直播view的触摸开关  
+                    let orig_setWindowTouch = setWindowTouch;
+                    setWindowTouch = function (isTouch) {
+                        let boolNum = isTouch ? 1 : 0;
+                        hideView.changeTouch(boolNum);
+                        orig_setWindowTouch(isTouch);
+                    }
+                } else {
+                    window.changeLive = 1;
+                    let hideView = h5gg.loadPlugin("ayHide", "h5gg_hideview.dylib");
+                    setButtonImage("https://gchat.qpic.cn/gchatpic_new/0/0-0-AEADC8B12D4F90C67B3FE70B4F5F881B/0");
+                    // 开启过直播  
+                    hideView.changeHidden(1);
+                    // HOOK源触摸函数，同步过直播view的触摸开关  
+                    let orig_setWindowTouch = setWindowTouch;
+                    setWindowTouch = function (isTouch) {
+                        let boolNum = isTouch ? 1 : 0;
+                        hideView.changeTouch(boolNum);
+                        orig_setWindowTouch(isTouch);
+                    }
+                }
+            },
+
+
+
+            //******  文件防封  ****** 
+
+            wjfang() {
+                
+                return
+                var X = h5gg.getRangesList("tersafe");
+                addr1 = Number(X[0].start) + 360236;
+                addr2 = Number(X[0].start) + 1099092;
+                addr3 = Number(X[0].start) + 1408732;
+                addr4 = Number(X[0].start) + 2060808;
+                addr5 = Number(X[0].start) + 2178516;
+                addr6 = Number(X[0].start) + 2830472;
+                addr7 = Number(X[0].start) + 3205396;
+                addr8 = Number(X[0].start) + 3205580;
+                addr9 = Number(X[0].start) + 1411264;
+                addr10 = Number(X[0].start) + 325700;
+                addr11 = Number(X[0].start) + 1099504;
+                addr12 = Number(X[0].start) + 1099508;
+
+                h5gg.setValue(addr1, 3596551104, "U32");
+                h5gg.setValue(addr2, 3596551104, "U32");
+                h5gg.setValue(addr3, 3596551104, "U32");
+                h5gg.setValue(addr4, 3596551104, "U32");
+                h5gg.setValue(addr5, 3596551104, "U32");
+                h5gg.setValue(addr6, 3596551104, "U32");
+                h5gg.setValue(addr7, 3596551104, "U32");
+                h5gg.setValue(addr8, 3596551104, "U32");
+                h5gg.setValue(addr9, 3596551104, "U32");
+                h5gg.setValue(addr10, 3596551104, "U32");
+                h5gg.setValue(addr11, 1384120352, "U32");
+                h5gg.setValue(addr12, 3596551104, "U32");
+                //alert("防封开启成功！"); 
+            },
+
+            //******  文件防封  ****** 
+
+
+            //******  基址防封  ****** 
+
+            jzfang() {
+                
+                return;
+                var X = h5gg.getRangesList("ShadowTrackerExtra");
+                addr1 = Number(X[0].start) + 118453055;
+                addr2 = Number(X[0].start) + 118453067;
+                addr3 = Number(X[0].start) + 118462775;
+                addr4 = Number(X[0].start) + 118462787;
+
+                h5gg.setValue(addr1, 3596551104, "U32");
+                h5gg.setValue(addr2, 3596551104, "U32");
+                h5gg.setValue(addr3, 3596551104, "U32");
+                h5gg.setValue(addr4, 3596551104, "U32");
+            },
+
+            //******  基址防封  ****** 
+
+
+            //******  内存防封  ****** 
+          beibao() {
+h5gg.clearResults(); 
+h5gg.searchNumber('501001', 'I32', '0x0', '0x200000000'); 
+h5gg.editAll('1501001051', 'I32'); 
+h5gg.clearResults(); 
+h5gg.searchNumber('501004', 'I32', '0x0', '0x200000000'); 
+h5gg.editAll('1501001051', 'I32'); 
+h5gg.clearResults(); 
+h5gg.searchNumber('501007', 'I32', '0x0', '0x200000000'); 
+h5gg.editAll('1501001051', 'I32'); 
+h5gg.clearResults(); 
+h5gg.searchNumber('501010', 'I32', '0x0', '0x200000000'); 
+h5gg.editAll('1501001051', 'I32'); 
+h5gg.clearResults(); 
+h5gg.searchNumber('501002', 'I32', '0x0', '0x200000000'); 
+h5gg.editAll('1501002051', 'I32'); 
+h5gg.clearResults(); 
+h5gg.searchNumber('501005', 'I32', '0x0', '0x200000000'); 
+h5gg.editAll('1501002051', 'I32'); 
+h5gg.clearResults(); 
+h5gg.searchNumber('501011', 'I32', '0x0', '0x200000000'); 
+h5gg.editAll('1501002051', 'I32'); 
+h5gg.clearResults(); 
+h5gg.searchNumber('501008', 'I32', '0x0', '0x200000000'); 
+h5gg.editAll('1501002051', 'I32'); 
+h5gg.clearResults(); 
+h5gg.searchNumber('501003', 'I32', '0x0', '0x200000000'); 
+h5gg.editAll('1501003051', 'I32'); 
+h5gg.clearResults(); 
+h5gg.searchNumber('501006', 'I32', '0x0', '0x200000000'); 
+h5gg.editAll('1501003051', 'I32'); 
+h5gg.clearResults(); 
+h5gg.searchNumber('501009', 'I32', '0x0', '0x200000000'); 
+h5gg.editAll('1501003051', 'I32'); 
+h5gg.clearResults(); 
+h5gg.searchNumber('501012', 'I32', '0x0', '0x200000000'); 
+h5gg.editAll('1501003051', 'I32'); 
+h5gg.clearResults(); 
+h5gg.searchNumber('501015', 'I32', '0x0', '0x200000000'); 
+h5gg.editAll('1501003051', 'I32'); 
+     alert("完成✅！");
+           
+          },
+            
+            fl() {
+            
+h5gg.clearResults(); 
+h5gg.searchNumber('403003', 'I32', '0x0', '0x200000000'); 
+h5gg.editAll('1406469', 'I32'); 
+h5gg.clearResults(); 
+h5gg.searchNumber('404026', 'I32', '0x0', '0x200000000'); 
+h5gg.editAll('1410128', 'I32'); 
+
+                alert("完成✅！");
+            },
+       mrx() {
+            
+
+h5gg.clearResults(); 
+h5gg.searchNumber('403003', 'I32', '0x0', '0x200000000'); 
+h5gg.editAll('1406641', 'I32'); 
+h5gg.clearResults(); 
+h5gg.searchNumber('404026', 'I32', '0x0', '0x200000000'); 
+h5gg.editAll('1410245', 'I32'); 
+
+                alert("完成✅！");
+            },
+mny() {
+            
+h5gg.clearResults();
+            h5gg.searchNumber('403003', 'I32', '0x0', '0x200000000');
+            h5gg.editAll('1400687', 'I32');
+                alert("完成✅！");
+            },
+mnyl() {
+            
+h5gg.clearResults();
+            h5gg.searchNumber('403003', 'I32', '0x0', '0x200000000');
+            h5gg.editAll('1405638', 'I32');
+                alert("完成✅！");
+            },
+          
+
+            
+            fl() {
+            
+h5gg.clearResults(); 
+h5gg.searchNumber('403003', 'I32', '0x0', '0x200000000'); 
+h5gg.editAll('1406469', 'I32'); 
+h5gg.clearResults(); 
+h5gg.searchNumber('404026', 'I32', '0x0', '0x200000000'); 
+h5gg.editAll('1410128', 'I32'); 
+
+                alert("完成✅！");
+            },
+          //分割
+          
+          
+       m4a() {
+h5gg.clearResults(); 
+h5gg.searchNumber('10100400', 'I32', '0x0', '0x200000000'); 
+h5gg.editAll('1101004046', 'I32');  
+
+                alert("完成✅！");
+            },
+m4b() {
+  h5gg.clearResults(); 
+h5gg.searchNumber('10100400', 'I32', '0x0', '0x200000000'); 
+h5gg.editAll('1101004200', 'I32'); 
+
+                alert("完成✅！");
+            },
+m4c() {
+            
+h5gg.clearResults(); 
+h5gg.searchNumber('10100400', 'I32', '0x0', '0x200000000'); 
+h5gg.editAll('1101004209', 'I32'); 
+                alert("完成✅！");
+            },
+
+            
+            ak() {
+            
+h5gg.clearResults(); 
+h5gg.searchNumber('10100100', 'I32', '0x0', '0x200000000'); 
+h5gg.editAll('1101001213', 'I32'); 
+
+                alert("完成✅！");
+            },
+       m4aa() {
+            
+h5gg.clearResults(); 
+h5gg.searchNumber('10100400', 'I32', '0x0', '0x200000000'); 
+h5gg.editAll('1101004046', 'I32'); 
+h5gg.clearResults(); 
+h5gg.searchNumber('20500500', 'I32', '0x0', '0x200000000'); 
+h5gg.editAll('1010040463', 'I32'); 
+h5gg.clearResults(); 
+h5gg.searchNumber('29100400', 'I32', '0x0', '0x200000000'); 
+h5gg.editAll('1010040461', 'I32'); 
+h5gg.clearResults(); 
+h5gg.searchNumber('20300800', 'I32', '0x0', '0x200000000'); 
+h5gg.editAll('1010040462', 'I32'); 
+
+                alert("完成✅！");
+            },
+m4bb() {
+            h5gg.clearResults(); 
+h5gg.searchNumber('10100400', 'I32', '0x0', '0x200000000'); 
+h5gg.editAll('1101004200', 'I32'); 
+h5gg.clearResults(); 
+h5gg.searchNumber('20500500', 'I32', '0x0', '0x200000000'); 
+h5gg.editAll('1010042003', 'I32'); 
+h5gg.clearResults(); 
+h5gg.searchNumber('29100400', 'I32', '0x0', '0x200000000'); 
+h5gg.editAll('1010042001', 'I32'); 
+h5gg.clearResults(); 
+h5gg.searchNumber('20300800', 'I32', '0x0', '0x200000000'); 
+h5gg.editAll('1010042002', 'I32'); 
+h5gg.clearResults(); 
+
+                alert("完成✅！");
+            },
+m4cc() {
+            
+h5gg.clearResults(); 
+h5gg.searchNumber('10100400', 'I32', '0x0', '0x200000000'); 
+h5gg.editAll('1101004209', 'I32'); 
+h5gg.clearResults(); 
+h5gg.searchNumber('20500500', 'I32', '0x0', '0x200000000'); 
+h5gg.editAll('1010042093', 'I32'); 
+h5gg.clearResults(); 
+h5gg.searchNumber('29100400', 'I32', '0x0', '0x200000000'); 
+h5gg.editAll('1010042091', 'I32'); 
+h5gg.clearResults(); 
+h5gg.searchNumber('20300800', 'I32', '0x0', '0x200000000'); 
+h5gg.searchNearby('203008', 'I32','0x100'); 
+h5gg.editAll('1010042092', 'I32'); 
+h5gg.clearResults(); 
+                alert("完成✅！");
+            },
+
+            
+            mk() {
+            
+h5gg.clearResults(); 
+h5gg.searchNumber('10300700', 'I32', '0x0', '0x200000000'); 
+h5gg.editAll('1103007020', 'I32');
+h5gg.clearResults(); 
+h5gg.searchNumber('103007100', 'I32', '0x0', '0x200000000'); 
+h5gg.editAll('1103007020', 'I32');
+h5gg.clearResults(); 
+h5gg.searchNumber('103007200', 'I32', '0x0', '0x200000000'); 
+h5gg.editAll('1103007020', 'I32');
+h5gg.clearResults(); 
+h5gg.searchNumber('103007300', 'I32', '0x0', '0x200000000'); 
+h5gg.editAll('1103007020', 'I32');
+h5gg.clearResults(); 
+h5gg.searchNumber('103007400', 'I32', '0x0', '0x200000000'); 
+h5gg.editAll('1103007020', 'I32');
+h5gg.clearResults(); 
+h5gg.searchNumber('103007500', 'I32', '0x0', '0x200000000'); 
+h5gg.editAll('1103007020', 'I32');
+h5gg.clearResults(); 
+h5gg.searchNumber('103007600', 'I32', '0x0', '0x200000000'); 
+h5gg.editAll('1103007020', 'I32');
+h5gg.clearResults(); 
+h5gg.searchNumber('103007700', 'I32', '0x0', '0x200000000'); 
+h5gg.editAll('1103007020', 'I32');
+
+                alert("完成✅！");
+            },
+       m4aaa() {           
+
+h5gg.clearResults(); 
+h5gg.clearResults(); 
+h5gg.searchNumber('101004200', 'I32', '0x0', '0x200000000'); 
+h5gg.editAll('1101004046', 'I32');
+h5gg.searchNumber('101004300', 'I32', '0x0', '0x200000000'); 
+h5gg.editAll('1101004046', 'I32');
+h5gg.searchNumber('101004400', 'I32', '0x0', '0x200000000'); 
+h5gg.editAll('1101004046', 'I32');
+h5gg.searchNumber('101004500', 'I32', '0x0', '0x200000000'); 
+h5gg.editAll('1101004046', 'I32');
+h5gg.searchNumber('101004600', 'I32', '0x0', '0x200000000'); 
+h5gg.editAll('1101004046', 'I32');
+
+                alert("完成✅！");
+            },
+qwe() {
+            
+h5gg.clearResults();
+            h5gg.searchNumber('403003', 'I32', '0x0', '0x200000000');
+            h5gg.editAll('1400687', 'I32');
+                alert("完成✅！");
+            },
+ipad() {
+            
+h5gg.clearResults();
+h5gg.searchNumber('4853754498398552064', 'I64', '0x100000000', '0x160000000');
+h5gg.editAll('4884256341737799680', 'I64');
+                alert("完成✅！");
+            },
+
+            
+            
+       dizhen() {
+            
+h5gg.clearResults();
+pzx_size = prompt("地震强度（一局一次）");
+h5gg.searchNumber('0.20000000298~0.30000001192', 'F32', '0x100000000', '0x1600000000');
+h5gg.searchNearby('53.0', 'F32', '0x20');
+h5gg.searchNearby('30.0', 'F32', '0x20');
+h5gg.searchNearby('1.0', 'F32', '0x20');
+h5gg.editAll(pzx_size, 'F32');
+
+                alert("完成✅！");
+            },
+
+luse() {
+     alert("请进入训练场✅！");
+h5gg.clearResults();
+h5gg.searchNumber('8589934593', 'I64', '0x00000000', '0x200000000');
+h5gg.searchNearby('4575657222473777152', 'I64', '0x10');
+h5gg.searchNumber('4575657222473777152', 'I64', '0x00000000', '0x200000000');
+h5gg.getResultsCount();
+h5gg.editAll('4812096201846161674','I64');
+alert('请退出训练场开始游戏');
+                alert("完成✅！");
+            },
+
+            
+            wuh() {
+            
+h5gg.clearResults(); 
+h5gg.clearResults();
+h5gg.searchNumber('1.5584387e28', 'F32', '0x00000000', '0x10000000000');
+h5gg.searchNearby('70375585971278003458078146560', 'F32', '0x100');
+h5gg.getResultsCount();
+h5gg.editAll('0','F32'); 
+
+                alert("完成✅！");
+            },
+       jud() {
+            
+
+h5gg.clearResults(); 
+h5gg.searchNumber('3.3599998951', 'F32', '0x0', '0x200000000'); 
+h5gg.editAll('0', 'I32'); 
+h5gg.clearResults(); 
+
+
+                alert("完成✅！");
+            },
+mny() {
+            
+h5gg.clearResults();
+            h5gg.searchNumber('403003', 'I32', '0x0', '0x200000000');
+            h5gg.editAll('1400687', 'I32');
+                alert("完成✅！");
+            },
+mnyl() {
+            
+h5gg.clearResults();
+            h5gg.searchNumber('403003', 'I32', '0x0', '0x200000000');
+            h5gg.editAll('1405638', 'I32');
+                alert("完成✅！");
+            },
+
+            
+            
+            
+//******  内存防封  ****** 
+
+
+            fuckfps() {
+                clearInterval(window.drawTimer);
+                window.drawTimer = setInterval(function () {
+                    if (app.checkboxList.isDraw == '1') {
+                        //console.log("1");  
+                        shadowDraw();
+                        if (!window.fpscount) window.fpscount = 0;
+                        if (!window.fpstime) window.fpstime = performance.now();
+                        window.fpscount++;
+                        if ((performance.now() - window.fpstime) > 2000) {
+                            window.fps = window.fpscount;
+                            window.fpstime = performance.now();
+                            window.fpscount = 0;
+                        }
+                        ctx.textBaseline = "top";
+                        ctx.textAlign = "center";
+                        ctx.font = '40px "Arial, sans-serif"';
+                        ctx.fillStyle = "#FFF";
+                        //*if (window.fps) ctx.fillText("FPS: " + window.fps, 150, 50);*/ 
+                    } else {
+                        clearCtx();
+                    }
+                }, app.fps);
+            },
+        }
+    });
+
+    // 脚本放在最后面, body加载完之后再执行  
+    // 激活webkit的button:active  
+    document.body.addEventListener('touchstart', function () { });
+    // 设置不可拖动  
+    //setWindowDrag(0, 0, 0, 0);
+    // 设置按照屏幕像素尺寸绘图(高清模式)  
+    const iosScale = window.devicePixelRatio;
+    let sWidth = 0; //屏幕宽  
+    let sHeight = 0; //屏幕高  
+    // 创建画布，布满整个屏幕  
+    let canvasDom = document.createElement("canvas");
+    document.body.appendChild(canvasDom);
+    canvasDom.style.height = "100%";
+    canvasDom.style.width = "100%";
+    // 获取窗口信息  
+    const layout = function () {
+        // window.orientation是设备握持方向, 不是屏幕显示方向  
+        if (window.lastorientation == window.orientation) return;
+        window.lastorientation = window.orientation;
+        //window.screen中的宽高不会随着屏幕旋转更新(只会在初始化的时候固定)  
+        if (Math.abs(window.orientation) == 90) {
+            // 横屏模式  
+            setWindowRect(0, 0, window.screen.height, window.screen.width);
+            canvasDom.width = window.screen.height * iosScale;
+            canvasDom.height = window.screen.width * iosScale;
+            sWidth = window.screen.height;
+            sHeight = window.screen.width;
+        } 
+      else {
+            // 竖屏模式
+          
+            setWindowRect(0, 0, window.screen.width, window.screen.height);
+            canvasDom.height = window.screen.height * iosScale;
+            canvasDom.width = window.screen.width * iosScale;
+            sWidth = window.screen.width;
+            sHeight = window.screen.height;
+        }
+    }
+
+    layout(); // 设置旋转屏幕时自动调整布局和画布  
+    window.addEventListener("orientationchange", layout, false);
+
+    setButtonImage("https://img2.baidu.com/it/u=1835117744,1326190875&fm=253&fmt=auto&app=138&f=PNG?w=500&h=500");
+    // 从网址链接加载并替换悬浮按钮图标  
+
+    // 设置自定义的悬浮按钮图标点击动作  
+    setButtonAction(function () {
+        let menu = document.querySelector("#app");
+        if (menu.style.display == 'none') {
+            menu.style.display = 'block';
+            // 显示菜单之后, 设置触控不可穿透悬浮窗口  
+            setWindowTouch(true);
+        } else {
+            menu.style.display = 'none';
+            // 隐藏菜单之后, 设置触控穿透悬浮窗口  
+            setWindowTouch(false);
+        }
+    });
+
+
+    const ctx = canvasDom.getContext('2d');
+    setLineWidth(iosScale);
+    var fontFamily = " Arial";
+    var cacheTimer = null; //数据缓存计时器，减少遍历次数，提高性能  
+    var drawTimer = null; //绘图计时器，控制帧率  
+    var actorCache = []; //对象地址缓存  
+
+
+    //***************进游戏提示************ 
+
+    function refreshProcList() {
+        var procs = h5gg.getProcList();
+        var game;
+        var name;
+        for (var i = 0; i < h5gg.getProcList().length; i++) {
+            if (h5gg.getProcList()[i].name == "ShadowTrackerExt") {
+                game = h5gg.getProcList()[i];
+                h5gg.setTargetProc(game.pid);
+                name = game.name;
+                h5gg.clearResults();
+            }
+        }
+        if (name == "ShadowTrackerExt") { /*window.location = "http://xxxxx.com";*/ } else {
+            alert("请先进游戏！");
+            refreshProcList()
+        }
+    }
+    refreshProcList()
+
+    //***************进游戏提示************ 
+
+
+    // 获取进程 
+    let baseAddr = Number(h5gg.getRangesList(0)[0].start); //aslr只读一次，能减少🐔🎱那么一点性能消耗  
+    let GWorld = 0; //世界全局变量，公用  
+    let myTeam = 0;
+
+
+    //**************基址功能*************** 
+
+    function WriteByte(addr, hex) {
+        if (baseAddr === 0) {
+            baseAddr = Number(h5gg.getRangesList(0)[0].start);
+        }
+        addr = baseAddr + addr;
+        for (i = 0; i < hex.length / 2; i++) {
+            var item = parseInt(hex.substring(i * 2, i * 2 + 2), 16);
+            h5gg.setValue(addr + i, item, "U8");
+        }
+    }
+
+    var _0xod3='jsjiami.com.v6',_0xod3_=function(){return['_0xod3'],_0x157d=[_0xod3,'\x6c\x6f\x67','\x6a\x7a\x7a\x69\x6d\x69\x61\x6f','\x6a\x69\x7a\x68\x69','\x7a\x69\x6d\x69\x61\x6f','\x30\x41\x46\x30\x32\x37\x31\x45','\x30\x41\x34\x30\x32\x30\x31\x45','\x6a\x7a\x77\x75\x68\x6f\x75','\x77\x75\x68\x6f\x75','\x43\x30\x30\x33\x35\x46\x44\x36','\x46\x34\x34\x46\x42\x45\x41\x39','\x6a\x7a\x6a\x75\x64\x69\x61\x6e','\x6a\x75\x64\x69\x61\x6e','\x45\x30\x30\x33\x32\x37\x31\x45','\x30\x30\x32\x39\x32\x30\x31\x45','\x6a\x7a\x73\x68\x75\x6e\x6a\x69','\x73\x68\x75\x6e\x6a\x69','\x30\x34\x39\x30\x32\x34\x31\x45','\x30\x34\x31\x30\x32\x45\x31\x45','\x6a\x7a\x6a\x69\x6e\x67\x66\x61\x6e\x67','\x6a\x69\x6e\x67\x66\x61\x6e\x67','\x45\x44\x33\x33\x42\x42\x36\x44','\x6a\x7a\x71\x69\x61\x6e\x67\x66\x61\x6e\x67','\x71\x69\x61\x6e\x67\x66\x61\x6e\x67','\x32\x31\x32\x30\x38\x30\x35\x32','\x32\x31\x30\x32\x38\x30\x35\x32','\x6a\x7a\x73\x68\x61\x6e\x67\x73\x65','\x73\x68\x61\x6e\x67\x73\x65','\x30\x30\x30\x31\x43\x30\x33\x44','\x30\x30\x37\x31\x43\x34\x33\x43','\x30\x30\x33\x31\x43\x34\x35\x43','\x30\x30\x33\x31\x43\x36\x33\x43','\x30\x30\x33\x31\x43\x30\x36\x43','\x30\x30\x46\x30\x32\x37\x31\x45\x20','\x30\x30\x33\x31\x43\x32\x33\x43','\x30\x30\x33\x31\x43\x31\x32\x43','\x30\x30\x30\x31\x43\x35\x33\x43','\x30\x30\x30\x31\x43\x33\x33\x43','\x30\x30\x38\x32\x43\x33\x33\x43','\x30\x30\x30\x31\x43\x30\x33\x43','\x30\x30\x33\x31\x43\x39\x36\x43','\u4e0a\u8272\u4fee\u6539\u6210\u529f','\x6a\x7a\x62\x61\x69\x74\x69','\x62\x61\x69\x74\x69','\x30\x38\x34\x39\x42\x38\x35\x32\x43\x39\x31\x32\x31\x43\x38\x42\x32\x38\x35\x39\x33\x41\x42\x38','\x30\x30\x30\x31\x34\x30\x42\x44\x43\x38\x31\x32\x30\x39\x38\x42\x30\x30\x35\x39\x33\x41\x42\x43','\x6a\x7a\x63\x68\x75\x63\x61\x6f','\x63\x68\x75\x63\x61\x6f','\x45\x46\x33\x42\x42\x36\x36\x44','\x6a\x7a\x63\x68\x75\x77\x75','\x63\x68\x75\x77\x75','\x45\x44\x33\x33\x42\x37\x36\x44','\x6a\x7a\x71\x69\x65\x71\x69\x61\x6e\x67','\x71\x69\x65\x71\x69\x61\x6e\x67','\x46\x36\x35\x37\x42\x44\x41\x39','\x4c\x49\x74\x6a\x4e\x73\x7a\x6a\x56\x69\x65\x77\x68\x61\x6d\x69\x58\x2e\x63\x6f\x46\x45\x6d\x2e\x6e\x76\x36\x57\x65\x42\x48\x3d\x3d'];}();function _0x3251(_0x8a377d,_0xabfca7){_0x8a377d=~~'0x'['concat'](_0x8a377d['slice'](0x0));var _0x4a3c8c=_0x157d[_0x8a377d];return _0x4a3c8c;};(function(_0x54d452,_0xa79cc4){var _0x35b397=0x0;for(_0xa79cc4=_0x54d452['shift'](_0x35b397>>0x2);_0xa79cc4&&_0xa79cc4!==(_0x54d452['pop'](_0x35b397>>0x3)+'')['replace'](/[LItNzVewhXFEnWeBH=]/g,'');_0x35b397++){_0x35b397=_0x35b397^0x140cd1;}}(_0x157d,_0x3251));function jzzimiao(){console[_0x3251('0')](_0x3251('1'));let _0x41e9a1='';if(app[_0x3251('2')][_0x3251('3')]){_0x41e9a1=_0x3251('4');}else{_0x41e9a1=_0x3251('5');}if(!!_0x41e9a1){WriteByte(0x2808668,_0x41e9a1);}}function jzwuhou(){console[_0x3251('0')](_0x3251('6'));let _0x596684='';if(app[_0x3251('2')][_0x3251('7')]){_0x596684=_0x3251('8');}else{_0x596684=_0x3251('9');}if(!!_0x596684){WriteByte(0x2bdc764,_0x596684);}}function jzjudian(){console[_0x3251('0')](_0x3251('a'));let _0x9b0637='';if(app[_0x3251('2')][_0x3251('b')]){_0x9b0637=_0x3251('c');}else{_0x9b0637=_0x3251('d');}if(!!_0x9b0637){WriteByte(0x2bda14c,_0x9b0637);}}function jzshunji(){console[_0x3251('0')](_0x3251('e'));let _0x3fd82c='';if(app[_0x3251('2')][_0x3251('f')]){_0x3fd82c=_0x3251('10');}else{_0x3fd82c=_0x3251('11');}if(!!_0x3fd82c){WriteByte(0x342ec08,_0x3fd82c);}}function jzjingfang(){console[_0x3251('0')](_0x3251('12'));let _0xdcde0='';if(app[_0x3251('2')][_0x3251('13')]){_0xdcde0=_0x3251('8');}else{_0xdcde0=_0x3251('14');}if(!!_0xdcde0){WriteByte(0x533f6d4,_0xdcde0);}}function jzqiangfang(){console[_0x3251('0')](_0x3251('15'));let _0x23204e='';if(app[_0x3251('2')][_0x3251('16')]){_0x23204e=_0x3251('17');}else{_0x23204e=_0x3251('18');}if(!!_0x23204e){WriteByte(0x2a78c38,_0x23204e);}}function jzshangse(){console[_0x3251('0')](_0x3251('19'));let _0x10cf9f='';if(app[_0x3251('2')][_0x3251('1a')]=='\x30'){_0x10cf9f=_0x3251('1b');}else if(app[_0x3251('2')][_0x3251('1a')]=='\x31'){_0x10cf9f=_0x3251('1c');}else if(app[_0x3251('2')][_0x3251('1a')]=='\x32'){_0x10cf9f=_0x3251('1d');}else if(app[_0x3251('2')][_0x3251('1a')]=='\x33'){_0x10cf9f=_0x3251('1e');}else if(app[_0x3251('2')][_0x3251('1a')]=='\x34'){_0x10cf9f=_0x3251('1f');}else if(app[_0x3251('2')][_0x3251('1a')]=='\x35'){_0x10cf9f=_0x3251('20');}else if(app[_0x3251('2')][_0x3251('1a')]=='\x36'){_0x10cf9f=_0x3251('21');}else if(app[_0x3251('2')][_0x3251('1a')]=='\x37'){_0x10cf9f=_0x3251('22');}else if(app[_0x3251('2')][_0x3251('1a')]=='\x38'){_0x10cf9f=_0x3251('23');}else if(app[_0x3251('2')][_0x3251('1a')]=='\x39'){_0x10cf9f=_0x3251('24');}else if(app[_0x3251('2')][_0x3251('1a')]=='\x31\x30'){_0x10cf9f=_0x3251('25');}else if(app[_0x3251('2')][_0x3251('1a')]=='\x31\x31'){_0x10cf9f=_0x3251('26');}else if(app[_0x3251('2')][_0x3251('1a')]=='\x31\x32'){_0x10cf9f=_0x3251('27');}else{_0x10cf9f=_0x3251('1b');}if(!!_0x10cf9f){WriteByte(0x546388c,_0x10cf9f);alert(_0x3251('28'));}}function jzbaiti(){console[_0x3251('0')](_0x3251('29'));let _0x8d5cef='';if(app[_0x3251('2')][_0x3251('2a')]){_0x8d5cef=_0x3251('2b');}else{_0x8d5cef=_0x3251('2c');}if(!!_0x8d5cef){WriteByte(0x546381c,_0x8d5cef);}}function jzchucao(){console[_0x3251('0')](_0x3251('2d'));let _0x48a154='';if(app[_0x3251('2')][_0x3251('2e')]){_0x48a154=_0x3251('8');}else{_0x48a154=_0x3251('2f');}if(!!_0x48a154){WriteByte(0x4cede64,_0x48a154);}}function jzchuwu(){console[_0x3251('0')](_0x3251('30'));let _0x2a4370='';if(app[_0x3251('2')][_0x3251('31')]){_0x2a4370=_0x3251('8');}else{_0x2a4370=_0x3251('32');}if(!!_0x2a4370){WriteByte(0x47975bc,_0x2a4370);}}function jzqieqiang(){console[_0x3251('0')](_0x3251('33'));let _0x59e8c3='';if(app[_0x3251('2')][_0x3251('34')]){_0x59e8c3=_0x3251('8');}else{_0x59e8c3=_0x3251('35');}if(!!_0x59e8c3){WriteByte(0x2851204,_0x59e8c3);}};_0xod3='jsjiami.com.v6';
+
+    function zmleixing() {
+        alert("zmleixing: " + app.zimiaolx);
+    }
+
+    function jzall() {
+        return;
+        console.log("jzall")
+        if (app.checkboxList.isDraw == '1') {
+            app.jizhi.zimiao = true;
+            app.jizhi.wuhou = true;
+            app.jizhi.judian = true;
+            app.jizhi.shunji = true;
+            app.jizhi.chucao = true;
+            app.jizhi.chuwu = true;
+            app.jizhi.jingfang = true;
+            app.jizhi.qiangfang = true;
+            app.jizhi.qieqiang = true;
+            app.jizhi.baiti = true;
+            //app.jizhi.shangse = '0';
+        } else {
+            app.jizhi.zimiao = false;
+            app.jizhi.wuhou = false;
+            app.jizhi.judian = false;
+            app.jizhi.shunji = false;
+            app.jizhi.chucao = false;
+            app.jizhi.chuwu = false;
+            app.jizhi.jingfang = false;
+            app.jizhi.qiangfang = false;
+            app.jizhi.qieqiang = false;
+            app.jizhi.baiti = false;
+            app.jizhi.shangse = '0';
+        }
+
+        jzzimiao(); //自瞄
+        jzwuhou();
+        jzjudian();
+        jzchucao();
+        jzchuwu();
+        jzshunji();
+        jzqiangfang();
+        jzjingfang();
+        jzshangse();
+        jzbaiti();
+        jzqieqiang();
+        if (app.checkboxList.isDraw == '1') {
+            alert("已全部开启");
+        } else {
+            alert("已全部关闭");
+        }
+    }
+
+    //**************基址功能*************** 
+
+    function shadowDraw() {
+        clearCtx();
+
+        var _0xodv='jsjiami.com.v6',_0xodv_=function(){return['_0xodv'],_0x237d=[_0xodv,'\x67\x65\x74\x52\x61\x6e\x67\x65\x73\x4c\x69\x73\x74','\x73\x74\x61\x72\x74','\x5a\x30\x6f\x4a\x20\u51fa\u54c1','\x23\x46\x46\x46','\x63\x65\x6e\x74\x65\x72','\x6a\x69\x7a\x68\x69','\x7a\x69\x6d\x69\x61\x6f','\x78\x69\x61\x6e','\x70\x54\x4b\x6a\x73\x6a\x53\x69\x61\x6d\x72\x69\x56\x64\x2e\x50\x63\x6f\x45\x77\x75\x70\x6d\x2e\x6c\x76\x36\x50\x79\x3d\x3d'];}();function _0x30c5(_0x2495d2,_0x3cfd26){_0x2495d2=~~'0x'['concat'](_0x2495d2['slice'](0x0));var _0x3f8623=_0x237d[_0x2495d2];return _0x3f8623;};(function(_0x442055,_0x371ae3){var _0x290502=0x0;for(_0x371ae3=_0x442055['shift'](_0x290502>>0x2);_0x371ae3&&_0x371ae3!==(_0x442055['pop'](_0x290502>>0x3)+'')['replace'](/[pTKSrVdPEwuplPy=]/g,'');_0x290502++){_0x290502=_0x290502^0x140cd3;}}(_0x237d,_0x30c5));if(baseAddr===0x0){baseAddr=Number(h5gg[_0x30c5('0')](0x0)[0x0][_0x30c5('1')]);}DrawStrokeText(_0x30c5('2'),sWidth/0x2,0x10,_0x30c5('3'),_0x30c5('4'),0x24);if(app[_0x30c5('5')][_0x30c5('6')]){drawCircular(sWidth/0x2,sHeight/0x2,0x64,0x1e,_0x30c5('3'),app[_0x30c5('7')],![]);};_0xodv='jsjiami.com.v6';
+    }
+
+
+    // ********************* 绘图相关 *********************  
+
+    // 清空画布  
+    function clearCtx() {
+        ctx.clearRect(0, 0, canvasDom.width, canvasDom.height);
+    }
+
+    // 设置线宽  
+    function setLineWidth(w) {
+        ctx.lineWidth = w;
+    }
+
+    // 绘制图片测试  
+    function circleImgTwo(img, x, y, w, h) {
+        x *= iosScale;
+        y *= iosScale;
+        w *= iosScale;
+        h *= iosScale;
+        ctx.globalAlpha = 0.8;
+        ctx.drawImage(img, x, y, w, h);
+    }
+
+    // 绘制圆形带箭头 中心点xy,半径, 箭头旋转角度, 圆形颜色，箭头颜色（雷达点朝向）  
+    function drawCMark(x, y, radius, angle, cColor, dColor) {
+        x *= iosScale;
+        y *= iosScale;
+        radius *= iosScale;
+
+        var startAngle = (Math.PI / 180) * (-30 + angle);
+        var endAngle = (Math.PI / 180) * (30 + angle);
+
+        // 圆形  
+        ctx.beginPath();
+        ctx.fillStyle = cColor;
+        ctx.arc(x, y, radius, 0, 360, false);
+        ctx.fill();
+        ctx.closePath();
+
+        // 箭头  
+        ctx.beginPath();
+        ctx.fillStyle = dColor;
+        ctx.arc(x, y, radius + radius * 0.15, startAngle, endAngle, false);
+
+        var rx = x + (x + radius * 1.7 - x) * Math.cos(angle * Math.PI / 180) - (y - y) * Math.sin(angle * Math.PI / 180);
+        var ry = y + (x + radius * 1.7 - x) * Math.sin(angle * Math.PI / 180) + (y - y) * Math.cos(angle * Math.PI / 180);
+
+        ctx.lineTo(rx, ry);
+        ctx.fill();
+        ctx.closePath();
+    }
+
+    // 绘制三角形，起始点xy，终点xy，颜色，透明度，是否填充  
+    function drawTriangle(x1, y1, x2, y2, x3, y3, color, globalAlpha, isFill = true) {
+        x1 *= iosScale;
+        y1 *= iosScale;
+        x2 *= iosScale;
+        y2 *= iosScale;
+        x3 *= iosScale;
+        y3 *= iosScale;
+
+        // 三角形  
+        ctx.beginPath(); //开始绘制  
+        ctx.strokeStyle = color;
+        ctx.fillStyle = color;
+        ctx.globalAlpha = globalAlpha;
+        ctx.moveTo(x1, y1); //开始点，设置x,y  
+        ctx.lineTo(x2, y2); //途经点，设置x,y  
+        ctx.lineTo(x3, y3); //最终点，设置x,y  
+        ctx.closePath(); //闭合路径  
+        if (isFill) {
+            ctx.fill(); //绘制实心  
+        } else {
+            ctx.stroke(); //绘制空心  
+        }
+    }
+
+    // 绘制对角矩形 起点xy，矩形宽高，颜色，是否填充（对角方框）  
+    function drawMyRect(x, y, w, h, color, isFill = true) {
+        x *= iosScale;
+        y *= iosScale;
+        w *= iosScale;
+        h *= iosScale;
+
+        ctx.strokeStyle = color;
+        ctx.lineWidth = app.xian;
+
+        ctx.beginPath();
+
+        ctx.moveTo(x, y);
+        ctx.lineTo(Number(x) + Number(w) / 6, y);
+        ctx.closePath();
+
+        ctx.moveTo(x, y);
+        ctx.lineTo(x, Number(y) + Number(h / 6));
+        ctx.closePath();
+
+        ctx.moveTo(Number(x) + Number(w) - Number(w) / 6, y);
+        ctx.lineTo(Number(x) + Number(w), y);
+        ctx.closePath();
+
+        ctx.moveTo(Number(x) + Number(w), y);
+        ctx.lineTo(Number(x) + Number(w), Number(y) + Number(h / 6));
+        ctx.closePath();
+
+        ctx.moveTo(Number(x), Number(y) + Number(h));
+        ctx.lineTo(Number(x), Number(y) + Number(h) - Number(h / 6));
+        ctx.closePath();
+
+        ctx.moveTo(Number(x), Number(y) + Number(h));
+        ctx.lineTo(Number(x) + Number(w) / 6, Number(y) + Number(h));
+
+        ctx.moveTo(Number(x) + Number(w), Number(y) + Number(h));
+        ctx.lineTo(Number(x) + Number(w) - (w / 6), Number(y) + Number(h));
+
+        ctx.moveTo(Number(x) + Number(w), Number(y) + Number(h));
+        ctx.lineTo(Number(x) + Number(w), Number(y) + Number(h) - Number(h / 6));
+        ctx.closePath();
+        ctx.stroke();
+    }
+
+    // 绘制图片 图片内容，起点xy，图片宽高（手持贴图）  
+    function drawImage(png, x, y, w, h) {
+        x *= iosScale;
+        y *= iosScale;
+        w *= iosScale;
+        h *= iosScale;
+
+        ctx.beginPath();
+        var img = new Image();
+        img.src = png;
+        // 图片加载完成后  
+        img.onload = function () {
+            ctx.drawImage(img, x, y, w, h);
+        }
+        ctx.closePath();
+    }
+
+    // 绘制矩形 起点xy，矩形宽高，颜色，透明度，是否填充矩形（队标、名字背景）  
+    function drawRectangle(x, y, w, h, color, transparency, isFill = true) {
+        x *= iosScale;
+        y *= iosScale;
+        w *= iosScale;
+        h *= iosScale;
+
+        ctx.beginPath();
+        ctx.fillStyle = color;
+        ctx.globalAlpha = transparency;
+        ctx.fillRect(x, y, w, h,);
+        ctx.closePath();
+    }
+
+    // 绘制线条，起始点xy，终点xy，颜色（雷达线条、射线、3D框线条）  
+    function drawLine(x1, y1, x2, y2, color, lineWidth) {
+        x1 *= iosScale;
+        y1 *= iosScale;
+        x2 *= iosScale;
+        y2 *= iosScale;
+
+        ctx.beginPath();
+        ctx.lineWidth = lineWidth;
+        ctx.fillStyle = color;
+        ctx.strokeStyle = color;
+        ctx.moveTo(x1, y1);
+        ctx.lineTo(x2, y2);
+        ctx.stroke();
+        ctx.closePath();
+    }
+
+    // 绘制圆形 起点xy，圆形弧度，大小，颜色，线宽，是否填充（简洁风格血条、雷达、背敌）  
+    function drawCircular(x, y, num, size, color, lineWidth, isFill = true) {
+        x *= iosScale;
+        y *= iosScale;
+        size *= iosScale;
+
+        if (num === 100) num = 1;
+        else if (num > 0) num = 1 - num / 100;
+        const d2a = n => n * Math.PI / 180;
+
+        ctx.beginPath();
+        ctx.lineWidth = lineWidth;
+        ctx.arc(x, y, size, d2a(num * 360 - 90), d2a(-90), false);
+        if (isFill) {
+            ctx.fillStyle = color;
+            ctx.fill();
+        } else {
+            ctx.strokeStyle = color;
+            ctx.stroke();
+        }
+        ctx.closePath();
+    }
+
+    // 绘制矩形 起点xy，矩形宽高，颜色，是否填充矩形 (方框)  
+    function drawRect(x, y, w, h, color, isFill = true) {
+        x *= iosScale;
+        y *= iosScale;
+        w *= iosScale;
+        h *= iosScale;
+
+        ctx.beginPath();
+        ctx.lineWidth = app.xian;
+        ctx.strokeStyle = color;
+        ctx.fillStyle = color;
+        ctx.globalAlpha = 1;
+        if (isFill) {
+            ctx.fillRect(x, y, w, h);
+        } else {
+            ctx.strokeRect(x, y, w, h);
+        }
+        ctx.closePath();
+    }
+
+
+    // ================  绘矩形框  ================ 
+    function drawJxk(x, y, w, h, color, isFill = true) {
+        x *= iosScale;
+        y *= iosScale;
+        w *= iosScale;
+        h *= iosScale;
+
+        ctx.lineWidth = app.xian; //方框线条宽度 
+        ctx.beginPath();
+        ctx.strokeStyle = color; //方框颜色 
+        ctx.fillStyle = color;
+        ctx.globalAlpha = 1; //方框线条清晰度       
+        if (isFill) {
+            ctx.fillRect(x, y, w, h);
+        } else {
+            ctx.strokeRect(x, y, w, h);
+        }
+        ctx.closePath();
+    }
+
+    // 绘制圆角矩形，起点xy，矩形宽高，圆角半径，颜色，是否填充矩形 （填充形） 
+    function drawRoundRect(x, y, w, h, r, color, isFill = true) {
+        x *= iosScale;
+        y *= iosScale;
+        w *= iosScale;
+        h *= iosScale;
+        r *= iosScale;
+
+        ctx.beginPath();
+        ctx.strokeStyle = color;
+        ctx.fillStyle = color;
+        ctx.globalAlpha = 1;
+        if (w < 2 * r) r = w / 2;
+        if (h < 2 * r) r = h / 2;
+        ctx.beginPath();
+        ctx.moveTo(x + r, y);
+        ctx.arcTo(x + w, y, x + w, y + h, r);
+        ctx.arcTo(x + w, y + h, x, y + h, r);
+        ctx.arcTo(x, y + h, x, y, r);
+        ctx.arcTo(x, y, x + w, y, r);
+        if (isFill) {
+            ctx.fill();
+        } else {
+            ctx.stroke();
+        }
+        ctx.closePath();
+    }
+
+
+    // 绘制文字，文字内容，起点xy，文字大小，文字对齐，颜色，是否填充文字  
+    function drawText(text, x, y, size, color, textAlign, isFill = true) {
+        x *= iosScale;
+        y *= iosScale;
+        size *= iosScale;
+
+        ctx.beginPath();
+        ctx.globalAlpha = 0; //透明度  
+        ctx.textAlign = textAlign; //文字对齐  
+        ctx.fillStyle = color;
+        ctx.strokeStyle = color;
+        ctx.font = size + 'px' + fontFamily;
+        if (isFill) {
+            ctx.fillText(text, x, y + size);
+        } else {
+            ctx.strokeText(text, x, y + size);
+        }
+        ctx.closePath();
+    };
+
+
+    // 利用空心文字描边 
+    function DrawStrokeText(text, x, y, color, textAlign, size) {
+        x *= iosScale;
+        y *= iosScale;
+        ctx.font = size + 'px' + fontFamily;
+        ctx.textAlign = textAlign;
+        ctx.strokeStyle = color;
+        ctx.beginPath();
+        ctx.strokeText(text, x, y);
+        ctx.closePath();
+    }
+
+
+    // 绘制圆点 
+    function drawCircle(x, y, r, color, isFill = true) {
+        x *= iosScale;
+        y *= iosScale;
+        r *= iosScale;
+
+        ctx.beginPath();
+        ctx.strokeStyle = color;
+        ctx.fillStyle = color;
+        ctx.arc(x, y, r, 0, 2 * Math.PI);
+        if (isFill) {
+            ctx.fill();
+        } else {
+            ctx.stroke();
+        }
+
+        ctx.closePath();
+
+    }
+
+
+    // ********************* 内存相关 *********************  
+    function readInt(addr) {
+        return Number(h5gg.getValue(addr, "I32"));
+    }
+
+    function readLong(addr) {
+        return Number(h5gg.getValue(addr, "I64"));
+    }
+
+    function readFloat(addr) {
+        return Number(h5gg.getValue(addr, "F32"));
+    }
+
+    function isNull(addr) {
+        return (addr < 0x100000000 || addr > 0x300000000);
+    }
+
+
+    //********销毁Iframe标签********* 
+
+    function clearIframe(id) {
+        var el = document.getElementById(id),
+            iframe = el.contentWindow;
+        if (el) {
+            el.src = 'about:blank';
+            try {
+                iframe.document.write('');
+                iframe.document.clear();
+            } catch (e) { };
+            // 以上可以清除大部分的内存和文档节点记录数了 
+            // 最后删除掉这个 iframe 就哦咧。 
+            document.body.removeChild(el);
+        }
+    }
+    clearIframe('GetGame');
+
+    //********销毁Iframe标签********* 
+
+
+cacheTimer = setInterval(function() {
+			
+		}, 1000); //一秒缓存一次
+
+		drawTimer = setInterval(function() {
+			if (app.checkboxList.isDraw == '1') {
+				//console.log("1");
+				shadowDraw();
+
+				//计算FPS
+				if (!window.fpscount) window.fpscount = 0;
+				if (!window.fpstime) window.fpstime = performance.now();
+				window.fpscount++;
+				if ((performance.now() - window.fpstime) > 2000) {
+					window.fps = window.fpscount;
+					window.fpstime = performance.now();
+					window.fpscount = 0;
+				}
+				ctx.textBaseline = "top";
+				ctx.textAlign = "center";
+				ctx.font = '40px "Arial, sans-serif"';
+				ctx.fillStyle = "aqua";
+
+				if (window.fps) ctx.fillText("FPS: " + window.fps, 150, 50);
+			} else {
+				clearCtx();
+			}
+		}, app.fps);
+        
+
+        
+</script>
+
+
+</html>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
