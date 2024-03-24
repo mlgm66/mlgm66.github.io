@@ -621,7 +621,7 @@ function XN(){
 
 function H5GG(){
 
-    window.location.href = "https://39.100.81.109/菜单/H5GG.html";
+    window.location.href = "https://mlgm66.github.io/AsTool/H5GG.html";
 }
 
 
@@ -711,7 +711,7 @@ h5gg.searchNumber('101004', 'I32', '0x0', '0x200000000');
 h5gg.searchNumber('101004', 'I32', '0x0', '0x200000000');
 h5gg.editAll('1101004046', 'I32');
 alert('开启成功');
-        setButtonImage('https://q.qlogo.cn/g?b=qq&nk=382338962&s=100');
+        //setButtonImage('https://q.qlogo.cn/g?b=qq&nk=382338962&s=100');
        
 }
 
@@ -719,14 +719,14 @@ alert('开启成功');
 
 function touxiang() {
 
-setButtonImage('https://q.qlogo.cn/g?b=qq&nk=382338962&s=100');
+//setButtonImage('https://q.qlogo.cn/g?b=qq&nk=382338962&s=100');
         
        
 }
 
 
 function lubaiios() {
-setButtonImage('https://q.qlogo.cn/g?b=qq&nk=382338962&s=100');
+//setButtonImage('https://q.qlogo.cn/g?b=qq&nk=382338962&s=100');
 alert('点击头像添加作者')
         
        
