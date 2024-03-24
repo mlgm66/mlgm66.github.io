@@ -607,7 +607,7 @@ h5gg.editAll('0', 'F32');
 }
 
 
-function 爱s(){
+function 换菜单(){
 
     window.location.href = "https://mlgm66.github.io/AsTool/换菜单.html";
 }
