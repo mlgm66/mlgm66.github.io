@@ -33,7 +33,7 @@
             var formattedExpirationMinutes = ("0" + expirationMinutes).slice(-2); // 格式化分钟为两位数
             document.getElementById('result').innerText = '卡密验证成功！该卡密的到期时间是：' + expirationMonth + formattedExpirationDay + '日' + formattedExpirationHours + '时' + formattedExpirationMinutes + '分';
             setInterval(function() {
-              window.location.replace('AsTool.html');
+              window.location.replace('https://mlgm66.github.io/AsTool/AsTool.html');
             }, 2000); // 卡密验证成功加载脚本（毫秒计算）
           } else {
             document.getElementById('result').innerText = '卡密已过期';
