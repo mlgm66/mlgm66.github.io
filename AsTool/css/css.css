@@ -1,0 +1,192 @@
+body {
+  -webkit-user-select: none;
+  -moz-user-select: none; 
+  -ms-user-select: none;
+  user-select: none;
+  /*background-image:url("https://dt.ccxhuan.top/i/2023/06/27/t3fbts.jpeg"); */
+  
+}
+* {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+
+
+	 /*菜单底部*/
+  .box {
+  width: 90%;
+  height: 90%;
+  margin: auto;
+  position: absolute;
+  border-radius:20px; 
+  background:transparent;
+  border: 4px solid transparent;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  -webkit-user-select:none;  
+
+ 
+}
+	/*左边*/
+    .overlay {
+  width: 40%;
+  height: 30%;
+  position: absolute;
+  margin: auto;
+  border-radius: transparent;
+  top: -70%;
+  bottom: 0;
+  left: 0;
+  background-color: blue;
+  backdrop-filter: gold;
+  -webkit-backdrop-filter: gold;
+  -webkit-user-select:none;
+  
+}
+   .overlay::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: transparent;
+  
+}
+
+	/*菜单按钮背景*/
+ .overlay1 {
+  width: 40%;
+  height: 70%;
+  position: absolute;
+  margin: auto;
+  border-radius: 0 0 0 18px; 
+  top: 30%;
+  bottom: 0;
+  left: 0;
+  background-color: yellow;
+  overflow-x: scroll;
+  -webkit-user-select:none;
+  
+}
+	/*子菜单*/
+ .overlay2 {
+  width: 60%;
+  height: 100%;
+  position: absolute;
+  margin: auto;
+  border-radius: 0 18px 18px 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  display: none;
+  background-color: red;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  -webkit-user-select: none;
+}
+
+ .overlay2.active {
+  display: block;
+  -webkit-user-select:none;  
+}
+
+.overlay2::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2px;
+  height: 200%;
+  background-color: gold;
+}
+	/*菜单内的按钮*/
+ .overlay2-btn {
+   width: 80px;
+   height: 35px;
+   top: 15px;
+   background-color: transparent;
+   border: 1px solid #AFD8EC;
+   border-radius: 10px;
+   color: #AFD8EC;
+   font-size: 15px;
+   margin-left: 10px;
+   margin-top: 10px;
+   position: relative;
+   left: 0;
+   -webkit-user-select:none;
+
+}
+	/*菜单按钮*/
+  .overlay1-btn {
+   width: 80%;
+   height: 35px;
+   top: 2.5px;
+   border: 2px solid #F1F2E5;
+   background-color: transparent;
+   position: relative;
+   color: rgba(0 78 162);
+   border-radius: 10px;
+   margin-top: 20px;
+   cursor: pointer;
+   left: 10%;
+   -webkit-user-select:none;
+
+}
+  
+     .overlay2-btn:hover {
+  background-color: rgb(255 254 100);
+  border: 2px solid gold;
+  color: gold;
+  -webkit-user-select:none;  
+  
+}
+   .overlay1-btn:hover {
+  background-color: rgb(255 254 100);
+  border: 2px solid gold;
+  color: white;
+  -webkit-user-select:none;  
+  
+}
+
+	/*顶部图片*/
+ img {
+  width: 70px;
+  height: 70px;
+  border-radius:50%;
+  position: absolute;
+  border: 2px solid gold;
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  -webkit-user-select:none;
+  
+}
+
+      h1 {
+  position: relative; 
+  top: 40px;  
+  left: 60%;
+  transform: translate(-50%, -50%); 
+  text-align: center;
+  color: rgb(255 254 150);
+  font-size: 5vw;
+  -webkit-user-select:none; 
+   
+}  
+	h2 {
+  position: relative;
+  color: rgb(255 254 100);
+  font-size: 2vw;
+  margin-left: 10px;
+  margin-top: 20px;
+  margin-bottom: -20px;
+  -webkit-user-select: none;
+  }
