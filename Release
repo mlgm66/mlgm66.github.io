@@ -3,6 +3,6 @@ Label: H5GG
 Suite: stable
 Version: 3
 Codename: ios
-Architectures: iphoneos-arm iphoneos-arm64
+Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
 Components: main
 Description: This is H5GG's repository
