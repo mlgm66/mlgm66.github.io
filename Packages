@@ -1,0 +1,698 @@
+Package: com.mlgm.kayoko
+Version: 4.4
+Architecture: iphoneos-arm64
+Maintainer: mlgm
+Installed-Size: 3136
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Filename: ./debs/rootless/com.mlgm.kayoko_4.4_iphoneos-arm64.deb
+Size: 661614
+MD5sum: 6c3b135711e19efdba63e4c830b0786b
+SHA1: 3dd02bf23e2ba85ed88469b2e0737dc31da3456b
+SHA256: dc9983efd5b2d144f36134c9671a80b3cc6b2edb508365c8c130efd123315fa5
+Section: Tweaks
+Description: Kayoko剪切板，基于「乌龙工作室」版进行修改
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/kayoko.png
+Name: Kayoko
+
+Package: com.mlgm.kayoko
+Version: 4.4
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Filename: ./debs/roothide/com.mlgm.kayoko_4.4_iphoneos-arm64e.deb
+Size: 928072
+MD5sum: 08839bbed57d7b47b57d86aeaee905ec
+SHA1: 64a5a72b6a9c05204b5e9a78a617f30c11d376f8
+SHA256: 2f95513d220256666f951619b131a568c0f7851a173b91b589959889faf1c953
+Section: Tweaks
+Description: Kayoko剪切板，基于「乌龙工作室」版进行修改
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/kayoko.png
+Name: Kayoko
+
+Package: com.mlgm.kayoko
+Version: 4.4
+Architecture: iphoneos-arm
+Maintainer: mlgm
+Installed-Size: 3136
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Filename: ./debs/rootful/com.mlgm.kayoko_4.4_iphoneos-arm.deb
+Size: 662756
+MD5sum: 68a3ba86c1fa4d889b3a7efed8d19ba9
+SHA1: 4a76343fda0c42c2eda165bbb8fc1cbcba045ed8
+SHA256: 10e2e9399f855c1088710e4b4b1c6965b80a7c185c9255af7f58cfdf33d455c5
+Section: Tweaks
+Description: Kayoko剪切板，基于「乌龙工作室」版进行修改
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/kayoko.png
+Name: Kayoko
+
+Package: com.mlgm.kayoko
+Version: 4.4.1
+Architecture: iphoneos-arm64
+Maintainer: mlgm
+Installed-Size: 3136
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Filename: ./debs/rootless/com.mlgm.kayoko_4.4.1_iphoneos-arm64.deb
+Size: 660734
+MD5sum: 0ed40dc96e47d32c081e08de207d09dc
+SHA1: 98fdc3979d92567dbe31353309042a894aa43cd4
+SHA256: bc76ab99ff79a919bb8543becfddf2b9ab22986256ddf8ece38d4ffd9adcb37e
+Section: Tweaks
+Description: Kayoko剪切板，基于「乌龙工作室」版进行修改
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/kayoko.png
+Name: Kayoko
+
+Package: com.mlgm.kayoko
+Version: 4.4.1
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Filename: ./debs/roothide/com.mlgm.kayoko_4.4.1_iphoneos-arm64e.deb
+Size: 931308
+MD5sum: a78a22d93a6ac9020851cb7d91ff2540
+SHA1: 4c6bb8cb821769fb6f5e8d1d2e32bf980ce767c7
+SHA256: 7c9f771c4b92f22639dec37b8e010ed5613e95b40b53e820db5824e612e8b4c7
+Section: Tweaks
+Description: Kayoko剪切板，基于「乌龙工作室」版进行修改
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/kayoko.png
+Name: Kayoko
+
+Package: com.mlgm.kayoko
+Version: 4.4.1
+Architecture: iphoneos-arm
+Maintainer: mlgm
+Installed-Size: 3136
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Filename: ./debs/rootful/com.mlgm.kayoko_4.4.1_iphoneos-arm.deb
+Size: 663050
+MD5sum: 55ce69529b1106cf5e89020873efe478
+SHA1: d8e1e84fe3a3c0a702b824a3fed2efce1c004a26
+SHA256: 796fa6b2d890e7259ec12b40594eb3c3d94dc5f838325b9c98d5a75cdadbc0f6
+Section: Tweaks
+Description: Kayoko剪切板，基于「乌龙工作室」版进行修改
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/kayoko.png
+Name: Kayoko
+
+Package: com.mlgm.kayoko
+Version: 4.5
+Architecture: iphoneos-arm64
+Maintainer: mlgm
+Installed-Size: 3136
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Filename: ./debs/rootless/com.mlgm.kayoko_4.5_iphoneos-arm64.deb
+Size: 666240
+MD5sum: fa043c0e6c27eb7bc892aa259db865cf
+SHA1: eb5d69f7cbb15987b52f27c19e09679bf31fd54b
+SHA256: a08551910b4d5ad22c840265fb37df7a9764077f1f7e0a6915e917631ad97be3
+Section: Tweaks
+Description: Kayoko剪切板，基于「乌龙工作室」版进行修改
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/kayoko.png
+Name: Kayoko
+
+Package: com.mlgm.kayoko
+Version: 4.5
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Installed-Size: 3136
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Filename: ./debs/roothide/com.mlgm.kayoko_4.5_iphoneos-arm64e.deb
+Size: 655568
+MD5sum: b146bc8c83435142fad91aac68bbc7a7
+SHA1: b44a934347385c9dcadaed8186a632337e096426
+SHA256: 0a5536ad645c64a4347af03c1bfca5af0e3d3e01d4c471bababa5ef0858bb3c1
+Section: Tweaks
+Description: Kayoko剪切板，基于「乌龙工作室」版进行修改
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/kayoko.png
+Name: Kayoko
+
+Package: com.mlgm.kayoko
+Version: 4.5
+Architecture: iphoneos-arm
+Maintainer: mlgm
+Installed-Size: 3136
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Filename: ./debs/rootful/com.mlgm.kayoko_4.5_iphoneos-arm.deb
+Size: 667056
+MD5sum: c8612d7fec546be98d3699039a813e93
+SHA1: 97da533f9575dc0bf7248ed87e73ef7e1d8d20ad
+SHA256: a8167e050162ad6c832411882af3ad8a9ea4aa251a125734006f12c9498962e8
+Section: Tweaks
+Description: Kayoko剪切板，基于「乌龙工作室」版进行修改
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/kayoko.png
+Name: Kayoko
+
+Package: com.mlgm.kayoko
+Version: 4.6
+Architecture: iphoneos-arm64
+Maintainer: mlgm
+Installed-Size: 3156
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Filename: ./debs/rootless/com.mlgm.kayoko_4.6_iphoneos-arm64.deb
+Size: 672266
+MD5sum: a2fe77996ef37d3c6847399ffb237c3a
+SHA1: 195f1d45ab158f454a21f2d61426283fd7a151d2
+SHA256: f49c1b4e1bd356a77d8d907d97b73cdf759abf3f5f8b9322279ac92ea44ba0dc
+Section: Tweaks
+Description: Kayoko剪切板，基于「乌龙工作室」版进行修改
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/kayoko.png
+Name: Kayoko
+
+Package: com.mlgm.kayoko
+Version: 4.6
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Installed-Size: 3156
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Filename: ./debs/roothide/com.mlgm.kayoko_4.6_iphoneos-arm64e.deb
+Size: 670996
+MD5sum: fe216b5a4d8d8f384240e73899688729
+SHA1: c6426fc245eaf64820dfd59ee07af3aa3c73eccf
+SHA256: 5474b972802fa90522db66f744e6296c9cc39606dce4c3f35c6becf1f3b038ee
+Section: Tweaks
+Description: Kayoko剪切板，基于「乌龙工作室」版进行修改
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/kayoko.png
+Name: Kayoko
+
+Package: com.mlgm.kayoko
+Version: 4.6
+Architecture: iphoneos-arm
+Maintainer: mlgm
+Installed-Size: 3156
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Filename: ./debs/rootful/com.mlgm.kayoko_4.6_iphoneos-arm.deb
+Size: 673140
+MD5sum: 60b12380acb80fd992e17bf5cda2903a
+SHA1: 4cdbbb57396a2f7ccac3ba16926d84bc8c364f84
+SHA256: b0ab70babda6ee3ba860cfcc5b568f51481534ffe5916d453bfd3b86c7ef390e
+Section: Tweaks
+Description: Kayoko剪切板，基于「乌龙工作室」版进行修改
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/kayoko.png
+Name: Kayoko
+
+Package: com.mlgm.kayoko
+Version: 4.7.1
+Architecture: iphoneos-arm64
+Maintainer: mlgm
+Installed-Size: 3172
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Filename: ./debs/rootless/com.mlgm.kayoko_4.7.1_iphoneos-arm64.deb
+Size: 667082
+MD5sum: 56e942f4254bd635b4328d693e2d84f3
+SHA1: 05b1fcbaf783e1af4e57af55a020c4d2b08c4283
+SHA256: b18bdfefb95a1cb9c4fc435f69f30a561dda57df8c024c9153fc6526077a000f
+Section: Tweaks
+Description: Kayoko 剪切板，mlgm 基于「乌龙工作室」版进行二次修改
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/kayoko.png
+Name: Kayoko
+
+Package: com.mlgm.kayoko
+Version: 4.7.1
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Installed-Size: 3140
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Filename: ./debs/roothide/com.mlgm.kayoko_4.7.1_iphoneos-arm64e.deb
+Size: 669038
+MD5sum: e7f27cdd7db9a70ec6f834b8610b657c
+SHA1: b7d8f0573f045c82d60ccdc15314f83bcaa6efe8
+SHA256: 8bfd690b06a532b3c6e289af79e9813b5fb6542b98b98bdcb86095f3ba7c1b32
+Section: Tweaks
+Description: Kayoko 剪切板，mlgm 基于「乌龙工作室」版进行二次修改
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/kayoko.png
+Name: Kayoko
+
+Package: com.mlgm.kayoko
+Version: 4.7.1
+Architecture: iphoneos-arm
+Maintainer: mlgm
+Installed-Size: 3172
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Filename: ./debs/rootful/com.mlgm.kayoko_4.7.1_iphoneos-arm.deb
+Size: 671320
+MD5sum: 74a3e83266c1b869c09b19f9136a9e6b
+SHA1: 506aea3ed01a82a10dc582668b0ef4e19403cc2f
+SHA256: 19e30f8b488b2dd194fa232a755b1d90657bf0a9294ed05b1fef692d358c9795
+Section: Tweaks
+Description: Kayoko 剪切板，mlgm 基于「乌龙工作室」版进行二次修改
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/kayoko.png
+Name: Kayoko
+
+Package: com.mlgm.pulloverx
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: mlgm
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Filename: ./debs/rootless/com.mlgm.pulloverx_1.0.0_iphoneos-arm64.deb
+Size: 215120
+MD5sum: 4cdf224ede9a81f4914ec04fc79d858b
+SHA1: 40c0b46e8df3424c0190210796b44edfcc0d136c
+SHA256: 6c40974b09581dda50807278710178114e7870dc10ddd20d7da21bd6cd8c2512
+Section: Tweaks
+Priority: optional
+Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
+Author: mlgm
+Dev: mlgm
+Icon: https://mlgm66.github.io/icon/pullover.png
+Name: PullOver X
+
+Package: com.mlgm.pulloverx
+Version: 1.0.0
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Filename: ./debs/roothide/com.mlgm.pulloverx_1.0.0_iphoneos-arm64e.deb
+Size: 215254
+MD5sum: 888c5f37b7745e56fb26ab2be584fb02
+SHA1: b33d90e6d72953a84a6f9e79f4b713f7ff796011
+SHA256: 69e9a0a527c2c75eef8d3f60bcf863754c2f014289e2dd8da3dad1c9629fcba1
+Section: Tweaks
+Priority: optional
+Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
+Author: mlgm
+Dev: mlgm
+Icon: https://mlgm66.github.io/icon/pullover.png
+Name: PullOver X
+
+Package: com.mlgm.pulloverx
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: mlgm
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Filename: ./debs/rootful/com.mlgm.pulloverx_1.0.0_iphoneos-arm.deb
+Size: 141020
+MD5sum: 36771bf0f57298fa1ddf24e0ad2673b4
+SHA1: 97eb13e7878a24a8f05e90d6cd18af99a9e00240
+SHA256: 4f122cf8ee9a2f3f563f83538fcd1916516b380d2f71ed62f13ec2a01593cd83
+Section: Tweaks
+Priority: optional
+Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
+Author: mlgm
+Dev: mlgm
+Icon: https://mlgm66.github.io/icon/pullover.png
+Name: PullOver X
+
+Package: com.mlgm.pulloverx
+Version: 1.1
+Architecture: iphoneos-arm64
+Maintainer: mlgm
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Filename: ./debs/rootless/com.mlgm.pulloverx_1.1_iphoneos-arm64.deb
+Size: 215460
+MD5sum: d62c482f66b1afe8712ef5e1c6319703
+SHA1: 44fecdb90d5dd751ef06f289a8e52d8b50eb741c
+SHA256: 7fcc2a6a0c05f5fa4f911941e12fac19b03e1b67fa67c15742b7454d0eeea5b1
+Section: Tweaks
+Priority: optional
+Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
+Author: mlgm
+Dev: mlgm
+Icon: https://mlgm66.github.io/icon/pullover.png
+Name: PullOver X
+
+Package: com.mlgm.pulloverx
+Version: 1.1
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Filename: ./debs/roothide/com.mlgm.pulloverx_1.1_iphoneos-arm64e.deb
+Size: 215598
+MD5sum: 6bb7abedbb9bc71d7cf0b036d50eff8a
+SHA1: 9d53a11c627c56478bbc0d4863fb82500401bdab
+SHA256: 9e4931d7ad224ace586750bcc6c74403003f33776e02e5fcae6761eb3af6a338
+Section: Tweaks
+Priority: optional
+Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
+Author: mlgm
+Dev: mlgm
+Icon: https://mlgm66.github.io/icon/pullover.png
+Name: PullOver X
+
+Package: com.mlgm.pulloverx
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: mlgm
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Filename: ./debs/rootful/com.mlgm.pulloverx_1.1_iphoneos-arm.deb
+Size: 141240
+MD5sum: 2d1299537f1af068697d0e4934c975fa
+SHA1: 6dfb610712ff97ac863944a2699b94c0fb674e7e
+SHA256: c2284b26b14d3b96e97893f39a7e24a4866bd97b024877169f143cd87d443686
+Section: Tweaks
+Priority: optional
+Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
+Author: mlgm
+Dev: mlgm
+Icon: https://mlgm66.github.io/icon/pullover.png
+Name: PullOver X
+
+Package: com.mlgm.pulloverx
+Version: 1.2.2
+Architecture: iphoneos-arm64
+Maintainer: mlgm
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Filename: ./debs/rootless/com.mlgm.pulloverx_1.2.2_iphoneos-arm64.deb
+Size: 256186
+MD5sum: 694707193dccd15333c9c4bc7cec88f8
+SHA1: e6a75b6521755cfbcdc5d10852ae9b7d090be4ec
+SHA256: a7827a5bd3598681440a65d6661b06ae9d6381fd6a3adc282b12cf041f17fa22
+Section: Tweaks
+Priority: optional
+Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
+Author: mlgm
+Dev: mlgm
+Icon: https://mlgm66.github.io/icon/pullover.png
+Name: PullOver X
+
+Package: com.mlgm.pulloverx
+Version: 1.2.2
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Filename: ./debs/roothide/com.mlgm.pulloverx_1.2.2_iphoneos-arm64e.deb
+Size: 253174
+MD5sum: f54201723dc70196b3565ed19dc82a2f
+SHA1: 3e8ac82a64950955e6c9dc0d826a8981d64bc070
+SHA256: 06c6e05e62e9645b0c9253d2de9f8541c6c30a6a8dc5c965b33452144f74150d
+Section: Tweaks
+Priority: optional
+Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
+Author: mlgm
+Dev: mlgm
+Icon: https://mlgm66.github.io/icon/pullover.png
+Name: PullOver X
+
+Package: com.mlgm.pulloverx
+Version: 1.2.2
+Architecture: iphoneos-arm
+Maintainer: mlgm
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Filename: ./debs/rootful/com.mlgm.pulloverx_1.2.2_iphoneos-arm.deb
+Size: 165128
+MD5sum: 3007407123cfc19db5af2f3cf65617f6
+SHA1: 33c2253eb2dcbadae8a412df04bf5675de80743d
+SHA256: d98267aeff1bf79ed4cd5eee512499633e455b8712e621e03d6b964391600314
+Section: Tweaks
+Priority: optional
+Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
+Author: mlgm
+Dev: mlgm
+Icon: https://mlgm66.github.io/icon/pullover.png
+Name: PullOver X
+
+Package: com.shadow.h5gg.plugin.hideview
+Version: 1
+Architecture: iphoneos-arm64
+Maintainer: Shadow-
+Depends: mobilesubstrate
+Filename: ./debs/rootless/hideview-rootless.deb
+Size: 6492
+MD5sum: fb3924fa120d79284074f82fdeb2c492
+SHA1: 8a01ad39d36595714ef52d93dbf5cfd8842e6968
+SHA256: 90067a31a600d3788aed16ade613fc9dd79a62f97989b4743b62a6db098f7dda
+Section: Tweaks
+Description: H5GG过直播
+Author: Shadow-
+Name: H5GG过直播插件
+
+Package: com.shadow.h5gg.plugin.hideview
+Version: 1
+Architecture: iphoneos-arm
+Maintainer: Shadow-
+Depends: mobilesubstrate
+Filename: ./debs/rootful/hideview.deb
+Size: 6520
+MD5sum: 97a33ac6702e2ed9b31d80877ffdc396
+SHA1: bc4cba7dd0761051cf6d0321f22d786abde6e14d
+SHA256: e59ae626c5577ba4abfde80f7d93efc5215ab5a1a6b3c922e318431f6c787f5c
+Section: Tweaks
+Description: H5GG过直播
+Author: Shadow-
+Name: H5GG过直播插件
+
+Package: com.shadow.h5ggapp
+Version: 7.9
+Architecture: iphoneos-arm
+Maintainer: Shadow-
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: ./debs/rootful/H5GG79.deb
+Size: 1764636
+MD5sum: b06a04b2301a2ddd2865d1c7ded30f27
+SHA1: 702e1d5dde7db8f700c73cdba3acffe0dec8950a
+SHA256: f7d6500deb185f9adba2e2ed2df5c92b0bdfffe622ca40d1a6081a56cbcb9ab5
+Section: Utilities
+Priority: optional
+Description: H5GG跨进程悬浮版(该版本不支持iPad的原生分屏浮动, 如有需要可使用H5GG跨进程普通版) Discord https://discord.gg/h5gg
+Author: tuancc
+Icon: https://mlgm66.github.io/icon/h5gg.png
+Name: H5GG跨进程悬浮版
+
+Package: com.shadow.h5ggapp.rootless
+Version: 7.9
+Architecture: iphoneos-arm64
+Maintainer: H5GG
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: ./debs/rootless/H5GG-Rootless.deb
+Size: 2069296
+MD5sum: 2181ca832e6aef65f177b0b2765f8390
+SHA1: b2278c8acfdc096c52d95d7d02db1fdaadec4977
+SHA256: 0fce7f66cacd87ac0daa9941923ba833c855a15bfb2e3b54ee96f43296d63306
+Section: Utilities
+Priority: optional
+Description: H5GG跨进程iOS15专用悬浮版(该版本不支持iPad的原生分屏浮动, 如有需要可使用H5GG跨进程普通版), Credits: BawAppie and Akusio, Discord https://discord.gg/h5gg
+Author: H5GG
+Icon: https://mlgm66.github.io/icon/h5gg.png
+Name: H5GG跨进程悬浮版(iOS15)-Rootless
+
+Package: com.summit.h5ggapp
+Version: 0
+Architecture: iphoneos-arm
+Maintainer: Summit
+Installed-Size: 784
+Depends: mobilesubstrate
+Filename: ./debs/rootful/H5GG79Random.deb
+Size: 1780400
+MD5sum: 36929771b1578642e5d7d5a7fede0117
+SHA1: 53a4bace6b0a280143b2ceaf8ba8bd8f768ca858
+SHA256: 9d427f5f1118e62e917149950ccd6a6548cc3272677febe801e717c4f1c7a477
+Section: Utilities
+Description: H5GG跨进程悬浮版(随机化) By DBTEC Discord https://discord.gg/h5gg
+Author: Summit
+Icon: https://mlgm66.github.io/icon/h5gg.png
+Name: H5GG跨进程悬浮版(随机化)
+
+Package: com.summit.h5ggapp.roothide.compat
+Version: 7.9.1
+Architecture: iphoneos-arm64e
+Maintainer: H5GG
+Depends: firmware (>= 5.0), mobilesubstrate, rootless-compat
+Filename: ./debs/roothide/H5GG79RootHide_compat.deb
+Size: 2104480
+MD5sum: 19bd2a5f67482cbb12f04ec55f765b09
+SHA1: d061585e15aa04873c22b555550df90053274c0e
+SHA256: df52b64aca183c08a576971d5b3ea7ab7f3c41c81c359638a347de117911b192
+Section: Utilities
+Priority: optional
+Description: H5GG跨进程iOS15+悬浮版(该版本不支持iPad的原生分屏浮动, 如有需要可使用H5GG跨进程普通版), Credits: BawAppie and Akusio, Discord https://discord.gg/h5gg
+Author: H5GG
+Icon: https://mlgm66.github.io/icon/h5gg.png
+Name: H5GG悬浮版(RootHide全版本)
+
+Package: com.summit.h5ggapp.rootless
+Version: 7.9
+Architecture: iphoneos-arm64
+Maintainer: H5GG
+Installed-Size: 800
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: ./debs/rootless/H5GGRandom-Rootless.deb
+Size: 2078168
+MD5sum: 6adbdcc56048891e3ee4948d2d1d3516
+SHA1: bd394d2fba142bc7c322f88ff3579aec11c41345
+SHA256: 4b632e11be8fe4e5a628cf6d91a457b3a3da1673f76efd77bbc9c2d8ae74fe33
+Section: Utilities
+Priority: optional
+Description: H5GG跨进程iOS15专用悬浮版(该版本不支持iPad的原生分屏浮动, 如有需要可使用H5GG跨进程普通版), Credits: BawAppie and Akusio, Discord https://discord.gg/h5gg
+Author: H5GG
+Icon: https://mlgm66.github.io/icon/h5gg.png
+Name: H5GG随机化跨进程悬浮版(iOS15)-Rootless
+
+Package: com.summit.h5ggapp15
+Version: 7.9
+Architecture: iphoneos-arm
+Maintainer: Summit
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: ./debs/rootful/H5GGv7.9(iOS15).deb
+Size: 1784308
+MD5sum: 05995bfcf7fe77d37cc2eb9c7e8866b6
+SHA1: eb5f58b7330ebe27e63703f483535fda550f97ff
+SHA256: 437315f62cf6e85abe9b94a66a9f93af83eae2efa931321e59508564588afac0
+Section: Utilities
+Priority: optional
+Description: H5GG跨进程iOS15专用悬浮版(该版本不支持iPad的原生分屏浮动, 如有需要可使用H5GG跨进程普通版)如打开app闪退请使用Xina越狱工具修复dylib功能 Discord https://discord.gg/h5gg
+Author: Summit
+Icon: https://mlgm66.github.io/icon/h5gg.png
+Name: H5GG跨进程悬浮版(iOS15)
+
+Package: com.vmgg.mlgm
+Version: 2.0.1
+Architecture: iphoneos-arm64
+Maintainer: mlgm
+Installed-Size: 14148
+Depends: firmware (>= 14.0)
+Filename: ./debs/rootless/VMGG_v2.0.1_iphoneos-arm64.deb
+Size: 4915588
+MD5sum: 5ddcc55d0887612ae64b97b2fc9de234
+SHA1: 0665cd36dcd8ac8c99d84e0a7f66b6b59d5dd67f
+SHA256: 339026c17637927fac9edcbc4172625cee7d383e6b8a254ffefb2924c4497d68
+Section: Utilities
+Description: 用于iOS的内存分析和调试工具，它是VansonMod + H5GG的结合版
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/vmgg.png
+Name: VMGG
+
+Package: com.vmgg.mlgm
+Version: 2.0.1
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Installed-Size: 14132
+Depends: firmware (>= 14.0), roothide (>= 0.0.1)
+Filename: ./debs/roothide/VMGG_v2.0.1_iphoneos-arm64e.deb
+Size: 4908148
+MD5sum: 2e0388a7031a969a556e602ab083656f
+SHA1: 3d081575e3e6c748a9df60c8ef41d63ed08c4e6b
+SHA256: 6ac44ea4755614e604499c26d96d6e05389a594193c8995b70e135a64970ec31
+Section: Utilities
+Description: 用于iOS的内存分析和调试工具，它是VansonMod + H5GG的结合版
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/vmgg.png
+Name: VMGG
+
+Package: com.vmgg.mlgm
+Version: 2.0.1
+Architecture: iphoneos-arm
+Maintainer: mlgm
+Installed-Size: 14148
+Depends: firmware (>= 14.0)
+Filename: ./debs/rootful/VMGG_v2.0.1_iphoneos-arm.deb
+Size: 4915784
+MD5sum: daf8f6135cb9d846ec008ed59c7010e4
+SHA1: 17e4c1c3efaa8dc9dd794c16e756cb639db3412a
+SHA256: b6db6941d3bc47b13531d4a02cbd03e6241549d65274785728a3d4b962fca2de
+Section: Utilities
+Description: 用于iOS的内存分析和调试工具，它是VansonMod + H5GG的结合版
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/vmgg.png
+Name: VMGG
+
+Package: com.vmgg.mlgm
+Version: 2.0.2
+Architecture: iphoneos-arm64
+Maintainer: mlgm
+Installed-Size: 14152
+Depends: firmware (>= 14.0)
+Filename: ./debs/rootless/VMGG_v2.0.2_iphoneos-arm64.deb
+Size: 4910540
+MD5sum: 26819d42b2b197d3c62a18bd9863a4d5
+SHA1: b174046f7dcf59ad3313431fd5cf103662afff1e
+SHA256: ba16e47874b720da5e7ced639b7ce6dba32da7063a784f8cacdbbdd345f79378
+Section: Utilities
+Description: 用于iOS的内存分析与调试工具，它是VansonMod + H5GG的结合版
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/vmgg.png
+Name: VMGG
+
+Package: com.vmgg.mlgm
+Version: 2.0.2
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Installed-Size: 14152
+Depends: firmware (>= 14.0), roothide (>= 0.0.1)
+Filename: ./debs/roothide/VMGG_v2.0.2_iphoneos-arm64e.deb
+Size: 4915368
+MD5sum: 099762aca4f1b1f331127b626f4c594c
+SHA1: c11aa826c544208e808ed505835722ca4d4ca17b
+SHA256: d3012c3c2c1dbfb8d47fe6d82809043f42776b6962b72f77f7b196aadd4b50d6
+Section: Utilities
+Description: 用于iOS的内存分析与调试工具，它是VansonMod + H5GG的结合版
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/vmgg.png
+Name: VMGG
+
+Package: com.vmgg.mlgm
+Version: 2.0.2
+Architecture: iphoneos-arm
+Maintainer: mlgm
+Installed-Size: 14168
+Depends: firmware (>= 14.0)
+Filename: ./debs/rootful/VMGG_v2.0.2_iphoneos-arm.deb
+Size: 4919896
+MD5sum: b71429451c35ba62511bcf90617e9ae0
+SHA1: d2194fdc2694c1d70a36d959544e9d1b38161731
+SHA256: b8489483a9164da4a86966f8f30176318fa4cc2b00e14d848e21c65b3859e2c6
+Section: Utilities
+Description: 用于iOS的内存分析与调试工具，它是VansonMod + H5GG的结合版
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/vmgg.png
+Name: VMGG
+

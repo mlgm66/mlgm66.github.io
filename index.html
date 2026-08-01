@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#eef2f5">
+    <title>mlgm · 个人源</title>
+    <meta name="description" content="mlgm 的个人源，收录我常用的工具。">
+    <meta property="og:title" content="mlgm · 个人源">
+    <meta property="og:description" content="个人源 · 收录我常用的工具">
+    <meta property="og:image" content="https://mlgm66.github.io/icon.png">
+    <meta property="og:url" content="https://mlgm66.github.io/">
+    <meta property="og:type" content="website">
+    <style>
+        :root {
+            --ink: #18212b;
+            --muted: #7d8995;
+            --line: #e2e7eb;
+            --blue: #6d9eb2;
+            --card: rgba(255, 255, 255, .82);
+        }
+
+        * { box-sizing: border-box; }
+        html { min-height: 100%; }
+        body {
+            min-height: 100vh;
+            margin: 0;
+            display: grid;
+            place-items: center;
+            padding: 28px 16px;
+            color: var(--ink);
+            background: #eef2f5;
+            font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "PingFang SC", "Microsoft YaHei", sans-serif;
+        }
+        a, button { -webkit-tap-highlight-color: transparent; -webkit-appearance: none; }
+        a { color: inherit; text-decoration: none; }
+        button, input { font: inherit; }
+        .page { width: min(100%, 430px); }
+        .card {
+            padding: 36px 28px 25px;
+            border: 1px solid rgba(255,255,255,.9);
+            border-radius: 24px;
+            background: var(--card);
+            box-shadow: 0 22px 60px rgba(64, 82, 96, .12);
+            backdrop-filter: blur(14px);
+        }
+        .profile { text-align: center; }
+        .avatar {
+            width: 88px;
+            height: 88px;
+            margin: 0 auto 16px;
+            border: 4px solid #fff;
+            border-radius: 24px;
+            object-fit: cover;
+            box-shadow: 0 10px 24px rgba(64, 82, 96, .16);
+        }
+        h1 { margin: 0; font-size: 28px; letter-spacing: -.04em; }
+        .bio { margin: 8px 0 28px; color: var(--muted); font-size: 14px; }
+        .label { display: block; margin: 0 0 8px; color: var(--muted); font-size: 12px; text-align: left; }
+        .repo-row { display: flex; gap: 8px; }
+        .repo-input {
+            min-width: 0;
+            flex: 1;
+            height: 44px;
+            padding: 0 12px;
+            border: 1px solid var(--line);
+            border-radius: 10px;
+            color: #52616d;
+            background: rgba(248,250,251,.9);
+            outline: none;
+            font-size: 13px;
+        }
+        .repo-input:focus { border-color: var(--blue); }
+        .button {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 44px;
+            padding: 0 15px;
+            border: 1px solid var(--line);
+            border-radius: 10px;
+            color: #52616d;
+            background: #fff;
+            cursor: pointer;
+            font-size: 13px;
+            transition: border-color .2s ease, transform .2s ease;
+        }
+        .button:hover, .button:focus-visible { border-color: var(--blue); transform: translateY(-1px); }
+        .button-primary { color: #fff; border-color: var(--blue); background: var(--blue); }
+        .installers { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; margin-top: 18px; }
+        .installer {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 5px;
+            padding: 10px 4px 8px;
+            border: 1px solid transparent;
+            border-radius: 11px;
+            color: #667681;
+            font-size: 11px;
+            transition: background .2s ease, border-color .2s ease;
+        }
+        .installer:hover, .installer:focus-visible { border-color: var(--line); background: #fff; }
+        .installer img { width: 27px; height: 27px; object-fit: contain; border: 1px solid #dfe5e9; border-radius: 8px; }
+        .divider { height: 1px; margin: 26px 0 20px; background: var(--line); }
+        .trollstore { margin-top: 24px; }
+        .trollstore-title { display: flex; align-items: center; justify-content: space-between; width: 100%; margin: 0; padding: 13px 14px; border: 1px solid var(--line); border-radius: 12px; color: #64737e; background: rgba(248,250,251,.72); cursor: pointer; font-family: inherit; font-size: 14px; font-weight: 600; text-align: left; appearance: none; }
+        .trollstore-title::after { content: "+"; color: var(--muted); font-size: 20px; font-weight: 400; line-height: 1; }
+        .trollstore.is-open .trollstore-title { border-radius: 12px 12px 0 0; }
+        .trollstore.is-open .trollstore-title::after { content: "−"; }
+        .software-list { max-height: 0; overflow: hidden; margin-top: 0; opacity: 0; transition: max-height .24s cubic-bezier(.2, .8, .2, 1), opacity .16s ease; }
+        .software-list-inner { overflow: hidden; border: 1px solid var(--line); border-top: 0; border-radius: 0 0 12px 12px; background: rgba(248,250,251,.72); }
+        .trollstore.is-open .software-list { max-height: var(--trollstore-height, 200px); opacity: 1; }
+        .software-item { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 12px 11px 12px 14px; }
+        .software-item + .software-item { border-top: 1px solid var(--line); }
+        .software-name { min-width: 0; color: #52616d; font-size: 13px; }
+        .software-actions { display: flex; flex: 0 0 auto; gap: 7px; }
+        .software-action { display: grid; width: 34px; height: 34px; place-items: center; padding: 0; border: 1px solid var(--line); border-radius: 9px; background: #fff; transition: border-color .2s ease, transform .2s ease; }
+        .software-action:hover, .software-action:focus-visible { border-color: var(--blue); transform: translateY(-1px); }
+        .software-action img { width: 23px; height: 23px; object-fit: contain; }
+        .download-icon { color: var(--blue); font-size: 23px; line-height: 1; }
+        .toast {
+            position: fixed;
+            left: 50%;
+            bottom: 24px;
+            padding: 9px 13px;
+            border-radius: 99px;
+            color: #fff;
+            background: #364650;
+            font-size: 12px;
+            opacity: 0;
+            pointer-events: none;
+            transform: translate(-50%, 10px);
+            transition: opacity .2s ease, transform .2s ease;
+        }
+        .toast.show { opacity: 1; transform: translate(-50%, 0); }
+        @media (max-width: 390px) {
+            .card { padding: 30px 18px 21px; }
+            .repo-row { display: grid; grid-template-columns: 1fr auto; }
+            .repo-input { grid-column: 1 / -1; width: 100%; }
+        }
+    </style>
+</head>
+<body>
+    <main class="page">
+        <section class="card">
+            <div class="profile">
+                <img class="avatar" src="icon.png" alt="mlgm 的头像">
+                <h1>mlgm</h1>
+                <p class="bio">个人源 · 收录我常用的工具</p>
+            </div>
+
+            <label class="label" for="repo-url">源地址</label>
+            <div class="repo-row">
+                <input class="repo-input" id="repo-url" type="text" value="https://mlgm66.github.io/" readonly>
+                <button class="button button-primary" id="copy-repo" type="button">复制</button>
+            </div>
+
+            <div class="installers" aria-label="添加到包管理器">
+                <a class="installer" href="sileo://source/https://mlgm66.github.io/"><img src="icon/sileo.png" alt="">Sileo</a>
+                <a class="installer" href="zbra://sources/add/https://mlgm66.github.io/"><img src="icon/zebra.png" alt="">Zebra</a>
+                <a class="installer" href="cydia://url/https://cydia.saurik.com/api/share#?source=https://mlgm66.github.io/"><img src="icon/cydia.png" alt="">Cydia</a>
+                <a class="installer" href="apt-repo://https://mlgm66.github.io/"><img src="icon/saily.png" alt="">Saily</a>
+            </div>
+
+            <div class="divider"></div>
+            <div class="trollstore">
+                <button class="trollstore-title" id="trollstore-toggle" type="button" aria-expanded="false" aria-controls="trollstore-list">TrollStore <span>3 个软件</span></button>
+                <div class="software-list" id="trollstore-list" aria-label="TrollStore 软件列表" aria-hidden="true">
+                    <div class="software-list-inner">
+                    <div class="software-item">
+                        <div class="software-name">H5GG 7.9 普通版</div>
+                        <div class="software-actions">
+                            <a class="software-action" href="apple-magnifier://install?url=https://mlgm66.github.io/TrollStore/H5GG7.9_TrollStore.tipa" aria-label="通过 TrollStore 安装 H5GG 7.9 普通版" title="通过 TrollStore 安装"><img src="icon/TrollStore.png" alt=""></a>
+                            <a class="software-action download-icon" href="TrollStore/H5GG7.9_TrollStore.tipa" download aria-label="下载 H5GG 7.9 普通版" title="下载">↓</a>
+                        </div>
+                    </div>
+                    <div class="software-item">
+                        <div class="software-name">H5GG 7.9 Pip 版</div>
+                        <div class="software-actions">
+                            <a class="software-action" href="apple-magnifier://install?url=https://mlgm66.github.io/TrollStore/H5GG7.9_TrollStore_Pip.tipa" aria-label="通过 TrollStore 安装 H5GG 7.9 Pip 版" title="通过 TrollStore 安装"><img src="icon/TrollStore.png" alt=""></a>
+                            <a class="software-action download-icon" href="TrollStore/H5GG7.9_TrollStore_Pip.tipa" download aria-label="下载 H5GG 7.9 Pip 版" title="下载">↓</a>
+                        </div>
+                    </div>
+                    <div class="software-item">
+                        <div class="software-name">VMGG 2.0.2</div>
+                        <div class="software-actions">
+                            <a class="software-action" href="apple-magnifier://install?url=https://mlgm66.github.io/TrollStore/VMGG_v2.0.2.tipa" aria-label="通过 TrollStore 安装 VMGG 2.0.2" title="通过 TrollStore 安装"><img src="icon/TrollStore.png" alt=""></a>
+                            <a class="software-action download-icon" href="TrollStore/VMGG_v2.0.2.tipa" download aria-label="下载 VMGG 2.0.2" title="下载">↓</a>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="toast" id="toast" role="status" aria-live="polite">源地址已复制</div>
+    <script>
+        const copyButton = document.getElementById('copy-repo');
+        const repoInput = document.getElementById('repo-url');
+        const toast = document.getElementById('toast');
+        const trollstore = document.querySelector('.trollstore');
+        const trollstoreToggle = document.getElementById('trollstore-toggle');
+        const trollstoreList = document.getElementById('trollstore-list');
+        let toastTimer;
+
+        const updateTrollstoreHeight = () => {
+            trollstoreList.style.setProperty('--trollstore-height', `${trollstoreList.scrollHeight}px`);
+        };
+
+        requestAnimationFrame(updateTrollstoreHeight);
+
+        trollstoreToggle.addEventListener('click', () => {
+            const isOpen = trollstoreToggle.getAttribute('aria-expanded') === 'true';
+            trollstoreToggle.setAttribute('aria-expanded', String(!isOpen));
+            trollstoreList.setAttribute('aria-hidden', String(isOpen));
+            trollstore.classList.toggle('is-open', !isOpen);
+        });
+
+        window.addEventListener('resize', () => {
+            requestAnimationFrame(updateTrollstoreHeight);
+        });
+
+        copyButton.addEventListener('click', async () => {
+            try {
+                await navigator.clipboard.writeText(repoInput.value);
+            } catch (error) {
+                repoInput.select();
+                document.execCommand('copy');
+                repoInput.setSelectionRange(0, 0);
+            }
+            toast.classList.add('show');
+            clearTimeout(toastTimer);
+            toastTimer = setTimeout(() => toast.classList.remove('show'), 1600);
+        });
+    </script>
+</body>
+</html>
