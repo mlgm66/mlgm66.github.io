@@ -281,6 +281,63 @@ Author: mlgm
 Icon: https://mlgm66.github.io/icon/kayoko.png
 Name: Kayoko
 
+Package: com.mlgm.kayoko
+Version: 4.7.2
+Architecture: iphoneos-arm64
+Maintainer: mlgm
+Installed-Size: 3172
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Filename: ./debs/rootless/com.mlgm.kayoko_4.7.2_iphoneos-arm64.deb
+Size: 674822
+MD5sum: d6139b289035c03079e21fd8ec1def79
+SHA1: 4bc12a4d5eb35322a7911fd4f7275929e5b386f3
+SHA256: 6e53200451856ebf3a9c963918763751e3e8204e55a20980569be77947e15d9a
+Section: Tweaks
+Description: 功能丰富的剪切板管理器，基于 Kayoko (乌龙版本) 进行修改
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/kayoko.png
+Name: Kayoko
+
+Package: com.mlgm.kayoko
+Version: 4.7.2
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Installed-Size: 3172
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Filename: ./debs/roothide/com.mlgm.kayoko_4.7.2_iphoneos-arm64e.deb
+Size: 671914
+MD5sum: 052806ca0480e0ec6b2077a08efdaa0c
+SHA1: 9fc3f68ebfcde359cacacb2620e63b63550f006d
+SHA256: 1054bde43052162064488b492bf73c9807ab42aba60d90011e92e3bdc89e4805
+Section: Tweaks
+Description: 功能丰富的剪切板管理器，基于 Kayoko (乌龙版本) 进行修改
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/kayoko.png
+Name: Kayoko
+
+Package: com.mlgm.kayoko
+Version: 4.7.2
+Architecture: iphoneos-arm
+Maintainer: mlgm
+Installed-Size: 3172
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Filename: ./debs/rootful/com.mlgm.kayoko_4.7.2_iphoneos-arm.deb
+Size: 673230
+MD5sum: 32de9ca609fc03ba86064207cfc7a83a
+SHA1: bf4365363891df08eec4207e8d15cd2d4ed0e6f3
+SHA256: 18ac36631fd1bef12a263c3b5ef91554cb2c29b5c8f0de678e0a868277aa058b
+Section: Tweaks
+Description: 功能丰富的剪切板管理器，基于 Kayoko (乌龙版本) 进行修改
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/kayoko.png
+Name: Kayoko
+
 Package: com.mlgm.pulloverx
 Version: 1.0.0
 Architecture: iphoneos-arm64
@@ -513,6 +570,66 @@ Size: 167628
 MD5sum: 0aa6eee4597a2e889620fa1e54af5590
 SHA1: 312c8d1e2603c5b24b1146c5de8626298d956d1d
 SHA256: 9744b1c9f38c637bc9aac793cdb9ffededac6477b498f52d5ddb5df50b908954
+Section: Tweaks
+Priority: optional
+Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
+Author: mlgm
+Dev: mlgm
+Icon: https://mlgm66.github.io/icon/pullover.png
+Name: PullOver X
+
+Package: com.mlgm.pulloverx
+Version: 1.3.1
+Architecture: iphoneos-arm64
+Maintainer: mlgm
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Filename: ./debs/rootless/com.mlgm.pulloverx_1.3.1_iphoneos-arm64.deb
+Size: 263664
+MD5sum: ad89457ca6ff8a3420e184fdcbb084ba
+SHA1: 54095d0049532532208a2094fa64d701db9a3ecf
+SHA256: 0b18998f74ca86cd10e12b2c418547a9ac3f33b08a046e25567d6a8290c5f5db
+Section: Tweaks
+Priority: optional
+Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
+Author: mlgm
+Dev: mlgm
+Icon: https://mlgm66.github.io/icon/pullover.png
+Name: PullOver X
+
+Package: com.mlgm.pulloverx
+Version: 1.3.1
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Filename: ./debs/roothide/com.mlgm.pulloverx_1.3.1_iphoneos-arm64e.deb
+Size: 260440
+MD5sum: 426fae6d5c866016df475c575e0baa74
+SHA1: 5303b07f63deaacb1483404526f85b585edd826a
+SHA256: 357b5ae96215608409bc29822299c444c5d95d90721396b46387875cd280a79a
+Section: Tweaks
+Priority: optional
+Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
+Author: mlgm
+Dev: mlgm
+Icon: https://mlgm66.github.io/icon/pullover.png
+Name: PullOver X
+
+Package: com.mlgm.pulloverx
+Version: 1.3.1
+Architecture: iphoneos-arm
+Maintainer: mlgm
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Filename: ./debs/rootful/com.mlgm.pulloverx_1.3.1_iphoneos-arm.deb
+Size: 167736
+MD5sum: 1007c6d2570c824c6ad44b1e37c71ecd
+SHA1: a2c6353ac33f8cb237d6398adebf650110066182
+SHA256: e01a1191c2bef68d9d43a1553b18d14b075d1f97c40f06b46dab60a81c21b25d
 Section: Tweaks
 Priority: optional
 Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
