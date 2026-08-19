@@ -398,6 +398,66 @@ Icon: https://mlgm66.github.io/icon/kayoko.png
 Name: Kayoko
 Sileodepiction: https://mlgm66.github.io/depictions/com.mlgm.pulloverx/depiction.json
 
+Package: com.mlgm.kayoko
+Version: 4.8.1
+Architecture: iphoneos-arm64
+Maintainer: mlgm
+Installed-Size: 3236
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Filename: ./debs/rootless/com.mlgm.kayoko_4.8.1_iphoneos-arm64.deb
+Size: 689352
+MD5sum: 9a6acb91d6aad4bdbab11dfde89023cb
+SHA1: aed8b0680273f9968238777cf6b9ea2c341f13f6
+SHA256: 44084ddded66f286828045d1ca47ccfd7fbbf90c87927f6401bd9cdb6a84fa8c
+Section: Tweaks
+Description: 功能丰富的剪切板管理器，基于 Kayoko (乌龙版本) 进行修改
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/kayoko.png
+Name: Kayoko
+Sileodepiction: https://mlgm66.github.io/depictions/com.mlgm.kayoko/depiction.json
+
+Package: com.mlgm.kayoko
+Version: 4.8.1
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Installed-Size: 3220
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Filename: ./debs/roothide/com.mlgm.kayoko_4.8.1_iphoneos-arm64e.deb
+Size: 684850
+MD5sum: 22b7ef517d289a22e3277efadf1e312f
+SHA1: 8ed6fdb5c41f5070a7a4d24ba586b3a792e8a0e2
+SHA256: 1f916978f96d0bdcc28031ab2f41304b71c4384790f73de6891fcb43eb2b4a2e
+Section: Tweaks
+Description: 功能丰富的剪切板管理器，基于 Kayoko (乌龙版本) 进行修改
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/kayoko.png
+Name: Kayoko
+Sileodepiction: https://mlgm66.github.io/depictions/com.mlgm.kayoko/depiction.json
+
+Package: com.mlgm.kayoko
+Version: 4.8.1
+Architecture: iphoneos-arm
+Maintainer: mlgm
+Installed-Size: 3236
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Filename: ./debs/rootful/com.mlgm.kayoko_4.8.1_iphoneos-arm.deb
+Size: 688936
+MD5sum: 7e9d93764fb85f7726ad4be8e9839eb6
+SHA1: 872c8d0a567e6f30db48f3a89047126721ccc981
+SHA256: 8d089896fccc211dc9c1a0565c8a0e1b1cf5bd72dc3293090617287f29b235cc
+Section: Tweaks
+Description: 功能丰富的剪切板管理器，基于 Kayoko (乌龙版本) 进行修改
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/kayoko.png
+Name: Kayoko
+Sileodepiction: https://mlgm66.github.io/depictions/com.mlgm.kayoko/depiction.json
+
 Package: com.mlgm.pulloverx
 Version: 1.0.0
 Architecture: iphoneos-arm64
