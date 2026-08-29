@@ -13,11 +13,6 @@
           "useRawFormat": true
         },
         {
-          "class": "DepictionMarkdownView",
-          "markdown": "适用版本：iOS 14.0–26.0.1",
-          "useRawFormat": true
-        },
-        {
           "class": "DepictionScreenshotsView",
           "itemCornerRadius": 6,
           "itemSize": "{160, 346.67}",
@@ -35,6 +30,32 @@
               "url": "https://mlgm66.github.io/depictions/com.mlgm.pulloverx/3.png"
             }
           ]
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 16
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 16
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "详情",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 8
+        },
+        {
+          "class": "DepictionTableTextView",
+          "text": "iOS 14.0–26.0.1",
+          "title": "支持系统"
         }
       ]
     },
