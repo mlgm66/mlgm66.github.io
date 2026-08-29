@@ -13,6 +13,11 @@
           "useRawFormat": true
         },
         {
+          "class": "DepictionMarkdownView",
+          "markdown": "适用版本：iOS 14.0–26.0.1",
+          "useRawFormat": true
+        },
+        {
           "class": "DepictionScreenshotsView",
           "itemCornerRadius": 6,
           "itemSize": "{160, 346.67}",
@@ -37,6 +42,17 @@
       "class": "DepictionStackView",
       "tabname": "更新",
       "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.5",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "增加了一些功能，解决了一些已知的问题。",
+          "useRawFormat": true
+        },
         {
           "class": "DepictionSubheaderView",
           "title": "1.4",

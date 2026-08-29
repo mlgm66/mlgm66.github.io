@@ -821,6 +821,69 @@ Icon: https://mlgm66.github.io/icon/pullover.png
 Name: PullOver X
 Sileodepiction: https://mlgm66.github.io/depictions/com.mlgm.pulloverx/depiction.json
 
+Package: com.mlgm.pulloverx
+Version: 1.5
+Architecture: iphoneos-arm64
+Maintainer: mlgm
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Filename: ./debs/rootless/com.mlgm.pulloverx_1.5_iphoneos-arm64.deb
+Size: 484556
+MD5sum: aa7c8d7a48ab4af0db34518beb5e30b8
+SHA1: 7aaf155e7f83ec08eef9b4e6b71ca67434bea339
+SHA256: 4e019321f800113b9e2377dd24f22a90e41011415096a20285da85e66725813f
+Section: Tweaks
+Priority: optional
+Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
+Author: mlgm
+Dev: mlgm
+Icon: https://mlgm66.github.io/icon/pullover.png
+Name: PullOver X
+Sileodepiction: https://mlgm66.github.io/depictions/com.mlgm.pulloverx/depiction.json
+
+Package: com.mlgm.pulloverx
+Version: 1.5
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Filename: ./debs/roothide/com.mlgm.pulloverx_1.5_iphoneos-arm64e.deb
+Size: 481022
+MD5sum: 2b76d806aba6fa12c161552b917716b5
+SHA1: 7fbed8a38268d51ace5b7374d985a2ec7cc7b5b1
+SHA256: 08e363b5a620642df4631a6a78b02d1aafa99fbdc242affb8faa109ff473ca47
+Section: Tweaks
+Priority: optional
+Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
+Author: mlgm
+Dev: mlgm
+Icon: https://mlgm66.github.io/icon/pullover.png
+Name: PullOver X
+Sileodepiction: https://mlgm66.github.io/depictions/com.mlgm.pulloverx/depiction.json
+
+Package: com.mlgm.pulloverx
+Version: 1.5
+Architecture: iphoneos-arm
+Maintainer: mlgm
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Filename: ./debs/rootful/com.mlgm.pulloverx_1.5_iphoneos-arm.deb
+Size: 278832
+MD5sum: 7aa9f0c2631c05f2b6f8048f9bd785ce
+SHA1: 6269e7c6d2797378afb05c5b541639985581ef07
+SHA256: 66c8c24eb1594e7573bb21898d1aec9108eddd4f601f3aafbc56bf0408d4b561
+Section: Tweaks
+Priority: optional
+Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
+Author: mlgm
+Dev: mlgm
+Icon: https://mlgm66.github.io/icon/pullover.png
+Name: PullOver X
+Sileodepiction: https://mlgm66.github.io/depictions/com.mlgm.pulloverx/depiction.json
+
 Package: com.shadow.h5gg.plugin.hideview
 Version: 1
 Architecture: iphoneos-arm64
