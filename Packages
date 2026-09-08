@@ -32,6 +32,40 @@ Author: mlgm
 Icon: https://mlgm66.github.io/icon/idata.png
 Name: iData
 
+Package: com.mlgm.idata
+Version: 1.1
+Architecture: iphoneos-arm64
+Maintainer: mlgm
+Installed-Size: 6648
+Depends: firmware (>= 15.0)
+Filename: ./debs/rootless/com.mlgm.idata_1.1_iphoneos-arm64.deb
+Size: 2114686
+MD5sum: 2a46d5f86281a79b670bf33f1ab27090
+SHA1: dacaa0b782598c4e5fbdd116a3d246cde7af8461
+SHA256: 4da42ec79b9eb2f02f21e0c7dcf0eb6fae89ec61fdfa72039e8a0495765f8155
+Section: Applications
+Description: 应用、插件数据管理工具，一键备份/恢复
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/idata.png
+Name: iData
+
+Package: com.mlgm.idata
+Version: 1.1
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Installed-Size: 6648
+Depends: firmware (>= 15.0)
+Filename: ./debs/roothide/com.mlgm.idata_1.1_iphoneos-arm64e.deb
+Size: 2115004
+MD5sum: 362916251017019b612b225f71a1508b
+SHA1: a330de11835b67c7c6ff84579538c2a2bfe365a4
+SHA256: 5f560e09cc10b7597926f760b0d8554eda4ffe2ba423394f9d088e368b6000f4
+Section: Applications
+Description: 应用、插件数据管理工具，一键备份/恢复
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/idata.png
+Name: iData
+
 Package: com.mlgm.ilog
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -60,6 +94,40 @@ Size: 1514134
 MD5sum: 78200b9c58947d3f073086809a153c2b
 SHA1: 74efbd1861ff796365447830f80e7580de3c5f5b
 SHA256: 6135ae1a7771ed9962d531eb32faecb0abcf49d16bd1399465a296fd50d2ac3f
+Section: Applications
+Description: 查看、预览、分享和清理 iOS 日志
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/ilog.png
+Name: iLog
+
+Package: com.mlgm.ilog
+Version: 1.1
+Architecture: iphoneos-arm64
+Maintainer: mlgm
+Installed-Size: 2516
+Depends: firmware (>= 15.0)
+Filename: ./debs/rootless/com.mlgm.ilog_1.1_iphoneos-arm64.deb
+Size: 1553656
+MD5sum: b07eee51fee053fd43e16bc68df5c5f2
+SHA1: 32d612f778f1627c984c8a721f207d42312a8ab5
+SHA256: cff14ab7331408984dcccba105006d562d2122eaf89704168d5abbc2e31e6549
+Section: Applications
+Description: 查看、预览、分享和清理 iOS 日志
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/ilog.png
+Name: iLog
+
+Package: com.mlgm.ilog
+Version: 1.1
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Installed-Size: 2516
+Depends: firmware (>= 15.0)
+Filename: ./debs/roothide/com.mlgm.ilog_1.1_iphoneos-arm64e.deb
+Size: 1553560
+MD5sum: 8376241734494ed7a03d1f99bf1b7d49
+SHA1: 6a9c7b873617daf36c436467ac47c2375999215f
+SHA256: 4f4757615d19e764c85303e6cb16c76286c8648acc9ac29768ab455a6ac590c4
 Section: Applications
 Description: 查看、预览、分享和清理 iOS 日志
 Author: mlgm
@@ -1006,6 +1074,48 @@ Size: 280314
 MD5sum: 04de480acd5ed6fca0cbc5826399b40e
 SHA1: 87c9d1a1726805bf943494ad851a15b3826f9fd5
 SHA256: f061322f1339b3162872c09a7133abbd1a417a6aaaf9a8159e80accd52dd2872
+Section: Tweaks
+Priority: optional
+Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
+Author: mlgm
+Dev: mlgm
+Icon: https://mlgm66.github.io/icon/pullover.png
+Name: PullOver X
+Sileodepiction: https://mlgm66.github.io/depictions/com.mlgm.pulloverx/depiction.json
+
+Package: com.mlgm.pulloverx
+Version: 1.6.1
+Architecture: iphoneos-arm64
+Maintainer: mlgm
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Filename: ./debs/rootless/com.mlgm.pulloverx_1.6.1_iphoneos-arm64.deb
+Size: 488480
+MD5sum: e9e54bc6b7788e9846f5275297c9541f
+SHA1: 82d3f24c55c3c9950c5ec044a7cc4756477b81a0
+SHA256: 07e24d6cf4dc289df9912d17dcf9c361ee58c5d4c5a0c24bb663ad15d6b570e7
+Section: Tweaks
+Priority: optional
+Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
+Author: mlgm
+Dev: mlgm
+Icon: https://mlgm66.github.io/icon/pullover.png
+Name: PullOver X
+Sileodepiction: https://mlgm66.github.io/depictions/com.mlgm.pulloverx/depiction.json
+
+Package: com.mlgm.pulloverx
+Version: 1.6.1
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Filename: ./debs/roothide/com.mlgm.pulloverx_1.6.1_iphoneos-arm64e.deb
+Size: 485186
+MD5sum: 117368a67013568084a7efbeddb7a58a
+SHA1: 46d2ccb06e5e3ad242015647da76b60dd0b4df44
+SHA256: 3b5914638779169e6fb48fc7eaee767e984c7c8df866f6dcafc8989d21cd368a
 Section: Tweaks
 Priority: optional
 Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
