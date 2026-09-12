@@ -65,6 +65,17 @@
       "views": [
         {
           "class": "DepictionSubheaderView",
+          "title": "1.6.2",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "解决了一些已知的问题。",
+          "useRawFormat": true
+        },
+        {
+          "class": "DepictionSubheaderView",
           "title": "1.6.1",
           "useBoldText": true,
           "useBottomMargin": false
