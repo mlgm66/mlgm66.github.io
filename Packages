@@ -1,3 +1,77 @@
+Package: com.mlgm.actra
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: mlgm
+Installed-Size: 3564
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, launchctl
+Conflicts: com.example.actra-plugin
+Filename: ./debs/rootless/com.mlgm.actra_1.0_iphoneos-arm64.deb
+Size: 702424
+MD5sum: fb50ea22abe3d01c9197bb6362a692c7
+SHA1: 952b59dca07591e9ef79aa52035fc526095291fe
+SHA256: 27807b06d264500e08c83cf0df9d44082b8516455ed4d00943af8824a7e609b1
+Section: Tweaks
+Description: 手势与事件自动化工具
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/actra.png
+Name: Actra
+
+Package: com.mlgm.actra
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Installed-Size: 3552
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, launchctl
+Conflicts: com.example.actra-plugin
+Filename: ./debs/roothide/com.mlgm.actra_1.0_iphoneos-arm64e.deb
+Size: 699722
+MD5sum: d26bede3ca0035e23d7c31880e4886ba
+SHA1: 5d4e401418d0a597a4e5994e6b46fe2911161e2b
+SHA256: 4c134400068576292a1d75c5a5de54afd4dd4045eec53a765325dc19737f3040
+Section: Tweaks
+Description: 手势与事件自动化工具
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/actra.png
+Name: Actra
+
+Package: com.mlgm.appdata
+Version: 1.3.7
+Architecture: iphoneos-arm64
+Maintainer: Fouad Raheb <support@fouadraheb.com>
+Installed-Size: 1188
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: com.fouadraheb.appdata
+Replaces: com.fouadraheb.appdata
+Filename: ./debs/rootless/com.mlgm.appdata_1.3.7_iphoneos-arm64.deb
+Size: 212206
+MD5sum: 5024b58e41bf39052af529dfbd989cb5
+SHA1: b434384e2ca4068f48a3cf34b72cef3b3f0d8c50
+SHA256: 79f9a48f4ec718bb1c9b01215784dc3f93e14020c812a5e5b6b1cb9b750d5656
+Section: Tweaks
+Description: 上滑或长按桌面图标，即可查看和管理应用数据，清理缓存并自定义图标与名称。
+Author: Fouad Raheb <support@fouadraheb.com>
+Icon: https://mlgm66.github.io/icon/appdata.png
+Name: AppData
+
+Package: com.mlgm.appdata
+Version: 1.3.7
+Architecture: iphoneos-arm64e
+Maintainer: Fouad Raheb <support@fouadraheb.com>
+Installed-Size: 1188
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: com.fouadraheb.appdata
+Replaces: com.fouadraheb.appdata
+Filename: ./debs/roothide/com.mlgm.appdata_1.3.7_iphoneos-arm64e.deb
+Size: 210572
+MD5sum: c2f8fc4a6178b361067775574e989712
+SHA1: 123d15afc214b13c0cf49d4d56650bb965af430d
+SHA256: 1e75de1ffc096f4f1c8cd19d5a74fde0e35230bc34bd247b87e45b05c4a4f21f
+Section: Tweaks
+Description: 上滑或长按桌面图标，即可查看和管理应用数据，清理缓存并自定义图标与名称。
+Author: Fouad Raheb <support@fouadraheb.com>
+Icon: https://mlgm66.github.io/icon/appdata.png
+Name: AppData
+
 Package: com.mlgm.idata
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -134,6 +208,40 @@ Author: mlgm
 Icon: https://mlgm66.github.io/icon/idata.png
 Name: iData
 
+Package: com.mlgm.idata
+Version: 1.3
+Architecture: iphoneos-arm64
+Maintainer: mlgm
+Installed-Size: 8244
+Depends: firmware (>= 15.0), apt, dpkg
+Filename: ./debs/rootless/com.mlgm.idata_1.3_iphoneos-arm64.deb
+Size: 2463464
+MD5sum: bceb80c274111f5041c270ef4f521aa3
+SHA1: c4ab6c344b899a5831e0eb3c3c765d33c172d36e
+SHA256: d19b218f941867c899f2dc48e5c2bb712bdb57fd8c0d899aa01a5106f8559b1f
+Section: Applications
+Description: 应用、插件数据管理工具，一键备份/恢复
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/idata.png
+Name: iData
+
+Package: com.mlgm.idata
+Version: 1.3
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Installed-Size: 8244
+Depends: firmware (>= 15.0), apt, dpkg
+Filename: ./debs/roothide/com.mlgm.idata_1.3_iphoneos-arm64e.deb
+Size: 2462182
+MD5sum: 99233811edab72ddf8db45b878cc498f
+SHA1: 046043ea372884d6a9b61f0e5b01926ee28fc7bc
+SHA256: fdf4cc7b4dd0a75a43933363a75c1e6340f182219c77b81e65aa419cb590f039
+Section: Applications
+Description: 应用、插件数据管理工具，一键备份/恢复
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/idata.png
+Name: iData
+
 Package: com.mlgm.ilog
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -235,6 +343,108 @@ Description: 查看、预览、分享和清理 iOS 日志
 Author: mlgm
 Icon: https://mlgm66.github.io/icon/ilog.png
 Name: iLog
+
+Package: com.mlgm.ilog
+Version: 1.3
+Architecture: iphoneos-arm64
+Maintainer: mlgm
+Installed-Size: 2564
+Depends: firmware (>= 15.0)
+Filename: ./debs/rootless/com.mlgm.ilog_1.3_iphoneos-arm64.deb
+Size: 1558370
+MD5sum: a4206cd91d5bf89cacc8053822080a83
+SHA1: fa9799bd757086607e6f8e40f1482569005aa1e1
+SHA256: 27658d5f848346625e30c2e7950c64bef667652c41354c02703e50e3782d1dad
+Section: Applications
+Description: 查看、预览、分享和清理 iOS 日志
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/ilog.png
+Name: iLog
+
+Package: com.mlgm.ilog
+Version: 1.3
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Installed-Size: 2564
+Depends: firmware (>= 15.0)
+Filename: ./debs/roothide/com.mlgm.ilog_1.3_iphoneos-arm64e.deb
+Size: 1558580
+MD5sum: 4e1704a1c8efcb5bb83b7d834ba748ed
+SHA1: 9e30745f201a5e21c074d039528e0480e5962831
+SHA256: b6072c376629b79e956f3fa96263c359c40391e4e37a037e1dd0e0af5b26b185
+Section: Applications
+Description: 查看、预览、分享和清理 iOS 日志
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/ilog.png
+Name: iLog
+
+Package: com.mlgm.isgkb
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: mlgm
+Installed-Size: 484
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: ./debs/rootless/com.mlgm.isgkb_1.0_iphoneos-arm64.deb
+Size: 43968
+MD5sum: 9dad954539e7ef252f7825405cfcd8a3
+SHA1: a879a78c02f54d57e2d11bd0dbe034ea0cde7a15
+SHA256: d01f8e20f1c4728c37776ca67bcb3e712e28a54f8ca6066f2167bd4c9af48d04
+Section: Tweaks
+Description: 更换搜狗输入法 Logo，自定义动作快捷呼出剪贴板。
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/isgkb.png
+Name: iSgkb
+
+Package: com.mlgm.isgkb
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Installed-Size: 464
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: ./debs/roothide/com.mlgm.isgkb_1.0_iphoneos-arm64e.deb
+Size: 42078
+MD5sum: b2e535905d18d48ead351d794f03e021
+SHA1: d4a219c8026ac2ff603d7656a01bfa2bc27b3714
+SHA256: 33232485c396c6100e23a1fff1a572a0b380f3a69ac7cb0695c1850480a626d2
+Section: Tweaks
+Description: 更换搜狗输入法 Logo，自定义动作快捷呼出剪贴板。
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/isgkb.png
+Name: iSgkb
+
+Package: com.mlgm.iwxkb
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: mlgm
+Installed-Size: 460
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: ./debs/rootless/com.mlgm.iwxkb_1.0_iphoneos-arm64.deb
+Size: 47184
+MD5sum: 5bc71552eaec7bbd243a9084742cd692
+SHA1: bb0b0ebeb646426f52598c15248282a7ae9ef1b9
+SHA256: 676407e84a8f0d1a0371b7ec800c13a1b8d35cde23b7e642532ef49dd689baa2
+Section: Tweaks
+Description: 更换微信输入法 Logo，自定义动作快捷呼出剪贴板。
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/iwxkb.png
+Name: iWxkb
+
+Package: com.mlgm.iwxkb
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Installed-Size: 436
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: ./debs/roothide/com.mlgm.iwxkb_1.0_iphoneos-arm64e.deb
+Size: 45408
+MD5sum: 59a53853f8fb8a138596e135aa90c654
+SHA1: 95d95b6d48503d9c3552e13ef6dc705561b067c0
+SHA256: 51688df0fe3b5749326a73443ad503484d1a00f43b665742f2cf768623b3f29a
+Section: Tweaks
+Description: 更换微信输入法 Logo，自定义动作快捷呼出剪贴板。
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/iwxkb.png
+Name: iWxkb
 
 Package: com.mlgm.kayoko
 Version: 4.4
@@ -755,6 +965,100 @@ Author: mlgm
 Icon: https://mlgm66.github.io/icon/kayoko.png
 Name: Kayoko
 Sileodepiction: https://mlgm66.github.io/depictions/com.mlgm.kayoko/depiction.json
+
+Package: com.mlgm.kayoko
+Version: 5.0
+Architecture: iphoneos-arm64
+Maintainer: mlgm
+Installed-Size: 3516
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Filename: ./debs/rootless/com.mlgm.kayoko_5.0_iphoneos-arm64.deb
+Size: 747640
+MD5sum: d4fbc1f2cede78de235d195fd1795672
+SHA1: 5b87a3641dc386ba0b434184d84ba817c3ea1fa8
+SHA256: e4320a288831cfecff373856000f9680148efa94b4815050ee693e5a4e78ace7
+Section: Tweaks
+Description: 功能丰富的剪切板管理器，基于 Kayoko (乌龙版本) 进行修改
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/kayoko.png
+Name: Kayoko
+Sileodepiction: https://mlgm66.github.io/depictions/com.mlgm.kayoko/depiction.json
+
+Package: com.mlgm.kayoko
+Version: 5.0
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Installed-Size: 3500
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Filename: ./debs/roothide/com.mlgm.kayoko_5.0_iphoneos-arm64e.deb
+Size: 744884
+MD5sum: dd7f17895e46e7d89efb3a3eec21fb46
+SHA1: dc1d56d843e81c42e6867e1d13085556a348da7d
+SHA256: 0d61ebe900233ac82c9d3a2a1d9ae494790c8fc3d90ea931a07f4d6fb186b5d3
+Section: Tweaks
+Description: 功能丰富的剪切板管理器，基于 Kayoko (乌龙版本) 进行修改
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/kayoko.png
+Name: Kayoko
+Sileodepiction: https://mlgm66.github.io/depictions/com.mlgm.kayoko/depiction.json
+
+Package: com.mlgm.kayoko
+Version: 5.0
+Architecture: iphoneos-arm
+Maintainer: mlgm
+Installed-Size: 3516
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Filename: ./debs/rootful/com.mlgm.kayoko_5.0_iphoneos-arm.deb
+Size: 747530
+MD5sum: 893178468046e82cccef5e4500747574
+SHA1: a2cbbae4739fd25bfd53e7233e8fc3183709632c
+SHA256: 03b944bd2f14a965bd942c2a0b168c1441747fb3472a6d68b5078745e0b1dadf
+Section: Tweaks
+Description: 功能丰富的剪切板管理器，基于 Kayoko (乌龙版本) 进行修改
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/kayoko.png
+Name: Kayoko
+Sileodepiction: https://mlgm66.github.io/depictions/com.mlgm.kayoko/depiction.json
+
+Package: com.mlgm.prefnest
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: mlgm
+Installed-Size: 808
+Depends: mobilesubstrate, firmware (>= 15.0), preferenceloader
+Filename: ./debs/rootless/com.mlgm.prefnest_1.0_iphoneos-arm64.deb
+Size: 149456
+MD5sum: d154f23b71df38ec9302159f610e1afb
+SHA1: ac65caa582cefce0950d1899053c9dd63e8b0de8
+SHA256: 55b4fb1c40b09c74383b30e458f039a6d89073dadcb9febb190804e5733f008e
+Section: Tweaks
+Description: 整理设置首页，集中收纳越狱插件。
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/prefnest.png
+Name: PrefNest
+
+Package: com.mlgm.prefnest
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Installed-Size: 808
+Depends: mobilesubstrate, firmware (>= 15.0), preferenceloader
+Filename: ./debs/roothide/com.mlgm.prefnest_1.0_iphoneos-arm64e.deb
+Size: 148020
+MD5sum: fc1e28bd2144e187f9f13e870a9ebfc6
+SHA1: 85edff0778afce19ba7e2bcd8844b719714f43ca
+SHA256: 79e00b0ae3caf355a3c6aad76f54ef4f95e59fdb46d87d75c4efb152f973372f
+Section: Tweaks
+Description: 整理设置首页，集中收纳越狱插件。
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/prefnest.png
+Name: PrefNest
 
 Package: com.mlgm.pulloverx
 Version: 1.0.0
@@ -1341,6 +1645,69 @@ Size: 281054
 MD5sum: 8cbbf8ba9134563820453830becbb72f
 SHA1: 38478a0ebcccd4823dc7e086d4ee5963034115d6
 SHA256: 87d412e76d702da3f62bfc22f2abecfc82fb9760f1520c25859421502d498101
+Section: Tweaks
+Priority: optional
+Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
+Author: mlgm
+Dev: mlgm
+Icon: https://mlgm66.github.io/icon/pullover.png
+Name: PullOver X
+Sileodepiction: https://mlgm66.github.io/depictions/com.mlgm.pulloverx/depiction.json
+
+Package: com.mlgm.pulloverx
+Version: 1.7
+Architecture: iphoneos-arm64
+Maintainer: mlgm
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Filename: ./debs/rootless/com.mlgm.pulloverx_1.7_iphoneos-arm64.deb
+Size: 501760
+MD5sum: 0fb79ab2e222ac1b09429b152b789f3f
+SHA1: 69a052b1e727d91c5345f458710fa5019844ce50
+SHA256: bbeeaa5d725675a1812f22ebccc9eaf7557c98990977c3298b1b2858de049173
+Section: Tweaks
+Priority: optional
+Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
+Author: mlgm
+Dev: mlgm
+Icon: https://mlgm66.github.io/icon/pullover.png
+Name: PullOver X
+Sileodepiction: https://mlgm66.github.io/depictions/com.mlgm.pulloverx/depiction.json
+
+Package: com.mlgm.pulloverx
+Version: 1.7
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Filename: ./debs/roothide/com.mlgm.pulloverx_1.7_iphoneos-arm64e.deb
+Size: 498426
+MD5sum: 703c8e938ba946b7833d375c8225566e
+SHA1: 135ac06e5e41872bc597b74a29f01db3ad97df9d
+SHA256: b3c649842382e23c1a1d5f5254108097c652b85f6c4272b3f56862f1425d3dfa
+Section: Tweaks
+Priority: optional
+Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
+Author: mlgm
+Dev: mlgm
+Icon: https://mlgm66.github.io/icon/pullover.png
+Name: PullOver X
+Sileodepiction: https://mlgm66.github.io/depictions/com.mlgm.pulloverx/depiction.json
+
+Package: com.mlgm.pulloverx
+Version: 1.7
+Architecture: iphoneos-arm
+Maintainer: mlgm
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Filename: ./debs/rootful/com.mlgm.pulloverx_1.7_iphoneos-arm.deb
+Size: 288390
+MD5sum: 0a036323c728b72ca71e73b123f456eb
+SHA1: f882243eb46d58c457b915e059992ece2805ede3
+SHA256: e25c06b091074e6bb6ce53dae415d95aadd62d0515ee8dcc41ba35b3ec08be74
 Section: Tweaks
 Priority: optional
 Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改

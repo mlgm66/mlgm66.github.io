@@ -102,23 +102,6 @@
         }
         .installer:hover, .installer:focus-visible { border-color: var(--line); background: #fff; }
         .installer img { width: 27px; height: 27px; object-fit: contain; border: 1px solid #dfe5e9; border-radius: 8px; }
-        .divider { height: 1px; margin: 26px 0 20px; background: var(--line); }
-        .trollstore { margin-top: 24px; }
-        .trollstore-title { display: flex; align-items: center; justify-content: space-between; width: 100%; margin: 0; padding: 13px 14px; border: 1px solid var(--line); border-radius: 12px; color: #64737e; background: rgba(248,250,251,.72); cursor: pointer; font-family: inherit; font-size: 14px; font-weight: 600; text-align: left; appearance: none; }
-        .trollstore-title::after { content: "+"; color: var(--muted); font-size: 20px; font-weight: 400; line-height: 1; }
-        .trollstore.is-open .trollstore-title { border-radius: 12px 12px 0 0; }
-        .trollstore.is-open .trollstore-title::after { content: "−"; }
-        .software-list { max-height: 0; overflow: hidden; margin-top: 0; opacity: 0; transition: max-height .24s cubic-bezier(.2, .8, .2, 1), opacity .16s ease; }
-        .software-list-inner { overflow: hidden; border: 1px solid var(--line); border-top: 0; border-radius: 0 0 12px 12px; background: rgba(248,250,251,.72); }
-        .trollstore.is-open .software-list { max-height: var(--trollstore-height, 200px); opacity: 1; }
-        .software-item { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 12px 11px 12px 14px; }
-        .software-item + .software-item { border-top: 1px solid var(--line); }
-        .software-name { min-width: 0; color: #52616d; font-size: 13px; }
-        .software-actions { display: flex; flex: 0 0 auto; gap: 7px; }
-        .software-action { display: grid; width: 34px; height: 34px; place-items: center; padding: 0; border: 1px solid var(--line); border-radius: 9px; background: #fff; transition: border-color .2s ease, transform .2s ease; }
-        .software-action:hover, .software-action:focus-visible { border-color: var(--blue); transform: translateY(-1px); }
-        .software-action img { width: 23px; height: 23px; object-fit: contain; }
-        .download-icon { color: var(--blue); font-size: 23px; line-height: 1; }
         .toast {
             position: fixed;
             left: 50%;
@@ -160,37 +143,7 @@
                 <a class="installer" href="sileo://source/https://mlgm66.github.io/"><img src="icon/sileo.png" alt="">Sileo</a>
                 <a class="installer" href="zbra://sources/add/https://mlgm66.github.io/"><img src="icon/zebra.png" alt="">Zebra</a>
                 <a class="installer" href="cydia://url/https://cydia.saurik.com/api/share#?source=https://mlgm66.github.io/"><img src="icon/cydia.png" alt="">Cydia</a>
-                <a class="installer" href="apt-repo://https://mlgm66.github.io/"><img src="icon/saily.png" alt="">Saily</a>
-            </div>
-
-            <div class="divider"></div>
-            <div class="trollstore">
-                <button class="trollstore-title" id="trollstore-toggle" type="button" aria-expanded="false" aria-controls="trollstore-list">TrollStore <span>3 个软件</span></button>
-                <div class="software-list" id="trollstore-list" aria-label="TrollStore 软件列表" aria-hidden="true">
-                    <div class="software-list-inner">
-                    <div class="software-item">
-                        <div class="software-name">H5GG 7.9 普通版</div>
-                        <div class="software-actions">
-                            <a class="software-action" href="apple-magnifier://install?url=https://mlgm66.github.io/TrollStore/H5GG7.9_TrollStore.tipa" aria-label="通过 TrollStore 安装 H5GG 7.9 普通版" title="通过 TrollStore 安装"><img src="icon/TrollStore.png" alt=""></a>
-                            <a class="software-action download-icon" href="TrollStore/H5GG7.9_TrollStore.tipa" download aria-label="下载 H5GG 7.9 普通版" title="下载">↓</a>
-                        </div>
-                    </div>
-                    <div class="software-item">
-                        <div class="software-name">H5GG 7.9 Pip 版</div>
-                        <div class="software-actions">
-                            <a class="software-action" href="apple-magnifier://install?url=https://mlgm66.github.io/TrollStore/H5GG7.9_TrollStore_Pip.tipa" aria-label="通过 TrollStore 安装 H5GG 7.9 Pip 版" title="通过 TrollStore 安装"><img src="icon/TrollStore.png" alt=""></a>
-                            <a class="software-action download-icon" href="TrollStore/H5GG7.9_TrollStore_Pip.tipa" download aria-label="下载 H5GG 7.9 Pip 版" title="下载">↓</a>
-                        </div>
-                    </div>
-                    <div class="software-item">
-                        <div class="software-name">VMGG 2.0.2</div>
-                        <div class="software-actions">
-                            <a class="software-action" href="apple-magnifier://install?url=https://mlgm66.github.io/TrollStore/VMGG_v2.0.2.tipa" aria-label="通过 TrollStore 安装 VMGG 2.0.2" title="通过 TrollStore 安装"><img src="icon/TrollStore.png" alt=""></a>
-                            <a class="software-action download-icon" href="TrollStore/VMGG_v2.0.2.tipa" download aria-label="下载 VMGG 2.0.2" title="下载">↓</a>
-                        </div>
-                    </div>
-                    </div>
-                </div>
+                <a class="installer" href="irisin://repository/add?url=https%3A%2F%2Fmlgm66.github.io%2F"><img src="icon/irisin.png" alt="">Irisin</a>
             </div>
         </section>
     </main>
@@ -200,27 +153,7 @@
         const copyButton = document.getElementById('copy-repo');
         const repoInput = document.getElementById('repo-url');
         const toast = document.getElementById('toast');
-        const trollstore = document.querySelector('.trollstore');
-        const trollstoreToggle = document.getElementById('trollstore-toggle');
-        const trollstoreList = document.getElementById('trollstore-list');
         let toastTimer;
-
-        const updateTrollstoreHeight = () => {
-            trollstoreList.style.setProperty('--trollstore-height', `${trollstoreList.scrollHeight}px`);
-        };
-
-        requestAnimationFrame(updateTrollstoreHeight);
-
-        trollstoreToggle.addEventListener('click', () => {
-            const isOpen = trollstoreToggle.getAttribute('aria-expanded') === 'true';
-            trollstoreToggle.setAttribute('aria-expanded', String(!isOpen));
-            trollstoreList.setAttribute('aria-hidden', String(isOpen));
-            trollstore.classList.toggle('is-open', !isOpen);
-        });
-
-        window.addEventListener('resize', () => {
-            requestAnimationFrame(updateTrollstoreHeight);
-        });
 
         copyButton.addEventListener('click', async () => {
             try {
