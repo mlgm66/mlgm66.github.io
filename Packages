@@ -1060,6 +1060,40 @@ Author: mlgm
 Icon: https://mlgm66.github.io/icon/prefnest.png
 Name: PrefNest
 
+Package: com.mlgm.prefnest
+Version: 1.1
+Architecture: iphoneos-arm64
+Maintainer: mlgm
+Installed-Size: 808
+Depends: mobilesubstrate, firmware (>= 15.0), preferenceloader
+Filename: ./debs/rootless/com.mlgm.prefnest_1.1_iphoneos-arm64.deb
+Size: 152092
+MD5sum: 90867b55cb7f36323993e3fe4179c0b5
+SHA1: 83d5f75e2c0b073f9aad49b89af58cefdc6ac6a7
+SHA256: 6217340e2e20b5dbe24536da8aad833477c3e92b18eba9d878b289b5ba3d5ae7
+Section: Tweaks
+Description: 整理设置首页，集中收纳越狱插件。
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/prefnest.png
+Name: PrefNest
+
+Package: com.mlgm.prefnest
+Version: 1.1
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Installed-Size: 808
+Depends: mobilesubstrate, firmware (>= 15.0), preferenceloader
+Filename: ./debs/roothide/com.mlgm.prefnest_1.1_iphoneos-arm64e.deb
+Size: 150836
+MD5sum: 8066a20dd754ec53938383b9b07a5e00
+SHA1: 1c643244ded6c3b8c466103407f42e20d3ec2cba
+SHA256: cd18b0efd784dba79c4570a5bb54e01ba41df9df7bb14e888324045be8829d4e
+Section: Tweaks
+Description: 整理设置首页，集中收纳越狱插件。
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/prefnest.png
+Name: PrefNest
+
 Package: com.mlgm.pulloverx
 Version: 1.0.0
 Architecture: iphoneos-arm64
