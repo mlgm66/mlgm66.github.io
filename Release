@@ -5,4 +5,4 @@ Version: 3
 Codename: ios
 Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
 Components: main
-Description: mlgm's personal repository for free iOS jailbreak tools and plugins
+Description: My go-to iOS jailbreak packages

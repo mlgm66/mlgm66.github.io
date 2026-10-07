@@ -1026,6 +1026,66 @@ Icon: https://mlgm66.github.io/icon/kayoko.png
 Name: Kayoko
 Sileodepiction: https://mlgm66.github.io/depictions/com.mlgm.kayoko/depiction.json
 
+Package: com.mlgm.kayoko
+Version: 5.0.1
+Architecture: iphoneos-arm64
+Maintainer: mlgm
+Installed-Size: 3516
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Filename: ./debs/rootless/com.mlgm.kayoko_5.0.1_iphoneos-arm64.deb
+Size: 747386
+MD5sum: 1ae5a256997075569b0a90aa5e37c017
+SHA1: 7746a25ed305bc88606bb84290c1feaae7ee0cc5
+SHA256: 86361ed27495be2f50961ad1be3ba7964298f70485e9df9e795fecf865084f87
+Section: Tweaks
+Description: 功能丰富的剪切板管理器，基于 Kayoko (乌龙版本) 进行修改
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/kayoko.png
+Name: Kayoko
+Sileodepiction: https://mlgm66.github.io/depictions/com.mlgm.kayoko/depiction.json
+
+Package: com.mlgm.kayoko
+Version: 5.0.1
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Installed-Size: 3500
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Filename: ./debs/roothide/com.mlgm.kayoko_5.0.1_iphoneos-arm64e.deb
+Size: 746110
+MD5sum: 78284fea843efeaccb4472dcb74794b7
+SHA1: b23b1b76b9da78f987f1c1e7c67b9bfccee335f0
+SHA256: 2f36a94b336a13f327b26d4f0029960bc22dfdd96d91f97ddaf689fe8fe2b280
+Section: Tweaks
+Description: 功能丰富的剪切板管理器，基于 Kayoko (乌龙版本) 进行修改
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/kayoko.png
+Name: Kayoko
+Sileodepiction: https://mlgm66.github.io/depictions/com.mlgm.kayoko/depiction.json
+
+Package: com.mlgm.kayoko
+Version: 5.0.1
+Architecture: iphoneos-arm
+Maintainer: mlgm
+Installed-Size: 3516
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Filename: ./debs/rootful/com.mlgm.kayoko_5.0.1_iphoneos-arm.deb
+Size: 749120
+MD5sum: 72f15228754fa1a5bc922cf8a62b1f7c
+SHA1: 4b0cdf8b7f33d28c0a198ecec16be31a355f16ad
+SHA256: f984de02d556bf9c1fb7505ba1cee6b205d8bfc748d08be41030dd769be5e1cc
+Section: Tweaks
+Description: 功能丰富的剪切板管理器，基于 Kayoko (乌龙版本) 进行修改
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/kayoko.png
+Name: Kayoko
+Sileodepiction: https://mlgm66.github.io/depictions/com.mlgm.kayoko/depiction.json
+
 Package: com.mlgm.prefnest
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -1088,6 +1148,40 @@ Size: 150836
 MD5sum: 8066a20dd754ec53938383b9b07a5e00
 SHA1: 1c643244ded6c3b8c466103407f42e20d3ec2cba
 SHA256: cd18b0efd784dba79c4570a5bb54e01ba41df9df7bb14e888324045be8829d4e
+Section: Tweaks
+Description: 整理设置首页，集中收纳越狱插件。
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/prefnest.png
+Name: PrefNest
+
+Package: com.mlgm.prefnest
+Version: 1.2
+Architecture: iphoneos-arm64
+Maintainer: mlgm
+Installed-Size: 872
+Depends: mobilesubstrate, firmware (>= 15.0), preferenceloader
+Filename: ./debs/rootless/com.mlgm.prefnest_1.2_iphoneos-arm64.deb
+Size: 169054
+MD5sum: 9df58228df091e63a6117bdf55b2985c
+SHA1: 60f4e5a5466cde6593501b27dc8a89d765aac065
+SHA256: 3f021b93f65458a7f9adec7782b4691e58ea0ffb89870d4a0542142d78334013
+Section: Tweaks
+Description: 整理设置首页，集中收纳越狱插件。
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/prefnest.png
+Name: PrefNest
+
+Package: com.mlgm.prefnest
+Version: 1.2
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Installed-Size: 872
+Depends: mobilesubstrate, firmware (>= 15.0), preferenceloader
+Filename: ./debs/roothide/com.mlgm.prefnest_1.2_iphoneos-arm64e.deb
+Size: 168084
+MD5sum: 7b146f35a80d5f105ca4d89e47b181ab
+SHA1: 949bb5a05b549c9347127e8b1c21a3d231f9dc9c
+SHA256: 914882fd2a80534a636377406219b3852be8b8505756b6b12fcf5a4b82b949b1
 Section: Tweaks
 Description: 整理设置首页，集中收纳越狱插件。
 Author: mlgm
