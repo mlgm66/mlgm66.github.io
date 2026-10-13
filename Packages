@@ -106,6 +106,42 @@ Author: mlgm
 Icon: https://mlgm66.github.io/icon/actra.png
 Name: Actra
 
+Package: com.mlgm.actra
+Version: 1.2
+Architecture: iphoneos-arm64
+Maintainer: mlgm
+Installed-Size: 3844
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, launchctl
+Conflicts: com.example.actra-plugin
+Filename: ./debs/rootless/com.mlgm.actra_1.2_iphoneos-arm64.deb
+Size: 752646
+MD5sum: 4737b0ee5af4011f5b0ee5edf110943b
+SHA1: 35e5906ad01f5653ef4a9be500e24c8de92837ec
+SHA256: ad668c37dc18a911b93e8ce0530ff812a25c38599393e8ad60557446ff3b474b
+Section: Tweaks
+Description: 手势与事件自动化工具
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/actra.png
+Name: Actra
+
+Package: com.mlgm.actra
+Version: 1.2
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Installed-Size: 3844
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, launchctl
+Conflicts: com.example.actra-plugin
+Filename: ./debs/roothide/com.mlgm.actra_1.2_iphoneos-arm64e.deb
+Size: 754400
+MD5sum: 8147ae6a2bc8cd2f7093f5b6343b5ec4
+SHA1: bdf49531ca4487adefd7efc1d991992988de35c7
+SHA256: 9681f042382682f9c0ac9efe65a111d22573c71d62cc672b2d88f5120a1181bd
+Section: Tweaks
+Description: 手势与事件自动化工具
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/actra.png
+Name: Actra
+
 Package: com.mlgm.appdata
 Version: 1.3.7
 Architecture: iphoneos-arm64
@@ -518,6 +554,40 @@ Author: mlgm
 Icon: https://mlgm66.github.io/icon/isgkb.png
 Name: iSgkb
 
+Package: com.mlgm.isgkb
+Version: 1.1.1
+Architecture: iphoneos-arm64
+Maintainer: mlgm
+Installed-Size: 448
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: ./debs/rootless/com.mlgm.isgkb_1.1.1_iphoneos-arm64.deb
+Size: 41476
+MD5sum: 70d46153ce8b4e889c5e0ce65ca642ab
+SHA1: dca286306144ad27637449109026613cd5c44098
+SHA256: 4ceab7e9524061374bfbdf835ec8e0924480ee5a0f389135637537d3dc38a3b3
+Section: Tweaks
+Description: 更换搜狗输入法 Logo，自定义动作快捷呼出剪贴板。
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/isgkb.png
+Name: iSgkb
+
+Package: com.mlgm.isgkb
+Version: 1.1.1
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Installed-Size: 448
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: ./debs/roothide/com.mlgm.isgkb_1.1.1_iphoneos-arm64e.deb
+Size: 39458
+MD5sum: f18f786de572348b4924cf4ab38e268a
+SHA1: e181b3f49f4d93116cc3f8ec9110ba38f1e3486d
+SHA256: 797fa218f7c113466c2853bbb81c75d04c2eea00ade85b1bb6b09710128677ef
+Section: Tweaks
+Description: 更换搜狗输入法 Logo，自定义动作快捷呼出剪贴板。
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/isgkb.png
+Name: iSgkb
+
 Package: com.mlgm.iwxkb
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -580,6 +650,40 @@ Size: 45398
 MD5sum: 2f09cda4ae68af0752e796b730f4f2b6
 SHA1: 92f9b7fa42aa07a0f0c96c72c09117036e5f5b35
 SHA256: 4b6276bf7559d5d5ee1c0e3c96272f0b0843aa1b2be733d4c5a3decb3d8e76f4
+Section: Tweaks
+Description: 更换微信输入法 Logo，自定义动作快捷呼出剪贴板。
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/iwxkb.png
+Name: iWxkb
+
+Package: com.mlgm.iwxkb
+Version: 1.1.1
+Architecture: iphoneos-arm64
+Maintainer: mlgm
+Installed-Size: 424
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: ./debs/rootless/com.mlgm.iwxkb_1.1.1_iphoneos-arm64.deb
+Size: 44608
+MD5sum: b080fc0557a3f4c211d9a73c86600db7
+SHA1: 847b43a741f99be62147dc53e08d3ca1ad7042a7
+SHA256: cb979301991f8ce3bc18425be72bc35d13d5f0196e2886931d28e2c3b8d0480a
+Section: Tweaks
+Description: 更换微信输入法 Logo，自定义动作快捷呼出剪贴板。
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/iwxkb.png
+Name: iWxkb
+
+Package: com.mlgm.iwxkb
+Version: 1.1.1
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Installed-Size: 420
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: ./debs/roothide/com.mlgm.iwxkb_1.1.1_iphoneos-arm64e.deb
+Size: 42880
+MD5sum: aac37906e305c90f635b0a104e8bc808
+SHA1: 84702d698f117d0a9b40923277029c3cf5504f69
+SHA256: e3b2fba77bb3915a97e9152d2440c78999f3afdb41ca983285e500e3d16dd249
 Section: Tweaks
 Description: 更换微信输入法 Logo，自定义动作快捷呼出剪贴板。
 Author: mlgm
@@ -1219,6 +1323,66 @@ Size: 749120
 MD5sum: 72f15228754fa1a5bc922cf8a62b1f7c
 SHA1: 4b0cdf8b7f33d28c0a198ecec16be31a355f16ad
 SHA256: f984de02d556bf9c1fb7505ba1cee6b205d8bfc748d08be41030dd769be5e1cc
+Section: Tweaks
+Description: 功能丰富的剪切板管理器，基于 Kayoko (乌龙版本) 进行修改
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/kayoko.png
+Name: Kayoko
+Sileodepiction: https://mlgm66.github.io/depictions/com.mlgm.kayoko/depiction.json
+
+Package: com.mlgm.kayoko
+Version: 5.0.2
+Architecture: iphoneos-arm64
+Maintainer: mlgm
+Installed-Size: 3516
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Filename: ./debs/rootless/com.mlgm.kayoko_5.0.2_iphoneos-arm64.deb
+Size: 748488
+MD5sum: cab0b53615d88c9fc44b3a132d5fc8ca
+SHA1: 27ec03690db1ce3cb41891b6121d4abcea80df2b
+SHA256: c5e201a547ecb65c52778c382c8b33dbd957cdc981bc39ed7ff4d70e4f8d2f17
+Section: Tweaks
+Description: 功能丰富的剪切板管理器，基于 Kayoko (乌龙版本) 进行修改
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/kayoko.png
+Name: Kayoko
+Sileodepiction: https://mlgm66.github.io/depictions/com.mlgm.kayoko/depiction.json
+
+Package: com.mlgm.kayoko
+Version: 5.0.2
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Installed-Size: 3500
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Filename: ./debs/roothide/com.mlgm.kayoko_5.0.2_iphoneos-arm64e.deb
+Size: 744842
+MD5sum: 0bb938d6b3c3e907981c3d001c4758a6
+SHA1: 5238d510b7f539c9cbde80bd8bbfdafd765df3de
+SHA256: 41e84cec1bd24f6e8f6fde20b628f158ee9d03d3343eabd735a6d8fc18df986d
+Section: Tweaks
+Description: 功能丰富的剪切板管理器，基于 Kayoko (乌龙版本) 进行修改
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/kayoko.png
+Name: Kayoko
+Sileodepiction: https://mlgm66.github.io/depictions/com.mlgm.kayoko/depiction.json
+
+Package: com.mlgm.kayoko
+Version: 5.0.2
+Architecture: iphoneos-arm
+Maintainer: mlgm
+Installed-Size: 3516
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Filename: ./debs/rootful/com.mlgm.kayoko_5.0.2_iphoneos-arm.deb
+Size: 748638
+MD5sum: b71b830a9d6deeeda2ce32e65654e39c
+SHA1: bd4e9a14f02d2d8c26e0757eb5f4ca6bee437acf
+SHA256: 1c95da80224123893bb1cb68fe5b4c6944b350ec6f165e39598789ce66175d5a
 Section: Tweaks
 Description: 功能丰富的剪切板管理器，基于 Kayoko (乌龙版本) 进行修改
 Author: mlgm
