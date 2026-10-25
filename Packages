@@ -216,6 +216,44 @@ Author: Fouad Raheb <support@fouadraheb.com>
 Icon: https://mlgm66.github.io/icon/appdata.png
 Name: AppData
 
+Package: com.mlgm.appdata
+Version: 1.3.8
+Architecture: iphoneos-arm64
+Maintainer: mlgm
+Installed-Size: 1188
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: com.fouadraheb.appdata
+Replaces: com.fouadraheb.appdata
+Filename: ./debs/rootless/com.mlgm.appdata_1.3.8_iphoneos-arm64.deb
+Size: 214026
+MD5sum: 5a90c474e1f2f047bef95db46195e260
+SHA1: c0f1154be7d00affd4a4cbf323a5b47cf6faf8f5
+SHA256: 112d7be1033b43bb669d195c4537f7cd8d6287be42aca0f852f5f5b44115a6a5
+Section: Tweaks
+Description: 上滑或长按桌面图标，即可查看和管理应用数据，清理缓存并自定义图标与名称。
+Author: Fouad Raheb <support@fouadraheb.com>
+Icon: https://mlgm66.github.io/icon/appdata.png
+Name: AppData
+
+Package: com.mlgm.appdata
+Version: 1.3.8
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Installed-Size: 1188
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: com.fouadraheb.appdata
+Replaces: com.fouadraheb.appdata
+Filename: ./debs/roothide/com.mlgm.appdata_1.3.8_iphoneos-arm64e.deb
+Size: 212340
+MD5sum: 914885ed39642a9f6c0221a191816696
+SHA1: 834cec96ac51c1aeb13622ae69d18fe88cfbb7b2
+SHA256: c46be6da360336e2cdef22e3a09feeb2a5ceac69cbf85431f3cccfc3d7db35e1
+Section: Tweaks
+Description: 上滑或长按桌面图标，即可查看和管理应用数据，清理缓存并自定义图标与名称。
+Author: Fouad Raheb <support@fouadraheb.com>
+Icon: https://mlgm66.github.io/icon/appdata.png
+Name: AppData
+
 Package: com.mlgm.clippa
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -284,6 +322,42 @@ SHA256: 5bb5a97f17418d1cc8a150f6ed4e1b282efd1def0268abae86c472aea3be34bf
 Section: System
 Priority: optional
 Description: 屏幕框选、悬浮贴图与本机文字识别工具。
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/clippa.png
+Name: Clippa
+
+Package: com.mlgm.clippa
+Version: 1.0.2
+Architecture: iphoneos-arm64
+Maintainer: mlgm
+Installed-Size: 36672
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Filename: ./debs/rootless/com.mlgm.clippa_1.0.2_iphoneos-arm64.deb
+Size: 31180796
+MD5sum: 002cc3c47550f2f1c2a9205cb2152855
+SHA1: cc91858b8764c7fcc94b4cbf8f648174c350d7f0
+SHA256: 8aa14fe95a84a0cd2427c63ab6ae19d4f9fb7b9e64e6a762b98a6d3ee0b25a88
+Section: System
+Priority: optional
+Description: 截图与悬浮贴图工具。
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/clippa.png
+Name: Clippa
+
+Package: com.mlgm.clippa
+Version: 1.0.2
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Installed-Size: 36668
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Filename: ./debs/roothide/com.mlgm.clippa_1.0.2_iphoneos-arm64e.deb
+Size: 31179204
+MD5sum: 193f57e07767208e990f09a8d7b29998
+SHA1: d96a097082d6866c7aeaa3aa150e92fdacf47e87
+SHA256: df3a2c6d00c85d40518a2d794808cb73842b482650839e0dd6f4cb88ab7185d3
+Section: System
+Priority: optional
+Description: 截图与悬浮贴图工具。
 Author: mlgm
 Icon: https://mlgm66.github.io/icon/clippa.png
 Name: Clippa
@@ -486,6 +560,40 @@ Size: 2464032
 MD5sum: 0628042f6b7388fba25fdb252c6396cd
 SHA1: 7b4e5394448d54aa7a4a821a0ae2e5701e4e72e1
 SHA256: d70ac4f0ff55e1a217bb6d5d545e40373210f20f3dbf488ca32f6df35d6ee219
+Section: Applications
+Description: 应用、插件数据管理工具，一键备份/恢复
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/idata.png
+Name: iData
+
+Package: com.mlgm.idata
+Version: 1.3.2
+Architecture: iphoneos-arm64
+Maintainer: mlgm
+Installed-Size: 8248
+Depends: firmware (>= 15.0), apt, dpkg
+Filename: ./debs/rootless/com.mlgm.idata_1.3.2_iphoneos-arm64.deb
+Size: 2463428
+MD5sum: 69753efbdde28136099de80c79a1fb2f
+SHA1: aceafa0ca941773a976f6c7d724650229d22a865
+SHA256: 4b20303b43245d72bc70bd8eba8a4f8abc8609100772d0085614601066366fdd
+Section: Applications
+Description: 应用、插件数据管理工具，一键备份/恢复
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/idata.png
+Name: iData
+
+Package: com.mlgm.idata
+Version: 1.3.2
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Installed-Size: 8248
+Depends: firmware (>= 15.0), apt, dpkg
+Filename: ./debs/roothide/com.mlgm.idata_1.3.2_iphoneos-arm64e.deb
+Size: 2463822
+MD5sum: f4f87ace53b6580d72230c562bb0ba48
+SHA1: 8b64f7fd3fef25f8ef3cec9e97052c83e84b3340
+SHA256: b030e09fe0efac19b0bee15776a0edf53f802b108e00f5314959d91ab8484316
 Section: Applications
 Description: 应用、插件数据管理工具，一键备份/恢复
 Author: mlgm
