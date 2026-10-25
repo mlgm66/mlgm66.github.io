@@ -252,6 +252,42 @@ Author: mlgm
 Icon: https://mlgm66.github.io/icon/clippa.png
 Name: Clippa
 
+Package: com.mlgm.clippa
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: mlgm
+Installed-Size: 36672
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Filename: ./debs/rootless/com.mlgm.clippa_1.0.1_iphoneos-arm64.deb
+Size: 31182196
+MD5sum: d15bc60022716c34cd1d76af88dba568
+SHA1: 5ed9ea88b4be528f3c2c72c80223cb6f36b2d5fa
+SHA256: f68c0004de90184afb81ef4ff36bf7ad48e04b8ddbcbbc1789d7315f3f86a4a6
+Section: System
+Priority: optional
+Description: 屏幕框选、悬浮贴图与本机文字识别工具。
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/clippa.png
+Name: Clippa
+
+Package: com.mlgm.clippa
+Version: 1.0.1
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Installed-Size: 36668
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Filename: ./debs/roothide/com.mlgm.clippa_1.0.1_iphoneos-arm64e.deb
+Size: 31181480
+MD5sum: 9a6e2635e0f1e91883ebf01d4fe43015
+SHA1: f691b9a6d83e11a3d1ece552493417bef369fb79
+SHA256: 5bb5a97f17418d1cc8a150f6ed4e1b282efd1def0268abae86c472aea3be34bf
+Section: System
+Priority: optional
+Description: 屏幕框选、悬浮贴图与本机文字识别工具。
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/clippa.png
+Name: Clippa
+
 Package: com.mlgm.idata
 Version: 1.0
 Architecture: iphoneos-arm64
