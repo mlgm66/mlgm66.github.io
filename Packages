@@ -405,10 +405,10 @@ Maintainer: mlgm
 Installed-Size: 36728
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
 Filename: ./debs/rootless/com.mlgm.clippa_1.0.3_iphoneos-arm64.deb
-Size: 31185148
-MD5sum: 10a01e7dbc24c5dbd589ea3020bf4a0c
-SHA1: 4fa2e433ef639d351ace4d928ecf0d284fcb545a
-SHA256: c25c156017d412cccaaa0a94e721bd94b7a8e60d088672118c2fc71c99308443
+Size: 31185028
+MD5sum: 9d3d8f112d7b07119f6079072d4a5732
+SHA1: 41143ac2ad56bd68a45892e4fbdb1f7a15fb7c9a
+SHA256: 764890d4851f79a85c993a24ccea12cc38112d6f07f1c38ebfe2467301b76936
 Section: System
 Priority: optional
 Description: 截图与悬浮贴图工具。
@@ -423,10 +423,10 @@ Maintainer: mlgm
 Installed-Size: 36724
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
 Filename: ./debs/roothide/com.mlgm.clippa_1.0.3_iphoneos-arm64e.deb
-Size: 31185112
-MD5sum: 8cbf009624525b49a9cf7fbb7e986392
-SHA1: d8ef586f59d7d81a6a993ba3d098f3ee949b0c98
-SHA256: 5803fcee56ec5d86e4ff28fc8dd2241e7eccc131c3dcab25339fb24c59cc6254
+Size: 31185072
+MD5sum: 99dbd3cf0136577103c04b0543a717ba
+SHA1: 0d0a0dcc8cdf80b9b58b98eabbf3fbd1c4a65e8e
+SHA256: 754460b87dbee120a2937191aeec6a9955d1acc50dce229466bf15128c6f75e5
 Section: System
 Priority: optional
 Description: 截图与悬浮贴图工具。
