@@ -2633,6 +2633,38 @@ Icon: https://mlgm66.github.io/icon/pullover.png
 Name: PullOver X
 Sileodepiction: https://mlgm66.github.io/depictions/com.mlgm.pulloverx/depiction.json
 
+Package: com.mlgm.taploom
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: mlgm
+Installed-Size: 1120
+Depends: firmware (>= 15.0), mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.ccsupport
+Filename: ./debs/rootless/com.mlgm.taploom_1.0_iphoneos-arm64.deb
+Size: 166574
+MD5sum: 311b418cada3ef2866e59c7f8c475625
+SHA1: 9b3fa944178b9d22f1dd0b8434df22938de76e4d
+SHA256: e36af95320591c1a5c9c46caf9851bfdfb72a9be020b6ded6ea3629b3c6763c5
+Section: Tweaks
+Description: 触摸轨迹可视化
+Author: mlgm
+Name: Taploom
+
+Package: com.mlgm.taploom
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Installed-Size: 1120
+Depends: firmware (>= 15.0), mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.ccsupport
+Filename: ./debs/roothide/com.mlgm.taploom_1.0_iphoneos-arm64e.deb
+Size: 166576
+MD5sum: 66afea56dafab4ab25e6e651d5686c5a
+SHA1: 8f99f533f01a14fa0cbc0ddd4eb717ed9d7ca29f
+SHA256: 34d1e23259ba55c347d187d6ced646c3f7d9cab7848bf5c5a19c0eaf0e07cb85
+Section: Tweaks
+Description: 触摸轨迹可视化
+Author: mlgm
+Name: Taploom
+
 Package: com.shadow.h5gg.plugin.hideview
 Version: 1
 Architecture: iphoneos-arm64
