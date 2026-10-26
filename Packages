@@ -2733,6 +2733,40 @@ Author: mlgm
 Icon: https://mlgm66.github.io/icon/taploom.png
 Name: Taploom
 
+Package: com.mlgm.taploom
+Version: 1.1.3
+Architecture: iphoneos-arm64
+Maintainer: mlgm
+Installed-Size: 1120
+Depends: firmware (>= 15.0), mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.ccsupport
+Filename: ./debs/rootless/com.mlgm.taploom_1.1.3_iphoneos-arm64.deb
+Size: 168000
+MD5sum: c109afc49fa88056ea658da6eded0ac4
+SHA1: ce1f63fbc44eb5904200fdac67f141d3d3c9acdb
+SHA256: 5dd318e9a6107a2494252f0917ca991f010ba6aefd03287bb0a36c6395ceebc8
+Section: Tweaks
+Description: 触摸轨迹可视化
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/taploom.png
+Name: Taploom
+
+Package: com.mlgm.taploom
+Version: 1.1.3
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Installed-Size: 1120
+Depends: firmware (>= 15.0), mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.ccsupport
+Filename: ./debs/roothide/com.mlgm.taploom_1.1.3_iphoneos-arm64e.deb
+Size: 167756
+MD5sum: 8289f272fe347492be5dadd15c412d97
+SHA1: 3b9758ef789390aa70248d60e340ef16ed29df13
+SHA256: a0f03648cfe5e9270377fe93df85748cb1af10778ae9e7ccfd744df96df9c963
+Section: Tweaks
+Description: 触摸轨迹可视化
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/taploom.png
+Name: Taploom
+
 Package: com.shadow.h5gg.plugin.hideview
 Version: 1
 Architecture: iphoneos-arm64
