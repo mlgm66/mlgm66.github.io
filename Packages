@@ -214,6 +214,42 @@ Author: mlgm
 Icon: https://mlgm66.github.io/icon/actra.png
 Name: Actra
 
+Package: com.mlgm.actra
+Version: 1.3.2
+Architecture: iphoneos-arm64
+Maintainer: mlgm
+Installed-Size: 4080
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, launchctl
+Conflicts: com.example.actra-plugin
+Filename: ./debs/rootless/com.mlgm.actra_1.3.2_iphoneos-arm64.deb
+Size: 813036
+MD5sum: 1b20a57aa17d166f13632bd7ecb423c0
+SHA1: 746e1d9ecbb0932ac0025cdb72b4faf89d858e29
+SHA256: b253e9a7446051de4e36fcc569fc29e67669daffbf5291f5518b6cc998a8320c
+Section: Tweaks
+Description: 手势与事件自动化工具
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/actra.png
+Name: Actra
+
+Package: com.mlgm.actra
+Version: 1.3.2
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Installed-Size: 4084
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, launchctl
+Conflicts: com.example.actra-plugin
+Filename: ./debs/roothide/com.mlgm.actra_1.3.2_iphoneos-arm64e.deb
+Size: 816796
+MD5sum: 8e660c3db388321adfa083afbbe0f7de
+SHA1: cd4331ace0b17ab861b166f4533068b299b9d37e
+SHA256: 2c8cc1d1a61a3b5514cbb98bc2be846e05242c5e430e06ef424ed4437b2876fe
+Section: Tweaks
+Description: 手势与事件自动化工具
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/actra.png
+Name: Actra
+
 Package: com.mlgm.appdata
 Version: 1.3.7
 Architecture: iphoneos-arm64
@@ -1833,6 +1869,66 @@ Size: 752204
 MD5sum: 26226b15b482077d760d11286ef042d5
 SHA1: 396bb4cb8e4402588451523dc3bbddf67f1bb204
 SHA256: 0a8f7be29e1604c154b80bab3e8367e5a38401e87cd89a0dc0a9682dd11e2d1a
+Section: Tweaks
+Description: 功能丰富的剪切板管理器，基于 Kayoko (乌龙版本) 进行修改
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/kayoko.png
+Name: Kayoko
+Sileodepiction: https://mlgm66.github.io/depictions/com.mlgm.kayoko/depiction.json
+
+Package: com.mlgm.kayoko
+Version: 5.0.4
+Architecture: iphoneos-arm64
+Maintainer: mlgm
+Installed-Size: 3516
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Filename: ./debs/rootless/com.mlgm.kayoko_5.0.4_iphoneos-arm64.deb
+Size: 747404
+MD5sum: 816c815aed66e73524723c7bc899f973
+SHA1: 35386acc2eed541e972b20f3b40d66883e2c781c
+SHA256: 1735696ce923f71ba45d3181fa2af5fb53f1417194a7bf59a925194f3f56a558
+Section: Tweaks
+Description: 功能丰富的剪切板管理器，基于 Kayoko (乌龙版本) 进行修改
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/kayoko.png
+Name: Kayoko
+Sileodepiction: https://mlgm66.github.io/depictions/com.mlgm.kayoko/depiction.json
+
+Package: com.mlgm.kayoko
+Version: 5.0.4
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Installed-Size: 3500
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Filename: ./debs/roothide/com.mlgm.kayoko_5.0.4_iphoneos-arm64e.deb
+Size: 746664
+MD5sum: c667b7d9f6376685eddc750cce46bd02
+SHA1: 805f06aff1fe4a11ede36c878e42373204d655ce
+SHA256: 09f50320f945a8096fd71283add60cbfe74017539bce69514ba7ffab00b8eec1
+Section: Tweaks
+Description: 功能丰富的剪切板管理器，基于 Kayoko (乌龙版本) 进行修改
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/kayoko.png
+Name: Kayoko
+Sileodepiction: https://mlgm66.github.io/depictions/com.mlgm.kayoko/depiction.json
+
+Package: com.mlgm.kayoko
+Version: 5.0.4
+Architecture: iphoneos-arm
+Maintainer: mlgm
+Installed-Size: 3516
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Filename: ./debs/rootful/com.mlgm.kayoko_5.0.4_iphoneos-arm.deb
+Size: 751872
+MD5sum: f6bf348b5d62d086c5b1235035057ebe
+SHA1: 21ecdc8b1eeab1f3062063478b5951cb65518ecc
+SHA256: 12df409165e11beb589b9798b22e7abdc08b1a10440595d73a582fcb32f57c2d
 Section: Tweaks
 Description: 功能丰富的剪切板管理器，基于 Kayoko (乌龙版本) 进行修改
 Author: mlgm
