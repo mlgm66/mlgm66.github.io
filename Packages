@@ -470,6 +470,42 @@ Author: mlgm
 Icon: https://mlgm66.github.io/icon/clippa.png
 Name: Clippa
 
+Package: com.mlgm.clone
+Version: 0.1.6
+Architecture: iphoneos-arm64
+Maintainer: mlgm
+Installed-Size: 5176
+Depends: firmware (>= 15.0), ellekit (>= 1.2), preferenceloader (>= 2.2.8), com.opa334.altlist (>= 1.0.11), com.opa334.libsandy (>= 1.1.6-4)
+Filename: ./debs/rootless/com.mlgm.clone_0.1.6_iphoneos-arm64.deb
+Size: 785596
+MD5sum: 659b8e5d0a61d50e3b3bbcff1db2f7b7
+SHA1: 3421d0c1cc2782e0f1828987b3df8c4d7809a767
+SHA256: 5c4da5f34cf75e7c9a576bfef878baccdf2c1e0b2da7d4c70d6aad0745191924
+Section: Tweaks
+Priority: optional
+Description: 克隆万千分身，掌控每一个身份。(鄙人仅测试了App Store，其他场景需自测！数据无价，操作需谨慎，丢失风险自负)
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/clone.png
+Name: Clone
+
+Package: com.mlgm.clone
+Version: 0.1.6
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Installed-Size: 5156
+Depends: firmware (>= 15.0), ellekit (>= 1.2-1), preferenceloader (>= 2.2.8), com.opa334.altlist (>= 1.0.11), com.opa334.libsandy (>= 1.1.6-4)
+Filename: ./debs/roothide/com.mlgm.clone_0.1.6_iphoneos-arm64e.deb
+Size: 784492
+MD5sum: e60389b065c22f3cbb1677e023b8d164
+SHA1: 5a40b6f3f138e1e9101b2a69d7faa82b45ab55dc
+SHA256: 9e9453e4834c239a388965e70e18ccb0d9b5dc9e9f5f591c558b6a6c03bb5a88
+Section: Tweaks
+Priority: optional
+Description: 克隆万千分身，掌控每一个身份。(鄙人仅测试了App Store，其他场景需自测！数据无价，操作需谨慎，丢失风险自负)
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/clone.png
+Name: Clone
+
 Package: com.mlgm.idata
 Version: 1.0
 Architecture: iphoneos-arm64
