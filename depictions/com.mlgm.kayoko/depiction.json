@@ -79,7 +79,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "- 新增脚本功能，内置常用脚本，支持自行添加和编辑。\n- 新增 Clippa 联动，安装后可将剪贴板中的文字、图片悬浮到屏幕上。",
+          "markdown": "新增脚本功能，内置常用脚本，支持自行添加。<br>新增 Clippa 联动，支持悬浮显示文字和图片。",
           "useRawFormat": true
         },
         {

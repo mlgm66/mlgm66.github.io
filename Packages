@@ -3332,6 +3332,26 @@ Author: mlgm
 Icon: https://mlgm66.github.io/icon/vmgg.png
 Name: VMGG
 
+Package: org.mlgm.sileo
+Version: 2.5.1-16
+Architecture: iphoneos-arm64e
+Maintainer: Amy While <me@anamy.gay>
+Depends: firmware (>= 11.0), firmware(>=12.2) | org.swift.libswift (>=5.0), coreutils (>= 8.30-1), dpkg (>= 1.19.4-1), apt (>= 1.8.2), libzstd1
+Conflicts: org.coolstar.sileo
+Replaces: org.coolstar.sileo
+Provides: org.coolstar.sileo (= 2.5.1-16)
+Filename: ./debs/roothide/org.mlgm.sileo_2.5.1-16_iphoneos-arm64e.deb
+Size: 3097016
+MD5sum: ee7af96edb4c191ffd1bc50f624c714b
+SHA1: 4df4c51849f331a87c4892cd23992abea02da97d
+SHA256: a922ad3a0ad5a2f38a0d4e588b7a49f335bf43c97f7da8ab99b5297013c4915d
+Section: Packaging
+Description: A modern APT package manager frontend
+Author: Amy While <me@anamy.gay>
+Icon: https://getsileo.app/img/icon.png
+Name: Sileo
+Sileodepiction: https://featuredpage.getsileo.app/depiction.json
+
 Package: wiki.qaq.umbra.patcher
 Version: 3.0-2
 Architecture: iphoneos-arm64e
