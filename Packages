@@ -3352,6 +3352,26 @@ Icon: https://getsileo.app/img/icon.png
 Name: Sileo
 Sileodepiction: https://featuredpage.getsileo.app/depiction.json
 
+Package: org.mlgm.sileo
+Version: 2.5.1-17
+Architecture: iphoneos-arm64e
+Maintainer: Amy While <me@anamy.gay>
+Depends: firmware (>= 11.0), firmware(>=12.2) | org.swift.libswift (>=5.0), coreutils (>= 8.30-1), dpkg (>= 1.19.4-1), apt (>= 1.8.2), libzstd1
+Conflicts: org.coolstar.sileo
+Replaces: org.coolstar.sileo
+Provides: org.coolstar.sileo (= 2.5.1-17)
+Filename: ./debs/roothide/org.mlgm.sileo_2.5.1-17_iphoneos-arm64e.deb
+Size: 3092952
+MD5sum: 7f2d1f2687d00b0bb878b4e3e47ba791
+SHA1: 60759ae0e8c55e28538d35b1dbeb1fdd88b82008
+SHA256: 4eb2ed48f4eda5bd512cf48f6e861530f2264ab7c475e631276185a43c101f62
+Section: Packaging
+Description: A modern APT package manager frontend
+Author: Amy While <me@anamy.gay>
+Icon: https://getsileo.app/img/icon.png
+Name: Sileo
+Sileodepiction: https://featuredpage.getsileo.app/depiction.json
+
 Package: wiki.qaq.umbra.patcher
 Version: 3.0-2
 Architecture: iphoneos-arm64e
