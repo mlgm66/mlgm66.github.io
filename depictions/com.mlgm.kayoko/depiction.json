@@ -73,6 +73,28 @@
       "views": [
         {
           "class": "DepictionSubheaderView",
+          "title": "5.1",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- 新增脚本功能，内置常用脚本，支持自行添加和编辑。\n- 新增 Clippa 联动，安装后可将剪贴板中的文字、图片悬浮到屏幕上。",
+          "useRawFormat": true
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "5.0.4",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "解决了一些已知的问题。",
+          "useRawFormat": true
+        },
+        {
+          "class": "DepictionSubheaderView",
           "title": "5.0.3",
           "useBoldText": true,
           "useBottomMargin": false

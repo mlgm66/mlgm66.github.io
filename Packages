@@ -250,6 +250,42 @@ Author: mlgm
 Icon: https://mlgm66.github.io/icon/actra.png
 Name: Actra
 
+Package: com.mlgm.actra
+Version: 1.3.3
+Architecture: iphoneos-arm64
+Maintainer: mlgm
+Installed-Size: 4112
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, launchctl
+Conflicts: com.example.actra-plugin
+Filename: ./debs/rootless/com.mlgm.actra_1.3.3_iphoneos-arm64.deb
+Size: 817588
+MD5sum: 7815859103be3dbb5dcc30ea0936563d
+SHA1: e215d3f5fe57fb66954ee2f6332130bb92d08055
+SHA256: dcd8b699e2314f13670399d19a283b92f5416f28b876dbadf9cb5be737fde0c6
+Section: Tweaks
+Description: 手势与事件自动化工具
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/actra.png
+Name: Actra
+
+Package: com.mlgm.actra
+Version: 1.3.3
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Installed-Size: 4116
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, launchctl
+Conflicts: com.example.actra-plugin
+Filename: ./debs/roothide/com.mlgm.actra_1.3.3_iphoneos-arm64e.deb
+Size: 817962
+MD5sum: 192a073f50142090de149be41ea70c7f
+SHA1: 3ac9e347fbcbf040cf7ff215356c3bb0069dbeaf
+SHA256: 639762752bcc3227a0cec04445e57743bea287863b623a4b587132338d3f905e
+Section: Tweaks
+Description: 手势与事件自动化工具
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/actra.png
+Name: Actra
+
 Package: com.mlgm.appdata
 Version: 1.3.7
 Architecture: iphoneos-arm64
@@ -1972,6 +2008,66 @@ Icon: https://mlgm66.github.io/icon/kayoko.png
 Name: Kayoko
 Sileodepiction: https://mlgm66.github.io/depictions/com.mlgm.kayoko/depiction.json
 
+Package: com.mlgm.kayoko
+Version: 5.1
+Architecture: iphoneos-arm64
+Maintainer: mlgm
+Installed-Size: 3896
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Filename: ./debs/rootless/com.mlgm.kayoko_5.1_iphoneos-arm64.deb
+Size: 823300
+MD5sum: a52f107b8607e47364844922f9006038
+SHA1: b76b7ade1b8fd1b7de269e6466434c1a1cb00809
+SHA256: 9cf73b9117b87d7888d77f0e678fe2ae714121fff8684546b26b62a85fad011e
+Section: Tweaks
+Description: 功能丰富的剪切板管理器，基于 Kayoko (乌龙版本) 进行修改
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/kayoko.png
+Name: Kayoko
+Sileodepiction: https://mlgm66.github.io/depictions/com.mlgm.kayoko/depiction.json
+
+Package: com.mlgm.kayoko
+Version: 5.1
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Installed-Size: 3864
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Filename: ./debs/roothide/com.mlgm.kayoko_5.1_iphoneos-arm64e.deb
+Size: 817970
+MD5sum: 7c0e4fba29f0fe1d75b5fa15c016261d
+SHA1: b1898090f8564e5f14b31a18562a5285e377bc32
+SHA256: 80f683238a9e081293cb6bfdded979b37249aedbcc5926210a4f41ffd66e9992
+Section: Tweaks
+Description: 功能丰富的剪切板管理器，基于 Kayoko (乌龙版本) 进行修改
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/kayoko.png
+Name: Kayoko
+Sileodepiction: https://mlgm66.github.io/depictions/com.mlgm.kayoko/depiction.json
+
+Package: com.mlgm.kayoko
+Version: 5.1
+Architecture: iphoneos-arm
+Maintainer: mlgm
+Installed-Size: 3896
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Filename: ./debs/rootful/com.mlgm.kayoko_5.1_iphoneos-arm.deb
+Size: 822890
+MD5sum: 994d6d129a2215e2ebd9dc33f59633d6
+SHA1: 773cb1e13651e0b13a91bbeaa229493d9ce2f004
+SHA256: a9a7696c99f1accb780ae566e081a00d244c94973da2a16da5df49fa67e1e44a
+Section: Tweaks
+Description: 功能丰富的剪切板管理器，基于 Kayoko (乌龙版本) 进行修改
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/kayoko.png
+Name: Kayoko
+Sileodepiction: https://mlgm66.github.io/depictions/com.mlgm.kayoko/depiction.json
+
 Package: com.mlgm.prefnest
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -2102,6 +2198,40 @@ Size: 170984
 MD5sum: 13e91aecebcc882266eec11934ccf57c
 SHA1: 661b77ce582d3c83112819601c111882aa2f5eac
 SHA256: c63f49cfc92763cb30458cc11c6d7c251276dc11764b1b7da16113efef45f491
+Section: Tweaks
+Description: 整理设置首页，集中收纳越狱插件。
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/prefnest.png
+Name: PrefNest
+
+Package: com.mlgm.prefnest
+Version: 1.2.3
+Architecture: iphoneos-arm64
+Maintainer: mlgm
+Installed-Size: 888
+Depends: mobilesubstrate, firmware (>= 15.0), preferenceloader
+Filename: ./debs/rootless/com.mlgm.prefnest_1.2.3_iphoneos-arm64.deb
+Size: 173566
+MD5sum: 5422aa416b3300203e00a22b8cf78bfc
+SHA1: 5b8b24e67d38aaff361812c61f686287cb5bacaa
+SHA256: f0f768d3957d5db9ce9a7efbe15d7c5dde88e922124f3223eea7025e902ec91c
+Section: Tweaks
+Description: 整理设置首页，集中收纳越狱插件。
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/prefnest.png
+Name: PrefNest
+
+Package: com.mlgm.prefnest
+Version: 1.2.3
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Installed-Size: 888
+Depends: mobilesubstrate, firmware (>= 15.0), preferenceloader
+Filename: ./debs/roothide/com.mlgm.prefnest_1.2.3_iphoneos-arm64e.deb
+Size: 171396
+MD5sum: d711334ad1f194e13145aaf715be91fa
+SHA1: 429ec9df7d731dc2902b6908ba1a7b33f37e1eec
+SHA256: 64777b016faab23e5876ff06b8489a00e684c233a0234d9c88108f1687c043bc
 Section: Tweaks
 Description: 整理设置首页，集中收纳越狱插件。
 Author: mlgm
@@ -2933,6 +3063,40 @@ Author: mlgm
 Icon: https://mlgm66.github.io/icon/taploom.png
 Name: Taploom
 
+Package: com.mlgm.watchfix
+Version: 2.1
+Architecture: iphoneos-arm64
+Maintainer: mlgm
+Installed-Size: 5248
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./debs/rootless/com.mlgm.watchfix_2.1_iphoneos-arm64.deb
+Size: 823780
+MD5sum: e7da2d27252cd4304728cfdeda46bcc7
+SHA1: 22ec6a975024d37a934791105f5bc5ce481032cc
+SHA256: aca4126b66430377da59c6eb95c49379cc4db4f15ecfdf7ce7327a9452841bb1
+Section: Tweaks
+Description: 解决 Apple Watch 连接问题
+Author: 577FKJ
+Icon: https://mlgm66.github.io/icon/watchfix.png
+Name: WatchFix
+
+Package: com.mlgm.watchfix
+Version: 2.1
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Installed-Size: 5252
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./debs/roothide/com.mlgm.watchfix_2.1_iphoneos-arm64e.deb
+Size: 819440
+MD5sum: c55d8e398452727ba2bdab0a9b446f25
+SHA1: 1bd77c591ad7ce0088e8cf90b864883cbf8330f5
+SHA256: c2a0ae21e6d1edca8bbe40b6df3e1bcb19fea6cf0d1ec716811ac7302253540a
+Section: Tweaks
+Description: 解决 Apple Watch 连接问题
+Author: 577FKJ
+Icon: https://mlgm66.github.io/icon/watchfix.png
+Name: WatchFix
+
 Package: com.shadow.h5gg.plugin.hideview
 Version: 1
 Architecture: iphoneos-arm64
@@ -3167,4 +3331,24 @@ Description: 用于iOS的内存分析与调试工具，它是VansonMod + H5GG的
 Author: mlgm
 Icon: https://mlgm66.github.io/icon/vmgg.png
 Name: VMGG
+
+Package: wiki.qaq.umbra.patcher
+Version: 3.0-2
+Architecture: iphoneos-arm64e
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 2532
+Depends: firmware (>= 15.0), bash, coreutils, findutils, grep, sed, libxar1, ldid, file, dpkg, gawk, plutil(>= 0.2.2-1), uikittools(>= 2.1.6-4)
+Conflicts: com.roothide.patcher
+Replaces: com.roothide.patcher
+Filename: ./debs/roothide/wiki.qaq.umbra.patcher_3.0-2_iphoneos-arm64e.deb
+Size: 882202
+MD5sum: 98eba5ce5e44683b9d308f0a87d1f589
+SHA1: d3e6e3aad134bac31287a7f19f018aec7cf7ee37
+SHA256: 5d82e5d51e75f653412ecf0a8a255f4f73c8257c32d3f428d21eb633705eabe4
+Section: Utilities
+Homepage: https://github.com/owngoal-dev/RootHidePatcher
+Description: Convert supported tweak packages for RootHide custom firmware.
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Name: Umbra Patcher
+Support: https://github.com/owngoal-dev/RootHidePatcher/issues
 
