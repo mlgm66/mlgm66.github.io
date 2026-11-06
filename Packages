@@ -322,6 +322,42 @@ Author: mlgm
 Icon: https://mlgm66.github.io/icon/actra.png
 Name: Actra
 
+Package: com.mlgm.actra
+Version: 1.3.5
+Architecture: iphoneos-arm64
+Maintainer: mlgm
+Installed-Size: 4116
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, launchctl
+Conflicts: com.example.actra-plugin
+Filename: ./debs/rootless/com.mlgm.actra_1.3.5_iphoneos-arm64.deb
+Size: 817094
+MD5sum: e27d91e8a742d22ac942f93214995726
+SHA1: 83d180456292e039ce86535742f6a9a0714409d3
+SHA256: 0c7f97a3dcf186ce897a4782e771d71017a59dd875c47e32e352e59aca0a7d75
+Section: Tweaks
+Description: 手势与事件自动化工具
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/actra.png
+Name: Actra
+
+Package: com.mlgm.actra
+Version: 1.3.5
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Installed-Size: 4116
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, launchctl
+Conflicts: com.example.actra-plugin
+Filename: ./debs/roothide/com.mlgm.actra_1.3.5_iphoneos-arm64e.deb
+Size: 818212
+MD5sum: 212e54e2794f7ce533ad61d9f552dfb5
+SHA1: 3bab30f83b5a0394c780db778dee69aac0af9af2
+SHA256: a7963708f64be12c763b1474f912c7d0245ae9e9225bdcdc2a0ddc191e0d26be
+Section: Tweaks
+Description: 手势与事件自动化工具
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/actra.png
+Name: Actra
+
 Package: com.mlgm.appdata
 Version: 1.3.7
 Architecture: iphoneos-arm64
@@ -392,6 +428,44 @@ Size: 212340
 MD5sum: 914885ed39642a9f6c0221a191816696
 SHA1: 834cec96ac51c1aeb13622ae69d18fe88cfbb7b2
 SHA256: c46be6da360336e2cdef22e3a09feeb2a5ceac69cbf85431f3cccfc3d7db35e1
+Section: Tweaks
+Description: 上滑或长按桌面图标，即可查看和管理应用数据，清理缓存并自定义图标与名称。
+Author: Fouad Raheb <support@fouadraheb.com>
+Icon: https://mlgm66.github.io/icon/appdata.png
+Name: AppData
+
+Package: com.mlgm.appdata
+Version: 1.3.9
+Architecture: iphoneos-arm64
+Maintainer: mlgm
+Installed-Size: 1236
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: com.fouadraheb.appdata
+Replaces: com.fouadraheb.appdata
+Filename: ./debs/rootless/com.mlgm.appdata_1.3.9_iphoneos-arm64.deb
+Size: 214748
+MD5sum: c04a16538e11a0d9a8833db52f8481a3
+SHA1: 08dd8c0d51e5c013fc432abebfe0711f5e5a07d6
+SHA256: 973bc0459262de2c8ff2832c02bd177af043e110d56a5314b3fc8218f2d0bf1d
+Section: Tweaks
+Description: 上滑或长按桌面图标，即可查看和管理应用数据，清理缓存并自定义图标与名称。
+Author: Fouad Raheb <support@fouadraheb.com>
+Icon: https://mlgm66.github.io/icon/appdata.png
+Name: AppData
+
+Package: com.mlgm.appdata
+Version: 1.3.9
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Installed-Size: 1236
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: com.fouadraheb.appdata
+Replaces: com.fouadraheb.appdata
+Filename: ./debs/roothide/com.mlgm.appdata_1.3.9_iphoneos-arm64e.deb
+Size: 212656
+MD5sum: d01df4a0f528fae72a3645c99773aab3
+SHA1: e4c0be6f21d5baa78b3ed9363e1f123e7611d9fe
+SHA256: b38948fe7daac79a1730e37605d298b91ad6a562d2ced6522e11a82be27de9a4
 Section: Tweaks
 Description: 上滑或长按桌面图标，即可查看和管理应用数据，清理缓存并自定义图标与名称。
 Author: Fouad Raheb <support@fouadraheb.com>
@@ -578,6 +652,42 @@ Author: mlgm
 Icon: https://mlgm66.github.io/icon/clippa.png
 Name: Clippa
 
+Package: com.mlgm.clippa
+Version: 1.1
+Architecture: iphoneos-arm64
+Maintainer: mlgm
+Installed-Size: 36732
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Filename: ./debs/rootless/com.mlgm.clippa_1.1_iphoneos-arm64.deb
+Size: 31188440
+MD5sum: 16cd242e3d907b2aa460b3608bc628ee
+SHA1: fad5f1cc158847a9bb5dee6dbae9a9301cb57556
+SHA256: 12a4d113c4b95e6dcc247c77357d92a1bf2c5c0f053ef3eb8183eabe4f9670cd
+Section: Tweaks
+Priority: optional
+Description: 截图与悬浮贴图工具。
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/clippa.png
+Name: Clippa
+
+Package: com.mlgm.clippa
+Version: 1.1
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Installed-Size: 36728
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Filename: ./debs/roothide/com.mlgm.clippa_1.1_iphoneos-arm64e.deb
+Size: 31186524
+MD5sum: 91ab43b0572b789d438d93faaa4b26d3
+SHA1: 1ade23035a9d401acb7f3b4347915fb7b1848651
+SHA256: 9f77f648580bf8238dc0487e222c112073c589ab5251801f48a773f747511eff
+Section: Tweaks
+Priority: optional
+Description: 截图与悬浮贴图工具。
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/clippa.png
+Name: Clippa
+
 Package: com.mlgm.clone
 Version: 0.1.6
 Architecture: iphoneos-arm64
@@ -607,6 +717,42 @@ Size: 784492
 MD5sum: e60389b065c22f3cbb1677e023b8d164
 SHA1: 5a40b6f3f138e1e9101b2a69d7faa82b45ab55dc
 SHA256: 9e9453e4834c239a388965e70e18ccb0d9b5dc9e9f5f591c558b6a6c03bb5a88
+Section: Tweaks
+Priority: optional
+Description: 克隆万千分身，掌控每一个身份。(鄙人仅测试了App Store，其他场景需自测！数据无价，操作需谨慎，丢失风险自负)
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/clone.png
+Name: Clone
+
+Package: com.mlgm.clone
+Version: 0.2
+Architecture: iphoneos-arm64
+Maintainer: mlgm
+Installed-Size: 5304
+Depends: firmware (>= 15.0), ellekit (>= 1.2), preferenceloader (>= 2.2.8), com.opa334.altlist (>= 1.0.11), com.opa334.libsandy (>= 1.1.6-4)
+Filename: ./debs/rootless/com.mlgm.clone_0.2_iphoneos-arm64.deb
+Size: 801756
+MD5sum: c747a25620a7d595e8e0b4c1b8c2c03b
+SHA1: 7a4ba5e354daf4f8e72cd6b7ea41df6acf4e0e9d
+SHA256: 608d42d52d7e5de82b38c80436b1039770cd89e7503ce0dbafee7d884ec06d8c
+Section: Tweaks
+Priority: optional
+Description: 克隆万千分身，掌控每一个身份。(鄙人仅测试了App Store，其他场景需自测！数据无价，操作需谨慎，丢失风险自负)
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/clone.png
+Name: Clone
+
+Package: com.mlgm.clone
+Version: 0.2
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Installed-Size: 5284
+Depends: firmware (>= 15.0), ellekit (>= 1.2-1), preferenceloader (>= 2.2.8), com.opa334.altlist (>= 1.0.11), com.opa334.libsandy (>= 1.1.6-4)
+Filename: ./debs/roothide/com.mlgm.clone_0.2_iphoneos-arm64e.deb
+Size: 798100
+MD5sum: e53f8258edb4cad84a36ca3252400e2d
+SHA1: 0fe74c73f2aab43044f951a89b44381aeba2226a
+SHA256: a1450b0cb37d59e4d2b7df6e8c3fba94f0d4d8f00adeb94178dbfb8c6b43f125
 Section: Tweaks
 Priority: optional
 Description: 克隆万千分身，掌控每一个身份。(鄙人仅测试了App Store，其他场景需自测！数据无价，操作需谨慎，丢失风险自负)
@@ -954,6 +1100,40 @@ Author: mlgm
 Icon: https://mlgm66.github.io/icon/idata.png
 Name: iData
 
+Package: com.mlgm.idata
+Version: 1.3.6
+Architecture: iphoneos-arm64
+Maintainer: mlgm
+Installed-Size: 8252
+Depends: firmware (>= 15.0), apt, dpkg
+Filename: ./debs/rootless/com.mlgm.idata_1.3.6_iphoneos-arm64.deb
+Size: 2476702
+MD5sum: 4a18880a9f124ad05644f3ca652568fc
+SHA1: 5d1ad112885a5a36e06bb989b3f682ef2e7f05b5
+SHA256: 21798e039d12e79699c75344cdc172f3891bda34d8a84f17edeb1df2125a3421
+Section: Applications
+Description: 应用、插件数据管理工具，一键备份/恢复
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/idata.png
+Name: iData
+
+Package: com.mlgm.idata
+Version: 1.3.6
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Installed-Size: 8252
+Depends: firmware (>= 15.0), apt, dpkg, roothide
+Filename: ./debs/roothide/com.mlgm.idata_1.3.6_iphoneos-arm64e.deb
+Size: 2473672
+MD5sum: b71a81374d546bb1e3e313d352d26d81
+SHA1: 085973063f085a5eb411d59127479aea71c6f1a1
+SHA256: 3623ede8814a26b3ce5943e2e9fbb660c25f2addd000fd3ae5e28fb22ed2f5bf
+Section: Applications
+Description: 应用、插件数据管理工具，一键备份/恢复
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/idata.png
+Name: iData
+
 Package: com.mlgm.ilog
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -1084,6 +1264,40 @@ Size: 1558580
 MD5sum: 4e1704a1c8efcb5bb83b7d834ba748ed
 SHA1: 9e30745f201a5e21c074d039528e0480e5962831
 SHA256: b6072c376629b79e956f3fa96263c359c40391e4e37a037e1dd0e0af5b26b185
+Section: Applications
+Description: 查看、预览、分享和清理 iOS 日志
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/ilog.png
+Name: iLog
+
+Package: com.mlgm.ilog
+Version: 1.3.1
+Architecture: iphoneos-arm64
+Maintainer: mlgm
+Installed-Size: 2580
+Depends: firmware (>= 15.0)
+Filename: ./debs/rootless/com.mlgm.ilog_1.3.1_iphoneos-arm64.deb
+Size: 1558756
+MD5sum: e0ce0ab1308795287df3b5da0dabd872
+SHA1: 359a4079bff8b11296a35578b8908417c87e8308
+SHA256: fa601db082ab01d621ee7f789d468c1dcda894ff258add3e37cde539955d3240
+Section: Applications
+Description: 查看、预览、分享和清理 iOS 日志
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/ilog.png
+Name: iLog
+
+Package: com.mlgm.ilog
+Version: 1.3.1
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Installed-Size: 2580
+Depends: firmware (>= 15.0)
+Filename: ./debs/roothide/com.mlgm.ilog_1.3.1_iphoneos-arm64e.deb
+Size: 1559330
+MD5sum: cd74b4bb33143561eb70f7e16d499483
+SHA1: d579309bcc988a83a74b016b941cd08ce58c64e1
+SHA256: abbf50f98a7ade0721867ca8826fa26593bbf28b705806562cf48fab86a20587
 Section: Applications
 Description: 查看、预览、分享和清理 iOS 日志
 Author: mlgm
@@ -2234,6 +2448,66 @@ Icon: https://mlgm66.github.io/icon/kayoko.png
 Name: Kayoko
 Sileodepiction: https://mlgm66.github.io/depictions/com.mlgm.kayoko/depiction.json
 
+Package: com.mlgm.kayoko
+Version: 5.1.2
+Architecture: iphoneos-arm64
+Maintainer: mlgm
+Installed-Size: 3896
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Filename: ./debs/rootless/com.mlgm.kayoko_5.1.2_iphoneos-arm64.deb
+Size: 825832
+MD5sum: cf315d4ed0db39d6806671a1b34dc6bb
+SHA1: 6208f22b280eaded3be3ed4bee35973daf783131
+SHA256: ff3fc976201f1a066bae6e9d7bacdcf3ffb0c41a09194dae755adf3a76c07141
+Section: Tweaks
+Description: 功能丰富的剪切板管理器，基于 Kayoko (乌龙版本) 进行修改
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/kayoko.png
+Name: Kayoko
+Sileodepiction: https://mlgm66.github.io/depictions/com.mlgm.kayoko/depiction.json
+
+Package: com.mlgm.kayoko
+Version: 5.1.2
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Installed-Size: 3864
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Filename: ./debs/roothide/com.mlgm.kayoko_5.1.2_iphoneos-arm64e.deb
+Size: 814484
+MD5sum: 98f9e8edbb12d1762fd0c7bc668c3dfa
+SHA1: cec09ed1b850c14a9ee98d66b044f2fde697ef37
+SHA256: 187999be953b45d25fc610e3df8114f51f6d8abb2caa2cb8d2d5fe582f396051
+Section: Tweaks
+Description: 功能丰富的剪切板管理器，基于 Kayoko (乌龙版本) 进行修改
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/kayoko.png
+Name: Kayoko
+Sileodepiction: https://mlgm66.github.io/depictions/com.mlgm.kayoko/depiction.json
+
+Package: com.mlgm.kayoko
+Version: 5.1.2
+Architecture: iphoneos-arm
+Maintainer: mlgm
+Installed-Size: 3896
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Filename: ./debs/rootful/com.mlgm.kayoko_5.1.2_iphoneos-arm.deb
+Size: 824944
+MD5sum: 92700f371e75e1ea93b62a860493be7d
+SHA1: 188f2e4e16dc5171c33c5a041feba314cb785217
+SHA256: d85b725af14fcb5cb10c4e0d5e54c0edbc69ddd275289601037a076db5cc2d13
+Section: Tweaks
+Description: 功能丰富的剪切板管理器，基于 Kayoko (乌龙版本) 进行修改
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/kayoko.png
+Name: Kayoko
+Sileodepiction: https://mlgm66.github.io/depictions/com.mlgm.kayoko/depiction.json
+
 Package: com.mlgm.prefnest
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -3229,6 +3503,40 @@ Author: mlgm
 Icon: https://mlgm66.github.io/icon/taploom.png
 Name: Taploom
 
+Package: com.mlgm.taploom
+Version: 1.1.8
+Architecture: iphoneos-arm64
+Maintainer: mlgm
+Installed-Size: 1124
+Depends: firmware (>= 15.0), mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.ccsupport
+Filename: ./debs/rootless/com.mlgm.taploom_1.1.8_iphoneos-arm64.deb
+Size: 184744
+MD5sum: e48d33d604d723968a4d104aa1a136bd
+SHA1: cc1ec8c98cd2bedfce9b5a73d8d71c6a1ce4fa3f
+SHA256: 8c3b3c12aa455b799246d6ae61cbfbd75e53201efacc8a1a1265a49311bd9ff7
+Section: Tweaks
+Description: 触摸轨迹可视化
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/taploom.png
+Name: Taploom
+
+Package: com.mlgm.taploom
+Version: 1.1.8
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Installed-Size: 1124
+Depends: firmware (>= 15.0), mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.ccsupport
+Filename: ./debs/roothide/com.mlgm.taploom_1.1.8_iphoneos-arm64e.deb
+Size: 184652
+MD5sum: 13a0b873c634a9e63ff68a2b80935782
+SHA1: 5241fdd83f0f8088f6cca8adfcb22daf549a35ed
+SHA256: 90e630e4bca47c908f62af68738fbaa8e0d1a08d881e188e98fe423cd64b2df6
+Section: Tweaks
+Description: 触摸轨迹可视化
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/taploom.png
+Name: Taploom
+
 Package: com.mlgm.watchfix
 Version: 2.1
 Architecture: iphoneos-arm64
@@ -3257,6 +3565,40 @@ Size: 819440
 MD5sum: c55d8e398452727ba2bdab0a9b446f25
 SHA1: 1bd77c591ad7ce0088e8cf90b864883cbf8330f5
 SHA256: c2a0ae21e6d1edca8bbe40b6df3e1bcb19fea6cf0d1ec716811ac7302253540a
+Section: Tweaks
+Description: 解决 Apple Watch 连接问题
+Author: 577FKJ
+Icon: https://mlgm66.github.io/icon/watchfix.png
+Name: WatchFix
+
+Package: com.mlgm.watchfix
+Version: 2.1.1
+Architecture: iphoneos-arm64
+Maintainer: mlgm
+Installed-Size: 5432
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./debs/rootless/com.mlgm.watchfix_2.1.1_iphoneos-arm64.deb
+Size: 840122
+MD5sum: 9e59606bc66be8c1a1f932f4cc73371e
+SHA1: 3825af1479a526d73959ff2f7fd148fa870de92b
+SHA256: 32e2257729cf2cbf9a14582886eb6c02db92bb6bf0d1a9e8feb36dbb0b51dfa6
+Section: Tweaks
+Description: 解决 Apple Watch 连接问题
+Author: 577FKJ
+Icon: https://mlgm66.github.io/icon/watchfix.png
+Name: WatchFix
+
+Package: com.mlgm.watchfix
+Version: 2.1.1
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Installed-Size: 5360
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./debs/roothide/com.mlgm.watchfix_2.1.1_iphoneos-arm64e.deb
+Size: 829678
+MD5sum: 9d781a4b95b5ee4ea5a11d43fa07a587
+SHA1: f0e127c8749f99a47cceec03bb8064788fe44795
+SHA256: b7ee47f40dde1b86001070858eb33dad1f3c12e3c8be752b8693d0fa371323cf
 Section: Tweaks
 Description: 解决 Apple Watch 连接问题
 Author: 577FKJ
