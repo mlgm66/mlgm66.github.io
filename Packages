@@ -688,6 +688,42 @@ Author: mlgm
 Icon: https://mlgm66.github.io/icon/clippa.png
 Name: Clippa
 
+Package: com.mlgm.clippa
+Version: 1.1.1
+Architecture: iphoneos-arm64
+Maintainer: mlgm
+Installed-Size: 36696
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Filename: ./debs/rootless/com.mlgm.clippa_1.1.1_iphoneos-arm64.deb
+Size: 31186192
+MD5sum: 16260eb48854ad88e61b6f173e7d443c
+SHA1: 4161bddf4b08764c457b8307b67eed040f8d7a19
+SHA256: fffb84f671ec684c01c1dc5dc4637697195c0761379173fbe0c3d35a532006e8
+Section: Tweaks
+Priority: optional
+Description: 截图与悬浮贴图工具。
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/clippa.png
+Name: Clippa
+
+Package: com.mlgm.clippa
+Version: 1.1.1
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Installed-Size: 36688
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Filename: ./debs/roothide/com.mlgm.clippa_1.1.1_iphoneos-arm64e.deb
+Size: 31186268
+MD5sum: dbc947c9d80c81cef6141ec2b37eeb76
+SHA1: bf0e40a34452fc4f9029018dade01bc349a5293f
+SHA256: 2d1e475a37a1b43510773a784927b2874358e2f50b8a00224589427afbf65ae5
+Section: Tweaks
+Priority: optional
+Description: 截图与悬浮贴图工具。
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/clippa.png
+Name: Clippa
+
 Package: com.mlgm.clone
 Version: 0.1.6
 Architecture: iphoneos-arm64
@@ -795,6 +831,57 @@ Description: 克隆万千分身，掌控每一个身份。(鄙人仅测试了App
 Author: mlgm
 Icon: https://mlgm66.github.io/icon/clone.png
 Name: Clone
+
+Package: com.mlgm.filzacrack
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: mlgm
+Installed-Size: 204
+Depends: firmware (>= 15.0), mobilesubstrate, com.tigisoftware.filza64bit (>= 5.0.0~), com.tigisoftware.filza64bit (<< 6~)
+Filename: ./debs/rootless/com.mlgm.filzacrack_1.0_iphoneos-arm64.deb
+Size: 8322
+MD5sum: 94d3b2b5883fcc0c0ec3cdbc2300b6a7
+SHA1: 830e3a3ac4b7b47ae0a58f8cd961768842fc7524
+SHA256: 65e26b28418de86e1a455758f98d7bd934d3d3ffb0fcaf90548319d031e0665b
+Section: Tweaks
+Description: Filza 5.x 解锁完整版
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/FilzaCrack.png
+Name: Filza Crack
+
+Package: com.mlgm.filzacrack
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Installed-Size: 204
+Depends: firmware (>= 15.0), mobilesubstrate, com.tigisoftware.filza64bit (>= 5.0.0~), com.tigisoftware.filza64bit (<< 6~)
+Filename: ./debs/roothide/com.mlgm.filzacrack_1.0_iphoneos-arm64e.deb
+Size: 8218
+MD5sum: 2b3ff3386e5bac07350d3603f38dbdf8
+SHA1: ac263dd2b716545ba3ccdceaebd980159b61fdab
+SHA256: a7c6701650c28da8dd03d4eacb23c959e3b35ddcb5bb9c50a2a5c1e57c4906c1
+Section: Tweaks
+Description: Filza 5.x 解锁完整版
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/FilzaCrack.png
+Name: Filza Crack
+
+Package: com.mlgm.filzapatch
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Installed-Size: 187
+Depends: firmware (>= 15.0), com.roothide.patchloader (>= 0.0.8), roothide (>= 0.1.0)
+Conflicts: roothide.patches.filza
+Filename: ./debs/roothide/com.mlgm.filzapatch_1.0_iphoneos-arm64e.deb
+Size: 47400
+MD5sum: fe41dead7cdf891c725290419f71d462
+SHA1: 3ca07bfeba1cf6362b0823434da135fa426860dd
+SHA256: c76b0c4b1391835aa78e225c4238137edac18ac41241e82fcb4c38cd02d8e47e
+Section: Tweaks
+Description: Filza 5.x 的 RootHide 动态补丁
+Icon: https://mlgm66.github.io/icon/FilzaPatch.png
+Name: Filza Patch
 
 Package: com.mlgm.idata
 Version: 1.0
@@ -3773,6 +3860,24 @@ Description: H5GG跨进程iOS15专用悬浮版(该版本不支持iPad的原生�
 Author: Summit
 Icon: https://mlgm66.github.io/icon/h5gg.png
 Name: H5GG跨进程悬浮版(iOS15)
+
+Package: com.tigisoftware.filza64bit
+Version: 5.0.1-2
+Architecture: iphoneos-arm64e
+Maintainer: TIGI Software
+Installed-Size: 28321
+Depends: firmware (>= 15.0), com.mlgm.filzapatch
+Recommends: zip, tar
+Conflicts: com.tigisoftware.filza, com.tigisoftware.filza39
+Filename: ./debs/roothide/com.tigisoftware.filza64bit_5.0.1-2_iphoneos-arm64e.deb
+Size: 11222784
+MD5sum: 777291dd94543c3c5a6e3edc01259d81
+SHA1: c6924019be8194718197fbcfd400be6fd09c725b
+SHA256: f73d3cdfb8ae3d1a824de2014df7c24ca77b459ade027096e1a48c0b52fce147
+Section: Utilities
+Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 15+. This version only supports 64-bit devices
+Author: TIGI Software
+Name: Filza File Manager 64-bit
 
 Package: com.vmgg.mlgm
 Version: 2.0.1
