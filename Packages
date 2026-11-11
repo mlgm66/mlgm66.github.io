@@ -561,6 +561,23 @@ Author: mlgm
 Icon: https://mlgm66.github.io/icon/AutoVarClean.png
 Name: Auto VarClean
 
+Package: com.mlgm.autovarclean
+Version: 1.1
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Installed-Size: 308
+Depends: firmware (>= 15.0), mobilesubstrate, launchctl, com.mlgm.actra
+Filename: ./debs/roothide/com.mlgm.autovarclean_1.1_iphoneos-arm64e.deb
+Size: 41604
+MD5sum: 9a546b6b08acac029be0dadc7fce7626
+SHA1: c9635fc67173a989c9d9a5f2446b7b2958db1d58
+SHA256: 670e976e506e3ad374f25405a47a19d31ae28890abce86b0b0416a3f27d1d555
+Section: Tweaks
+Description: 通过 Actra 执行 RootHide ManagerApp 的 Var 清理。
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/AutoVarClean.png
+Name: Auto VarClean
+
 Package: com.mlgm.clippa
 Version: 1.0
 Architecture: iphoneos-arm64
