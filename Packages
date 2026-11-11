@@ -394,6 +394,42 @@ Author: mlgm
 Icon: https://mlgm66.github.io/icon/actra.png
 Name: Actra
 
+Package: com.mlgm.actra
+Version: 1.4.1
+Architecture: iphoneos-arm64
+Maintainer: mlgm
+Installed-Size: 4196
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, launchctl
+Conflicts: com.example.actra-plugin
+Filename: ./debs/rootless/com.mlgm.actra_1.4.1_iphoneos-arm64.deb
+Size: 840482
+MD5sum: a8aebecda87a6443fe73958b3768a664
+SHA1: bbd44454d50965cd0473eae2fdb38b9db4ed8d49
+SHA256: e4e2c4a6f03fd9b5e05f573ed5606caafd830d1f638057e85091738c22f24b00
+Section: Tweaks
+Description: 手势与事件自动化工具
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/actra.png
+Name: Actra
+
+Package: com.mlgm.actra
+Version: 1.4.1
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Installed-Size: 4196
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, launchctl
+Conflicts: com.example.actra-plugin
+Filename: ./debs/roothide/com.mlgm.actra_1.4.1_iphoneos-arm64e.deb
+Size: 842216
+MD5sum: 0433250789055a7568db8910c5c4ed5c
+SHA1: 7ab4d8060c6c28ccc59bb5b66f5495dedde6adbf
+SHA256: 832635f8bb46e5514e7d796b2bbd9767cc9ec7b75e3e6480b45b4e116670f46e
+Section: Tweaks
+Description: 手势与事件自动化工具
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/actra.png
+Name: Actra
+
 Package: com.mlgm.appdata
 Version: 1.3.7
 Architecture: iphoneos-arm64
@@ -507,6 +543,23 @@ Description: 上滑或长按桌面图标，即可查看和管理应用数据，�
 Author: Fouad Raheb <support@fouadraheb.com>
 Icon: https://mlgm66.github.io/icon/appdata.png
 Name: AppData
+
+Package: com.mlgm.autovarclean
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Installed-Size: 312
+Depends: firmware (>= 15.0), mobilesubstrate, launchctl, com.mlgm.actra
+Filename: ./debs/roothide/com.mlgm.autovarclean_1.0_iphoneos-arm64e.deb
+Size: 38924
+MD5sum: 79db2582e66ae50a9330669dbb623f84
+SHA1: b3db8738b04dc62e1ddb76807cafbbcb43831bbf
+SHA256: 39f89ca70f987faf0e3efcfe6e870c5c8461c76f7c95d02d3c43f2391c45acb5
+Section: Tweaks
+Description: 通过 Actra 执行 RootHide ManagerApp 的 Var 清理。
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/AutoVarClean.png
+Name: Auto VarClean
 
 Package: com.mlgm.clippa
 Version: 1.0
@@ -753,6 +806,42 @@ Size: 31186268
 MD5sum: dbc947c9d80c81cef6141ec2b37eeb76
 SHA1: bf0e40a34452fc4f9029018dade01bc349a5293f
 SHA256: 2d1e475a37a1b43510773a784927b2874358e2f50b8a00224589427afbf65ae5
+Section: Tweaks
+Priority: optional
+Description: 截图与悬浮贴图工具。
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/clippa.png
+Name: Clippa
+
+Package: com.mlgm.clippa
+Version: 1.1.2
+Architecture: iphoneos-arm64
+Maintainer: mlgm
+Installed-Size: 36696
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Filename: ./debs/rootless/com.mlgm.clippa_1.1.2_iphoneos-arm64.deb
+Size: 31186044
+MD5sum: c8173d63a00b2b620adeacb7f8bc41fe
+SHA1: 112f11000a5d289d3e9530f0a58cf186ea6dc627
+SHA256: 54adcd9bbfc1d18a95b683dba4ea83b3c9aa29de8419ce3958bfd0a3c67bd21f
+Section: Tweaks
+Priority: optional
+Description: 截图与悬浮贴图工具。
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/clippa.png
+Name: Clippa
+
+Package: com.mlgm.clippa
+Version: 1.1.2
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Installed-Size: 36692
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Filename: ./debs/roothide/com.mlgm.clippa_1.1.2_iphoneos-arm64e.deb
+Size: 31186160
+MD5sum: ef77d5b82586ab751e53f956160b09d7
+SHA1: 0f2f2387e225a905ac7ab61fef7f7e0032758abd
+SHA256: f3ef7f9cd7e96fd3b60275e4afe9a2b86a71b79aa83c8324f72a0c0f0e28016a
 Section: Tweaks
 Priority: optional
 Description: 截图与悬浮贴图工具。
