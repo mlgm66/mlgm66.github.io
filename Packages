@@ -1117,36 +1117,19 @@ Icon: https://mlgm66.github.io/icon/FilzaCrack.png
 Name: Filza Crack
 
 Package: com.mlgm.filzapatch
-Version: 1.0.1
+Version: 1.3
 Architecture: iphoneos-arm64e
 Maintainer: mlgm
-Installed-Size: 154
-Depends: firmware (>= 15.0), com.roothide.patchloader (>= 0.0.8), roothide (>= 0.1.0)
+Installed-Size: 178
+Depends: firmware (>= 15.0), mobilesubstrate, uikittools, com.tigisoftware.filza64bit (= 5.0.1-3)
 Conflicts: roothide.patches.filza
-Filename: ./debs/roothide/com.mlgm.filzapatch_1.0.1_iphoneos-arm64e.deb
-Size: 38778
-MD5sum: fcaa25746aa2c5755f622d459852b2eb
-SHA1: 8718f02ad2d28d2634c5ab242d0faa5e0c523671
-SHA256: 15d96e0255bdc5bcd6db04036b9ee4c1e64c746e6468d18926ac8d4731cd8c72
+Filename: ./debs/roothide/com.mlgm.filzapatch_1.3_iphoneos-arm64e.deb
+Size: 10762
+MD5sum: ff95401f6ceef21d647e9aacd0e219b4
+SHA1: ced8979877483654a27d18220b108af15835ee95
+SHA256: 8268ab9faadb12c12acc12de4d0ca0a9b13c2027193bc5681812088c18b45189
 Section: Tweaks
-Description: Filza 5.x 的 RootHide 动态补丁
-Icon: https://mlgm66.github.io/icon/FilzaPatch.png
-Name: Filza Patch
-
-Package: com.mlgm.filzapatch
-Version: 1.0.2
-Architecture: iphoneos-arm64e
-Maintainer: mlgm
-Installed-Size: 170
-Depends: firmware (>= 15.0), com.roothide.patchloader (>= 0.0.8), roothide (>= 0.1.0)
-Conflicts: roothide.patches.filza
-Filename: ./debs/roothide/com.mlgm.filzapatch_1.0.2_iphoneos-arm64e.deb
-Size: 39566
-MD5sum: f37d4476873e51e021f82f544b64e719
-SHA1: 9fe3f9db3bb1bdb44372a55ee03b751e02bf5b4f
-SHA256: d74f3b167f62dc5fd5325a43dc7fc926f483a98989c98339d6a4754e72505bd3
-Section: Tweaks
-Description: Filza 5.x 的 RootHide 动态补丁
+Description: Filza 5.x 的 RootHide 动态补丁，收藏夹增加常用随机化路径目录。(原版 Filza 已适配 RootHide，如遇崩溃等问题需重装 Filza)
 Icon: https://mlgm66.github.io/icon/FilzaPatch.png
 Name: Filza Patch
 
@@ -4163,36 +4146,18 @@ Icon: https://mlgm66.github.io/icon/h5gg.png
 Name: H5GG跨进程悬浮版(iOS15)
 
 Package: com.tigisoftware.filza64bit
-Version: 5.0.1-2
-Architecture: iphoneos-arm64e
-Maintainer: TIGI Software
-Installed-Size: 28321
-Depends: firmware (>= 15.0), com.mlgm.filzapatch
-Recommends: zip, tar
-Conflicts: com.tigisoftware.filza, com.tigisoftware.filza39
-Filename: ./debs/roothide/com.tigisoftware.filza64bit_5.0.1-2_iphoneos-arm64e.deb
-Size: 11222784
-MD5sum: 777291dd94543c3c5a6e3edc01259d81
-SHA1: c6924019be8194718197fbcfd400be6fd09c725b
-SHA256: f73d3cdfb8ae3d1a824de2014df7c24ca77b459ade027096e1a48c0b52fce147
-Section: Utilities
-Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 15+. This version only supports 64-bit devices
-Author: TIGI Software
-Name: Filza File Manager 64-bit
-
-Package: com.tigisoftware.filza64bit
 Version: 5.0.1-3
 Architecture: iphoneos-arm64e
 Maintainer: TIGI Software
-Installed-Size: 28616
-Depends: firmware (>= 15.0), com.mlgm.filzapatch (>= 1.0.2)
+Installed-Size: 32428
+Depends: firmware (>= 15.0)
 Recommends: zip, tar
 Conflicts: com.tigisoftware.filza, com.tigisoftware.filza39
 Filename: ./debs/roothide/com.tigisoftware.filza64bit_5.0.1-3_iphoneos-arm64e.deb
-Size: 12433456
-MD5sum: 8873db32acc0ffc386269c2e258f2aa3
-SHA1: ba6324fda7d3f702e8267496c6b6c8c7c4f492b2
-SHA256: 1c0d6c6998cafab2265b9a9af17dcbb6738d3e5eb2d616d7dc21c814daadb743
+Size: 12399026
+MD5sum: a8265384b6ad7b645ac4848802f7a642
+SHA1: 7377fe153e5494317b24dcc4d15394d832251952
+SHA256: 51ada1bb3c5c3358c69fd062e428211486344ccbbfb3c4860e9f3036c78744d9
 Section: Utilities
 Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 15+. This version only supports 64-bit devices
 Author: TIGI Software
