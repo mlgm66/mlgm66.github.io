@@ -1118,6 +1118,42 @@ Author: mlgm
 Icon: https://mlgm66.github.io/icon/clone.png
 Name: Clone
 
+Package: com.mlgm.clone
+Version: 0.7
+Architecture: iphoneos-arm64
+Maintainer: mlgm
+Installed-Size: 5512
+Depends: firmware (>= 15.0), ellekit (>= 1.2), preferenceloader (>= 2.2.8), com.opa334.altlist (>= 1.0.11), com.opa334.libsandy (>= 1.1.6-4)
+Filename: ./debs/rootless/com.mlgm.clone_0.7_iphoneos-arm64.deb
+Size: 910348
+MD5sum: 117783793258d82513ddd080c4d75017
+SHA1: 02eb8c286e71e39a234e3b8890c5860c1ab8ea70
+SHA256: d850c118766386d95e36a006becfe7fd3cfc353bc96e50e9dfb2dd9628fe3049
+Section: Tweaks
+Priority: optional
+Description: 克隆万千分身，掌控每一个身份。(鄙人仅测试了App Store，其他场景需自测！数据无价，操作需谨慎，丢失风险自负)
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/clone.png
+Name: Clone
+
+Package: com.mlgm.clone
+Version: 0.7
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Installed-Size: 5492
+Depends: firmware (>= 15.0), ellekit (>= 1.2-1), preferenceloader (>= 2.2.8), com.opa334.altlist (>= 1.0.11), com.opa334.libsandy (>= 1.1.6-4)
+Filename: ./debs/roothide/com.mlgm.clone_0.7_iphoneos-arm64e.deb
+Size: 908696
+MD5sum: 9f2c0e16c5dd71c144513a6cf6ca083e
+SHA1: b7b9009b3ed915bbe1cb2c2cb257d1cce1548a0a
+SHA256: f032b24b9bc998cecd0951dbef5422d33b732e52dc254b01edba2a59f8cec9e4
+Section: Tweaks
+Priority: optional
+Description: 克隆万千分身，掌控每一个身份。(鄙人仅测试了App Store，其他场景需自测！数据无价，操作需谨慎，丢失风险自负)
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/clone.png
+Name: Clone
+
 Package: com.mlgm.filzacrack
 Version: 1.0
 Architecture: iphoneos-arm64
