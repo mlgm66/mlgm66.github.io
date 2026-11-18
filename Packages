@@ -1305,6 +1305,23 @@ Description: 适用于 Filza 5.0.1-4，增加常用随机化路径收藏、调�
 Icon: https://mlgm66.github.io/icon/FilzaPatch.png
 Name: Filza Patch
 
+Package: com.mlgm.filzapatch
+Version: 1.1.4
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Installed-Size: 178
+Depends: firmware (>= 15.0), mobilesubstrate, uikittools, com.tigisoftware.filza64bit (= 5.0.1-6)
+Conflicts: roothide.patches.filza
+Filename: ./debs/roothide/com.mlgm.filzapatch_1.1.4_iphoneos-arm64e.deb
+Size: 10820
+MD5sum: 02ee26bb1df6e903dbcb6c3030576633
+SHA1: b1f97dd231b8bd54dbd32a38660bf1e3244b5c82
+SHA256: cfa1041d754497c956269f51152335efef5f8dca057860addbc8e1fe3043d651
+Section: Tweaks
+Description: 适用于 Filza 5.0.1-6，增加常用随机化路径收藏、调整 Documents 路径，并注册 filza:// 跳转。
+Icon: https://mlgm66.github.io/icon/FilzaPatch.png
+Name: Filza Patch
+
 Package: com.mlgm.idata
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -4335,107 +4352,23 @@ Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 15+. This v
 Author: TIGI Software
 Name: Filza File Manager 64-bit
 
-Package: com.vmgg.mlgm
-Version: 2.0.1
-Architecture: iphoneos-arm64
-Maintainer: mlgm
-Installed-Size: 14148
-Depends: firmware (>= 14.0)
-Filename: ./debs/rootless/VMGG_v2.0.1_iphoneos-arm64.deb
-Size: 4915588
-MD5sum: 5ddcc55d0887612ae64b97b2fc9de234
-SHA1: 0665cd36dcd8ac8c99d84e0a7f66b6b59d5dd67f
-SHA256: 339026c17637927fac9edcbc4172625cee7d383e6b8a254ffefb2924c4497d68
-Section: Utilities
-Description: 用于iOS的内存分析和调试工具，它是VansonMod + H5GG的结合版
-Author: mlgm
-Icon: https://mlgm66.github.io/icon/vmgg.png
-Name: VMGG
-
-Package: com.vmgg.mlgm
-Version: 2.0.1
+Package: com.tigisoftware.filza64bit
+Version: 5.0.1-6
 Architecture: iphoneos-arm64e
-Maintainer: mlgm
-Installed-Size: 14132
-Depends: firmware (>= 14.0), roothide (>= 0.0.1)
-Filename: ./debs/roothide/VMGG_v2.0.1_iphoneos-arm64e.deb
-Size: 4908148
-MD5sum: 2e0388a7031a969a556e602ab083656f
-SHA1: 3d081575e3e6c748a9df60c8ef41d63ed08c4e6b
-SHA256: 6ac44ea4755614e604499c26d96d6e05389a594193c8995b70e135a64970ec31
+Maintainer: TIGI Software
+Installed-Size: 32472
+Depends: firmware (>= 15.0)
+Recommends: zip, tar
+Conflicts: com.tigisoftware.filza, com.tigisoftware.filza39
+Filename: ./debs/roothide/com.tigisoftware.filza64bit_5.0.1-6_iphoneos-arm64e.deb
+Size: 12411158
+MD5sum: b58a9c584b40fcec8c0c883b11b6a135
+SHA1: d4cf7c205d061bdd32560c1e78fba8fc99ade1cf
+SHA256: 63ec3ff8f23f30c8b8bd5af7628b78affc75b8f905872c096f6fb339aa7dce2f
 Section: Utilities
-Description: 用于iOS的内存分析和调试工具，它是VansonMod + H5GG的结合版
-Author: mlgm
-Icon: https://mlgm66.github.io/icon/vmgg.png
-Name: VMGG
-
-Package: com.vmgg.mlgm
-Version: 2.0.1
-Architecture: iphoneos-arm
-Maintainer: mlgm
-Installed-Size: 14148
-Depends: firmware (>= 14.0)
-Filename: ./debs/rootful/VMGG_v2.0.1_iphoneos-arm.deb
-Size: 4915784
-MD5sum: daf8f6135cb9d846ec008ed59c7010e4
-SHA1: 17e4c1c3efaa8dc9dd794c16e756cb639db3412a
-SHA256: b6db6941d3bc47b13531d4a02cbd03e6241549d65274785728a3d4b962fca2de
-Section: Utilities
-Description: 用于iOS的内存分析和调试工具，它是VansonMod + H5GG的结合版
-Author: mlgm
-Icon: https://mlgm66.github.io/icon/vmgg.png
-Name: VMGG
-
-Package: com.vmgg.mlgm
-Version: 2.0.2
-Architecture: iphoneos-arm64
-Maintainer: mlgm
-Installed-Size: 14152
-Depends: firmware (>= 14.0)
-Filename: ./debs/rootless/VMGG_v2.0.2_iphoneos-arm64.deb
-Size: 4910540
-MD5sum: 26819d42b2b197d3c62a18bd9863a4d5
-SHA1: b174046f7dcf59ad3313431fd5cf103662afff1e
-SHA256: ba16e47874b720da5e7ced639b7ce6dba32da7063a784f8cacdbbdd345f79378
-Section: Utilities
-Description: 用于iOS的内存分析与调试工具，它是VansonMod + H5GG的结合版
-Author: mlgm
-Icon: https://mlgm66.github.io/icon/vmgg.png
-Name: VMGG
-
-Package: com.vmgg.mlgm
-Version: 2.0.2
-Architecture: iphoneos-arm64e
-Maintainer: mlgm
-Installed-Size: 14152
-Depends: firmware (>= 14.0), roothide (>= 0.0.1)
-Filename: ./debs/roothide/VMGG_v2.0.2_iphoneos-arm64e.deb
-Size: 4915368
-MD5sum: 099762aca4f1b1f331127b626f4c594c
-SHA1: c11aa826c544208e808ed505835722ca4d4ca17b
-SHA256: d3012c3c2c1dbfb8d47fe6d82809043f42776b6962b72f77f7b196aadd4b50d6
-Section: Utilities
-Description: 用于iOS的内存分析与调试工具，它是VansonMod + H5GG的结合版
-Author: mlgm
-Icon: https://mlgm66.github.io/icon/vmgg.png
-Name: VMGG
-
-Package: com.vmgg.mlgm
-Version: 2.0.2
-Architecture: iphoneos-arm
-Maintainer: mlgm
-Installed-Size: 14168
-Depends: firmware (>= 14.0)
-Filename: ./debs/rootful/VMGG_v2.0.2_iphoneos-arm.deb
-Size: 4919896
-MD5sum: b71429451c35ba62511bcf90617e9ae0
-SHA1: d2194fdc2694c1d70a36d959544e9d1b38161731
-SHA256: b8489483a9164da4a86966f8f30176318fa4cc2b00e14d848e21c65b3859e2c6
-Section: Utilities
-Description: 用于iOS的内存分析与调试工具，它是VansonMod + H5GG的结合版
-Author: mlgm
-Icon: https://mlgm66.github.io/icon/vmgg.png
-Name: VMGG
+Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 15+. This version only supports 64-bit devices
+Author: TIGI Software
+Name: Filza File Manager 64-bit
 
 Package: org.mlgm.sileo
 Version: 2.5.1-16
