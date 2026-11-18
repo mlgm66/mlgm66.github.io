@@ -914,7 +914,7 @@ SHA1: 89a46e408005d41d731a49d6ca5df99a59c2bd05
 SHA256: 656f76a50fa44c3641797ecf22578debf09f2e96bbd385ca607544b4d76af12b
 Section: Addons
 Description: Clippa 带壳截图所使用的机壳图片
-Name: Clippa 图片资源�
+Name: Clippa 图片资源包
 
 Package: com.mlgm.clippa.shells
 Version: 1.0
@@ -928,7 +928,7 @@ SHA1: 14115c5c9241775f44b8677188f0bb179187439b
 SHA256: 8b565bb1b9eccea197f2014960bb2f658ec2fcda0d8e9d4abf82f9c5877bb929
 Section: Addons
 Description: Clippa 带壳截图所使用的机壳图片
-Name: Clippa 图片资源�
+Name: Clippa 图片资源包
 
 Package: com.mlgm.clone
 Version: 0.1.6
