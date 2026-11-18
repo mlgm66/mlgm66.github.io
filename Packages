@@ -866,6 +866,70 @@ Author: mlgm
 Icon: https://mlgm66.github.io/icon/clippa.png
 Name: Clippa
 
+Package: com.mlgm.clippa
+Version: 1.1.3
+Architecture: iphoneos-arm64
+Maintainer: mlgm
+Installed-Size: 5488
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport, com.mlgm.clippa.shells (>= 1.0)
+Filename: ./debs/rootless/com.mlgm.clippa_1.1.3_iphoneos-arm64.deb
+Size: 774516
+MD5sum: e0e747b4426ce57851302eebafdee74c
+SHA1: 70e25e864d82e24b0f4a60d1f709e4fdc6271a3e
+SHA256: ac9afaf94e05ac158132457eb047ad510359566065cd9b1384b7b9b84e47b66f
+Section: Tweaks
+Priority: optional
+Description: 截图与悬浮贴图工具。
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/clippa.png
+Name: Clippa
+
+Package: com.mlgm.clippa
+Version: 1.1.3
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Installed-Size: 5484
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport, com.mlgm.clippa.shells (>= 1.0)
+Filename: ./debs/roothide/com.mlgm.clippa_1.1.3_iphoneos-arm64e.deb
+Size: 771272
+MD5sum: a62f936c5dd455be1432fca1d22838a6
+SHA1: df9a201f0bae6935d094e18d150087f43ac87535
+SHA256: 5bcc6163f4364fc1811a47ac686b0e1ca03e9d2af584498b14ffcc58e1fa0abe
+Section: Tweaks
+Priority: optional
+Description: 截图与悬浮贴图工具。
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/clippa.png
+Name: Clippa
+
+Package: com.mlgm.clippa.shells
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: mlgm
+Installed-Size: 31208
+Filename: ./debs/rootless/com.mlgm.clippa.shells_1.0_iphoneos-arm64.deb
+Size: 30415452
+MD5sum: b7ed6324eb7131572e809a3271c68da8
+SHA1: 89a46e408005d41d731a49d6ca5df99a59c2bd05
+SHA256: 656f76a50fa44c3641797ecf22578debf09f2e96bbd385ca607544b4d76af12b
+Section: Addons
+Description: Clippa 带壳截图所使用的机壳图片
+Name: Clippa 图片资源�
+
+Package: com.mlgm.clippa.shells
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Installed-Size: 31208
+Filename: ./debs/roothide/com.mlgm.clippa.shells_1.0_iphoneos-arm64e.deb
+Size: 30415212
+MD5sum: 5f5173d106fdbbe57920fcb7f410d6fb
+SHA1: 14115c5c9241775f44b8677188f0bb179187439b
+SHA256: 8b565bb1b9eccea197f2014960bb2f658ec2fcda0d8e9d4abf82f9c5877bb929
+Section: Addons
+Description: Clippa 带壳截图所使用的机壳图片
+Name: Clippa 图片资源�
+
 Package: com.mlgm.clone
 Version: 0.1.6
 Architecture: iphoneos-arm64
@@ -1147,6 +1211,42 @@ Size: 908696
 MD5sum: 9f2c0e16c5dd71c144513a6cf6ca083e
 SHA1: b7b9009b3ed915bbe1cb2c2cb257d1cce1548a0a
 SHA256: f032b24b9bc998cecd0951dbef5422d33b732e52dc254b01edba2a59f8cec9e4
+Section: Tweaks
+Priority: optional
+Description: 克隆万千分身，掌控每一个身份。(鄙人仅测试了App Store，其他场景需自测！数据无价，操作需谨慎，丢失风险自负)
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/clone.png
+Name: Clone
+
+Package: com.mlgm.clone
+Version: 0.8.1
+Architecture: iphoneos-arm64
+Maintainer: mlgm
+Installed-Size: 5568
+Depends: firmware (>= 15.0), ellekit (>= 1.2), preferenceloader (>= 2.2.8), com.opa334.altlist (>= 1.0.11), com.opa334.libsandy (>= 1.1.6-4)
+Filename: ./debs/rootless/com.mlgm.clone_0.8.1_iphoneos-arm64.deb
+Size: 930572
+MD5sum: f10a0fc8c0123688ca05a0cfcd5bbd8b
+SHA1: b92530196426619a5f69014c2ad03a553f92e60e
+SHA256: 3a295aaff6c1b19001d91fd41e4d917cc5b409624d07c694a2884324c8bfa5fa
+Section: Tweaks
+Priority: optional
+Description: 克隆万千分身，掌控每一个身份。(鄙人仅测试了App Store，其他场景需自测！数据无价，操作需谨慎，丢失风险自负)
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/clone.png
+Name: Clone
+
+Package: com.mlgm.clone
+Version: 0.8.1
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Installed-Size: 5552
+Depends: firmware (>= 15.0), ellekit (>= 1.2-1), preferenceloader (>= 2.2.8), com.opa334.altlist (>= 1.0.11), com.opa334.libsandy (>= 1.1.6-4)
+Filename: ./debs/roothide/com.mlgm.clone_0.8.1_iphoneos-arm64e.deb
+Size: 926124
+MD5sum: 6effc51c2dffaffdb7460deb10e1e53a
+SHA1: 903cf991f017f14206542b557c9d9e70fd06d3c7
+SHA256: 6d6c20cf5db1699a7f3a5675bad34b3ac2560c59bb169e8cedc5ac4a8ac7650d
 Section: Tweaks
 Priority: optional
 Description: 克隆万千分身，掌控每一个身份。(鄙人仅测试了App Store，其他场景需自测！数据无价，操作需谨慎，丢失风险自负)
