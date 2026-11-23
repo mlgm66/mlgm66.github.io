@@ -1280,15 +1280,15 @@ Depends: firmware (>= 15.0), uikittools, launchctl
 Conflicts: wiki.qaq.fila
 Replaces: wiki.qaq.fila
 Filename: ./debs/rootless/com.mlgm.fila_1.0.0_iphoneos-arm64.deb
-Size: 25215190
-MD5sum: bfad760590cabe6286ac82fd776675b1
-SHA1: 32f9313d4f216cd773fe53c309faf35772096295
-SHA256: 30806b3b70c4463ade38982b83a3829bae30f535c43c85901ae4a88e83f210b7
+Size: 25215360
+MD5sum: 2a057b9a15dac7e7d6faf95e002dcc3a
+SHA1: e9f4a837e51ae364567b6bccc686577bb7d71b00
+SHA256: 6d1bcf04e99ae86b3bd1f9da88350769ab88567f0518746b0713ea9f37eb5ab6
 Section: Utilities
 Priority: optional
 Description: Fila 文件管理器典藏版
 Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
-Icon: https://mlgm66.github.io/icon/fila
+Icon: https://mlgm66.github.io/icon/fila.png
 Name: Fila
 
 Package: com.mlgm.fila
@@ -1300,15 +1300,15 @@ Depends: firmware (>= 15.0), uikittools, launchctl
 Conflicts: wiki.qaq.fila
 Replaces: wiki.qaq.fila
 Filename: ./debs/roothide/com.mlgm.fila_1.0.0_iphoneos-arm64e.deb
-Size: 25220586
-MD5sum: 13d4a2c2a6c1cc5a0f97090daa97fb2b
-SHA1: b27ef19a8ff905fab5b7bb15b6ca443f6a04d5d6
-SHA256: b162d530ec67be089164e8e6ad5f28691cf516cd39dd70e579dff10a00a6f056
+Size: 25220626
+MD5sum: 7c833412f137a8db6ce3bcf6948aa434
+SHA1: 80fee85cb6936af8cc7b40cd4b183dc12763fa09
+SHA256: cef2e906ef3790395a2fd39b2d78eb5e7095a4632acd96559bb75ec9d8e6c767
 Section: Utilities
 Priority: optional
 Description: Fila 文件管理器典藏版
 Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
-Icon: https://mlgm66.github.io/icon/fila
+Icon: https://mlgm66.github.io/icon/fila.png
 Name: Fila
 
 Package: com.mlgm.filzacrack
