@@ -578,6 +578,23 @@ Author: mlgm
 Icon: https://mlgm66.github.io/icon/AutoVarClean.png
 Name: Auto VarClean
 
+Package: com.mlgm.autovarclean
+Version: 1.1.1
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Installed-Size: 272
+Depends: firmware (>= 15.0), mobilesubstrate, launchctl, com.mlgm.actra
+Filename: ./debs/roothide/com.mlgm.autovarclean_1.1.1_iphoneos-arm64e.deb
+Size: 40546
+MD5sum: 596a9bb24c8122c162970189cf612b26
+SHA1: ee96d1103ac55c488371d68a2167ac16adb552d8
+SHA256: 0238185862358ca3e90ac4ee8834eced0aa77056d654f5a2f5ff82c3a3705fdd
+Section: Tweaks
+Description: 通过 Actra 执行 RootHide ManagerApp 的 Var 清理。
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/AutoVarClean.png
+Name: Auto VarClean
+
 Package: com.mlgm.clippa
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -1254,6 +1271,46 @@ Author: mlgm
 Icon: https://mlgm66.github.io/icon/clone.png
 Name: Clone
 
+Package: com.mlgm.fila
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: mlgm
+Installed-Size: 99832
+Depends: firmware (>= 15.0), uikittools, launchctl
+Conflicts: wiki.qaq.fila
+Replaces: wiki.qaq.fila
+Filename: ./debs/rootless/com.mlgm.fila_1.0.0_iphoneos-arm64.deb
+Size: 25215190
+MD5sum: bfad760590cabe6286ac82fd776675b1
+SHA1: 32f9313d4f216cd773fe53c309faf35772096295
+SHA256: 30806b3b70c4463ade38982b83a3829bae30f535c43c85901ae4a88e83f210b7
+Section: Utilities
+Priority: optional
+Description: Fila 文件管理器典藏版
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Icon: https://mlgm66.github.io/icon/fila
+Name: Fila
+
+Package: com.mlgm.fila
+Version: 1.0.0
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Installed-Size: 99832
+Depends: firmware (>= 15.0), uikittools, launchctl
+Conflicts: wiki.qaq.fila
+Replaces: wiki.qaq.fila
+Filename: ./debs/roothide/com.mlgm.fila_1.0.0_iphoneos-arm64e.deb
+Size: 25220586
+MD5sum: 13d4a2c2a6c1cc5a0f97090daa97fb2b
+SHA1: b27ef19a8ff905fab5b7bb15b6ca443f6a04d5d6
+SHA256: b162d530ec67be089164e8e6ad5f28691cf516cd39dd70e579dff10a00a6f056
+Section: Utilities
+Priority: optional
+Description: Fila 文件管理器典藏版
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Icon: https://mlgm66.github.io/icon/fila
+Name: Fila
+
 Package: com.mlgm.filzacrack
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -1319,6 +1376,23 @@ SHA1: b1f97dd231b8bd54dbd32a38660bf1e3244b5c82
 SHA256: cfa1041d754497c956269f51152335efef5f8dca057860addbc8e1fe3043d651
 Section: Tweaks
 Description: 适用于 Filza 5.0.1-6，增加常用随机化路径收藏、调整 Documents 路径，并注册 filza:// 跳转。
+Icon: https://mlgm66.github.io/icon/FilzaPatch.png
+Name: Filza Patch
+
+Package: com.mlgm.filzapatch
+Version: 1.1.5
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Installed-Size: 143
+Depends: firmware (>= 15.0), mobilesubstrate, uikittools, com.tigisoftware.filza64bit (>> 5.0.1-5)
+Conflicts: roothide.patches.filza
+Filename: ./debs/roothide/com.mlgm.filzapatch_1.1.5_iphoneos-arm64e.deb
+Size: 10886
+MD5sum: 00b0280175955d4cd6b4c47f8e925675
+SHA1: 40e99e09da29464872f31e32932a5a6bf98beb7b
+SHA256: 14b7a854bb38d812e71ef80c0471ce4ef54be2519f70313dfed0697d1c01f7b6
+Section: Tweaks
+Description: 为 RootHide 版 Filza 增加常用随机路径收藏，将原生 Applications 和 Documents 指向越狱根，并注册 filza:// 跳转。
 Icon: https://mlgm66.github.io/icon/FilzaPatch.png
 Name: Filza Patch
 
@@ -4423,6 +4497,26 @@ Size: 3114944
 MD5sum: fc933c8f9deab9e5c429fc255701b9d5
 SHA1: 83b5046b99b89daa2b96ac502163529448f712fa
 SHA256: 5016b70d1c7985d954b94070914c038490137caa47c7accb8d743bed0db92c3c
+Section: Packaging
+Description: A modern APT package manager frontend
+Author: Amy While <me@anamy.gay>
+Icon: https://getsileo.app/img/icon.png
+Name: Sileo
+Sileodepiction: https://featuredpage.getsileo.app/depiction.json
+
+Package: org.mlgm.sileo
+Version: 2.5.1-19
+Architecture: iphoneos-arm64e
+Maintainer: Amy While <me@anamy.gay>
+Depends: firmware (>= 11.0), firmware(>=12.2) | org.swift.libswift (>=5.0), coreutils (>= 8.30-1), dpkg (>= 1.19.4-1), apt (>= 1.8.2), libzstd1
+Conflicts: org.coolstar.sileo
+Replaces: org.coolstar.sileo
+Provides: org.coolstar.sileo (= 2.5.1-19)
+Filename: ./debs/roothide/org.mlgm.sileo_2.5.1-19_iphoneos-arm64e.deb
+Size: 3107384
+MD5sum: e549e41e0554cf14ffb7d52df5972e85
+SHA1: b6ee9b92a93745ac850d8260d150d0c6a1ec138f
+SHA256: f9793da4b37e37a31cb595a3273884aaaa80550d4af5d06283770d722ac544b7
 Section: Packaging
 Description: A modern APT package manager frontend
 Author: Amy While <me@anamy.gay>
