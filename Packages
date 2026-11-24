@@ -544,6 +544,44 @@ Author: Fouad Raheb <support@fouadraheb.com>
 Icon: https://mlgm66.github.io/icon/appdata.png
 Name: AppData
 
+Package: com.mlgm.appdata
+Version: 1.4.0
+Architecture: iphoneos-arm64
+Maintainer: mlgm
+Installed-Size: 1240
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: com.fouadraheb.appdata
+Replaces: com.fouadraheb.appdata
+Filename: ./debs/rootless/com.mlgm.appdata_1.4.0_iphoneos-arm64.deb
+Size: 220552
+MD5sum: 99a466ea475a5fbdecdaef81fa880d50
+SHA1: c8457c63f95384302bcf33e16668b531aa6faba9
+SHA256: bd63913fb72967c1f829a7152f1da021ca471e605e31c71997c19bcde6154df8
+Section: Tweaks
+Description: 上滑或长按桌面图标，即可查看和管理应用数据，清理缓存并自定义图标与名称。
+Author: Fouad Raheb <support@fouadraheb.com>
+Icon: https://mlgm66.github.io/icon/appdata.png
+Name: AppData
+
+Package: com.mlgm.appdata
+Version: 1.4.0
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Installed-Size: 1240
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: com.fouadraheb.appdata
+Replaces: com.fouadraheb.appdata
+Filename: ./debs/roothide/com.mlgm.appdata_1.4.0_iphoneos-arm64e.deb
+Size: 217532
+MD5sum: 6a37b863e50bc68ab5605f65cf9c6e31
+SHA1: 5e817352646d7108f8522dec13fad28770c0368f
+SHA256: 6858cd230c797d69aa3aa88e7851a3a8183112b75f8bc581810b5f5b1735108e
+Section: Tweaks
+Description: 上滑或长按桌面图标，即可查看和管理应用数据，清理缓存并自定义图标与名称。
+Author: Fouad Raheb <support@fouadraheb.com>
+Icon: https://mlgm66.github.io/icon/appdata.png
+Name: AppData
+
 Package: com.mlgm.autovarclean
 Version: 1.0
 Architecture: iphoneos-arm64e
@@ -1304,6 +1342,46 @@ Size: 25220626
 MD5sum: 7c833412f137a8db6ce3bcf6948aa434
 SHA1: 80fee85cb6936af8cc7b40cd4b183dc12763fa09
 SHA256: cef2e906ef3790395a2fd39b2d78eb5e7095a4632acd96559bb75ec9d8e6c767
+Section: Utilities
+Priority: optional
+Description: Fila 文件管理器典藏版
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Icon: https://mlgm66.github.io/icon/fila.png
+Name: Fila
+
+Package: com.mlgm.fila
+Version: 1.1
+Architecture: iphoneos-arm64
+Maintainer: mlgm
+Installed-Size: 100388
+Depends: firmware (>= 15.0), uikittools, launchctl
+Conflicts: wiki.qaq.fila
+Replaces: wiki.qaq.fila
+Filename: ./debs/rootless/com.mlgm.fila_1.1_iphoneos-arm64.deb
+Size: 25292226
+MD5sum: e82534b65cb3f34b26298da3ec2e0a49
+SHA1: 43ca36e51dfc8647f32789338e5a41ae6fac2519
+SHA256: 0b410e5781c33849b7406ce4e4f1e253880f5cd8d6e411a7a7d673f10e72d835
+Section: Utilities
+Priority: optional
+Description: Fila 文件管理器典藏版
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Icon: https://mlgm66.github.io/icon/fila.png
+Name: Fila
+
+Package: com.mlgm.fila
+Version: 1.1
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Installed-Size: 100388
+Depends: firmware (>= 15.0), uikittools, launchctl
+Conflicts: wiki.qaq.fila
+Replaces: wiki.qaq.fila
+Filename: ./debs/roothide/com.mlgm.fila_1.1_iphoneos-arm64e.deb
+Size: 25293552
+MD5sum: fffe3b23285543828e32d14619ce2260
+SHA1: cc6c8d721740d853baedabef15f42d9d31a6c69f
+SHA256: 33b0f8d80c7e62ce9a4eceaf64f0c461d1184d1f5d1341cd1d25d9bbc2265848
 Section: Utilities
 Priority: optional
 Description: Fila 文件管理器典藏版
@@ -4517,6 +4595,26 @@ Size: 3107384
 MD5sum: e549e41e0554cf14ffb7d52df5972e85
 SHA1: b6ee9b92a93745ac850d8260d150d0c6a1ec138f
 SHA256: f9793da4b37e37a31cb595a3273884aaaa80550d4af5d06283770d722ac544b7
+Section: Packaging
+Description: A modern APT package manager frontend
+Author: Amy While <me@anamy.gay>
+Icon: https://getsileo.app/img/icon.png
+Name: Sileo
+Sileodepiction: https://featuredpage.getsileo.app/depiction.json
+
+Package: org.mlgm.sileo
+Version: 2.5.1-20
+Architecture: iphoneos-arm64e
+Maintainer: Amy While <me@anamy.gay>
+Depends: firmware (>= 11.0), firmware(>=12.2) | org.swift.libswift (>=5.0), coreutils (>= 8.30-1), dpkg (>= 1.19.4-1), apt (>= 1.8.2), libzstd1
+Conflicts: org.coolstar.sileo
+Replaces: org.coolstar.sileo
+Provides: org.coolstar.sileo (= 2.5.1-20)
+Filename: ./debs/roothide/org.mlgm.sileo_2.5.1-20_iphoneos-arm64e.deb
+Size: 3107284
+MD5sum: d8abed0b57d1c0ccb786d4316cb5f825
+SHA1: 74c29c62d49fca0307d17768c401286f481b1842
+SHA256: 9b68be0f4b74717a0dd14e8f4e4f36d475b48846a5e014f01dfff7ce08ce505c
 Section: Packaging
 Description: A modern APT package manager frontend
 Author: Amy While <me@anamy.gay>
