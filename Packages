@@ -430,6 +430,40 @@ Author: mlgm
 Icon: https://mlgm66.github.io/icon/actra.png
 Name: Actra
 
+Package: com.mlgm.airdropx
+Version: 1.0.2
+Architecture: iphoneos-arm64
+Maintainer: mlgm
+Installed-Size: 292
+Depends: firmware (>= 16.2), mobilesubstrate
+Filename: ./debs/rootless/com.mlgm.airdropx_1.0.2_iphoneos-arm64.deb
+Size: 67858
+MD5sum: 3884ac7480362a31456cb74330b26df5
+SHA1: 1d33c9c3491a2eb7c514c36725a2738368701af3
+SHA256: 8179f467aea4263f1666219098985e21cb770ad44cee255e996023c470337090
+Section: Tweaks
+Description: 为控制中心「隔空投送」新增「所有人（无限制）」模式，并向 Actra 提供四种接收模式动作。
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/airdropx.png
+Name: AirDropX
+
+Package: com.mlgm.airdropx
+Version: 1.0.2
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Installed-Size: 292
+Depends: firmware (>= 16.2), mobilesubstrate
+Filename: ./debs/roothide/com.mlgm.airdropx_1.0.2_iphoneos-arm64e.deb
+Size: 67840
+MD5sum: 179cf71bc9c5348b5091a75f62bcd15b
+SHA1: 7a6b1da5b96d3b324c5476d294578e3a71ed6e2f
+SHA256: 6d3266325fb0726c4ca5acf3046321888e4ff9a35176205a4669f4794cc77084
+Section: Tweaks
+Description: 为控制中心「隔空投送」新增「所有人（无限制）」模式，并向 Actra 提供四种接收模式动作。
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/airdropx.png
+Name: AirDropX
+
 Package: com.mlgm.appdata
 Version: 1.3.7
 Architecture: iphoneos-arm64
@@ -1382,6 +1416,46 @@ Size: 25293552
 MD5sum: fffe3b23285543828e32d14619ce2260
 SHA1: cc6c8d721740d853baedabef15f42d9d31a6c69f
 SHA256: 33b0f8d80c7e62ce9a4eceaf64f0c461d1184d1f5d1341cd1d25d9bbc2265848
+Section: Utilities
+Priority: optional
+Description: Fila 文件管理器典藏版
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Icon: https://mlgm66.github.io/icon/fila.png
+Name: Fila
+
+Package: com.mlgm.fila
+Version: 1.1.2
+Architecture: iphoneos-arm64
+Maintainer: mlgm
+Installed-Size: 100436
+Depends: firmware (>= 15.0), uikittools, launchctl
+Conflicts: wiki.qaq.fila
+Replaces: wiki.qaq.fila
+Filename: ./debs/rootless/com.mlgm.fila_1.1.2_iphoneos-arm64.deb
+Size: 25315094
+MD5sum: 831fef7d6813baab3101eaeb0d0dfedc
+SHA1: 7bd44c435dd9e6c3ba97151ea8578a3ee914f85a
+SHA256: 28b84a07b6ae36077bc1e63e554bb37b5b2e795d563af7c4d2523d1c505b1d36
+Section: Utilities
+Priority: optional
+Description: Fila 文件管理器典藏版
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Icon: https://mlgm66.github.io/icon/fila.png
+Name: Fila
+
+Package: com.mlgm.fila
+Version: 1.1.2
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Installed-Size: 100436
+Depends: firmware (>= 15.0), uikittools, launchctl
+Conflicts: wiki.qaq.fila
+Replaces: wiki.qaq.fila
+Filename: ./debs/roothide/com.mlgm.fila_1.1.2_iphoneos-arm64e.deb
+Size: 25310800
+MD5sum: 7c11268133ac2bafbf59d687710cee14
+SHA1: c87b6fe8182bc64bcf17aa31187edf77ff4d7f71
+SHA256: d74a592e19cc436215c0f7e09bd6fe3d7bf2c74b472035c7a05a68a8cd2b1468
 Section: Utilities
 Priority: optional
 Description: Fila 文件管理器典藏版
@@ -4615,6 +4689,26 @@ Size: 3107284
 MD5sum: d8abed0b57d1c0ccb786d4316cb5f825
 SHA1: 74c29c62d49fca0307d17768c401286f481b1842
 SHA256: 9b68be0f4b74717a0dd14e8f4e4f36d475b48846a5e014f01dfff7ce08ce505c
+Section: Packaging
+Description: A modern APT package manager frontend
+Author: Amy While <me@anamy.gay>
+Icon: https://getsileo.app/img/icon.png
+Name: Sileo
+Sileodepiction: https://featuredpage.getsileo.app/depiction.json
+
+Package: org.mlgm.sileo
+Version: 2.5.1-22
+Architecture: iphoneos-arm64e
+Maintainer: Amy While <me@anamy.gay>
+Depends: firmware (>= 11.0), firmware(>=12.2) | org.swift.libswift (>=5.0), coreutils (>= 8.30-1), dpkg (>= 1.19.4-1), apt (>= 1.8.2), libzstd1
+Conflicts: org.coolstar.sileo
+Replaces: org.coolstar.sileo
+Provides: org.coolstar.sileo (= 2.5.1-22)
+Filename: ./debs/roothide/org.mlgm.sileo_2.5.1-22_iphoneos-arm64e.deb
+Size: 3109784
+MD5sum: 41ae0396a529184ad8ba6aa8af66bd74
+SHA1: 1c621f60a2e909b5d6c65083c58b05e19dd1453c
+SHA256: f49bef011fe694450c7a365160311ae6bdc7e2c147c825f66f832bd4c068e350
 Section: Packaging
 Description: A modern APT package manager frontend
 Author: Amy While <me@anamy.gay>
